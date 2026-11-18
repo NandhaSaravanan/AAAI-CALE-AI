@@ -1,0 +1,10348 @@
+{
+"p02233": [
+{
+"input": "3\n",
+"output": "3\n"
+}
+],
+"p02238": [
+{
+"input": "4\n1 1 2\n2 1 4\n3 0\n4 1 3\n",
+"output": "1 1 8\n2 2 7\n3 4 5\n4 3 6\n"
+},
+{
+"input": "6\n1 2 2 3\n2 2 3 4\n3 1 5\n4 1 6\n5 1 6\n6 0\n",
+"output": "1 1 12\n2 2 11\n3 3 8\n4 9 10\n5 4 7\n6 5 6\n"
+}
+],
+"p02239": [
+{
+"input": "4\n1 2 2 4\n2 1 4\n3 0\n4 1 3\n",
+"output": "1 0\n2 1\n3 2\n4 1\n"
+}
+],
+"p02255": [
+{
+"input": "6\n5 2 4 6 1 3\n",
+"output": "5 2 4 6 1 3\n2 5 4 6 1 3\n2 4 5 6 1 3\n2 4 5 6 1 3\n1 2 4 5 6 3\n1 2 3 4 5 6\n"
+},
+{
+"input": "3\n1 2 3\n",
+"output": "1 2 3\n1 2 3\n1 2 3\n"
+}
+],
+"p02256": [
+{
+"input": "54 20\n",
+"output": "2\n"
+},
+{
+"input": "147 105\n",
+"output": "21\n"
+}
+],
+"p02257": [
+{
+"input": "5\n2\n3\n4\n5\n6\n",
+"output": "3\n"
+},
+{
+"input": "11\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n",
+"output": "4\n"
+}
+],
+"p02258": [
+{
+"input": "6\n5\n3\n1\n3\n4\n3\n",
+"output": "3\n"
+},
+{
+"input": "3\n4\n3\n2\n",
+"output": "-1\n"
+}
+],
+"p02259": [
+{
+"input": "5\n5 3 2 4 1\n",
+"output": "1 2 3 4 5\n8\n"
+},
+{
+"input": "6\n5 2 4 6 1 3\n",
+"output": "1 2 3 4 5 6\n9\n"
+}
+],
+"p02260": [
+{
+"input": "6\n5 6 4 2 1 3\n",
+"output": "1 2 3 4 5 6\n4\n"
+},
+{
+"input": "6\n5 2 4 6 1 3\n",
+"output": "1 2 3 4 5 6\n3\n"
+}
+],
+"p02261": [
+{
+"input": "5\nH4 C9 S4 D2 C3\n",
+"output": "D2 C3 H4 S4 C9\nStable\nD2 C3 S4 H4 C9\nNot stable\n"
+},
+{
+"input": "2\nS1 H1\n",
+"output": "S1 H1\nStable\nS1 H1\nStable\n"
+}
+],
+"p02262": [
+{
+"input": "5\n5\n1\n4\n3\n2\n",
+"output": "2\n4 1\n3\n1\n2\n3\n4\n5\n"
+},
+{
+"input": "3\n3\n2\n1\n",
+"output": "1\n1\n3\n1\n2\n3\n"
+}
+],
+"p02263": [
+{
+"input": "1 2 +\n",
+"output": "3\n"
+},
+{
+"input": "1 2 + 3 4 - *\n",
+"output": "-3\n"
+}
+],
+"p02264": [
+{
+"input": "5 100\np1 150\np2 80\np3 200\np4 350\np5 20\n",
+"output": "p2 180\np5 400\np1 450\np3 550\np4 800\n"
+}
+],
+"p02265": [
+{
+"input": "7\ninsert 5\ninsert 2\ninsert 3\ninsert 1\ndelete 3\ninsert 6\ndelete 5\n",
+"output": "6 1 2\n"
+},
+{
+"input": "9\ninsert 5\ninsert 2\ninsert 3\ninsert 1\ndelete 3\ninsert 6\ndelete 5\ndeleteFirst\ndeleteLast\n",
+"output": "1\n"
+}
+],
+"p02266": [
+{
+"input": "\\\\//\n",
+"output": "4\n1 4\n"
+},
+{
+"input": "\\\\///\\_/\\/\\\\\\\\/_/\\\\///__\\\\\\_\\\\/_\\/_/\\\n",
+"output": "35\n5 4 2 1 19 9\n"
+}
+],
+"p02267": [
+{
+"input": "5\n1 2 3 4 5\n3\n3 4 1\n",
+"output": "3\n"
+},
+{
+"input": "3\n3 1 2\n1\n5\n",
+"output": "0\n"
+},
+{
+"input": "5\n1 1 2 2 3\n2\n1 2\n",
+"output": "2\n"
+}
+],
+"p02269": [
+{
+"input": "5\ninsert A\ninsert T\ninsert C\nfind G\nfind A\n",
+"output": "no\nyes\n"
+},
+{
+"input": "13\ninsert AAA\ninsert AAC\ninsert AGA\ninsert AGG\ninsert TTT\nfind AAA\nfind CCC\nfind CCC\ninsert CCC\nfind CCC\ninsert T\nfind TTT\nfind T\n",
+"output": "yes\nno\nno\nyes\nyes\nyes\n"
+}
+],
+"p02270": [
+{
+"input": "5 3\n8\n1\n7\n3\n9\n",
+"output": "10\n"
+},
+{
+"input": "4 2\n1\n2\n2\n6\n",
+"output": "6\n"
+}
+],
+"p02271": [
+{
+"input": "5\n1 5 7 10 21\n8\n2 4 17 8 22 21 100 35\n",
+"output": "no\nno\nyes\nyes\nyes\nyes\nno\nno\n"
+}
+],
+"p02272": [
+{
+"input": "10\n8 5 9 2 6 3 7 1 10 4\n",
+"output": "1 2 3 4 5 6 7 8 9 10\n34\n"
+}
+],
+"p02273": [
+{
+"input": "1\n",
+"output": "0.00000000 0.00000000\n33.33333333 0.00000000\n50.00000000 28.86751346\n66.66666667 0.00000000\n100.00000000 0.00000000\n"
+},
+{
+"input": "2\n",
+"output": "0.00000000 0.00000000\n11.11111111 0.00000000\n16.66666667 9.62250449\n22.22222222 0.00000000\n33.33333333 0.00000000\n38.88888889 9.62250449\n33.33333333 19.24500897\n44.44444444 19.24500897\n50.00000000 28.86751346\n55.55555556 19.24500897\n66.66666667 19.24500897\n61.11111111 9.62250449\n66.66666667 0.00000000\n77.77777778 0.00000000\n83.33333333 9.62250449\n88.88888889 0.00000000\n100.00000000 0.00000000\n"
+}
+],
+"p02314": [
+{
+"input": "55 4\n1 5 10 50\n",
+"output": "2\n"
+},
+{
+"input": "15 6\n1 2 7 8 12 50\n",
+"output": "2\n"
+},
+{
+"input": "65 6\n1 2 7 8 12 50\n",
+"output": "3\n"
+}
+],
+"p02379": [
+{
+"input": "0 0 1 1\n",
+"output": "1.41421356\n"
+}
+],
+"p02380": [
+{
+"input": "4 3 90\n",
+"output": "6.00000000\n12.00000000\n3.00000000\n"
+}
+],
+"p02381": [
+{
+"input": "5\n70 80 100 90 20\n3\n80 80 80\n0\n",
+"output": "27.85677655\n0.00000000\n"
+}
+],
+"p02382": [
+{
+"input": "3\n1 2 3\n2 0 4\n",
+"output": "4.000000\n2.449490\n2.154435\n2.000000\n"
+}
+],
+"p02383": [
+{
+"input": "1 2 4 8 16 32\nSE\n",
+"output": "8\n"
+},
+{
+"input": "1 2 4 8 16 32\nEESWN\n",
+"output": "32\n"
+}
+],
+"p02384": [
+{
+"input": "1 2 3 4 5 6\n3\n6 5\n1 3\n3 2\n",
+"output": "3\n5\n6\n"
+}
+],
+"p02388": [
+{
+"input": "2\n",
+"output": "8\n"
+},
+{
+"input": "3\n",
+"output": "27\n"
+}
+],
+"p02389": [
+{
+"input": "3 5\n",
+"output": "15 16\n"
+}
+],
+"p02390": [
+{
+"input": "46979\n",
+"output": "13:2:59\n"
+}
+],
+"p02391": [
+{
+"input": "1 2\n",
+"output": "a < b\n"
+},
+{
+"input": "4 3\n",
+"output": "a > b\n"
+},
+{
+"input": "5 5\n",
+"output": "a == b\n"
+}
+],
+"p02392": [
+{
+"input": "1 3 8\n",
+"output": "Yes\n"
+},
+{
+"input": "3 8 1\n",
+"output": "No\n"
+}
+],
+"p02393": [
+{
+"input": "3 8 1\n",
+"output": "1 3 8\n"
+}
+],
+"p02394": [
+{
+"input": "5 4 2 2 1\n",
+"output": "Yes\n"
+},
+{
+"input": "5 4 2 4 1\n",
+"output": "No\n"
+}
+],
+"p02396": [
+{
+"input": "3\n5\n11\n7\n8\n19\n0\n",
+"output": "Case 1: 3\nCase 2: 5\nCase 3: 11\nCase 4: 7\nCase 5: 8\nCase 6: 19\n"
+}
+],
+"p02397": [
+{
+"input": "3 2\n2 2\n5 3\n0 0\n",
+"output": "2 3\n2 2\n3 5\n"
+}
+],
+"p02398": [
+{
+"input": "5 14 80\n",
+"output": "3\n"
+}
+],
+"p02399": [
+{
+"input": "3 2\n",
+"output": "1 1 1.50000\n"
+}
+],
+"p02400": [
+{
+"input": "2\n",
+"output": "12.566371 12.566371\n"
+},
+{
+"input": "3\n",
+"output": "28.274334 18.849556\n"
+}
+],
+"p02401": [
+{
+"input": "1 + 2\n56 - 18\n13 * 2\n100 / 10\n27 + 81\n0 ? 0\n",
+"output": "3\n38\n26\n10\n108\n"
+}
+],
+"p02402": [
+{
+"input": "5\n10 1 5 4 17\n",
+"output": "1 17 37\n"
+}
+],
+"p02403": [
+{
+"input": "3 4\n5 6\n2 2\n0 0\n",
+"output": "####\n####\n####\n\n######\n######\n######\n######\n######\n\n##\n##\n"
+}
+],
+"p02404": [
+{
+"input": "3 4\n5 6\n3 3\n0 0\n",
+"output": "####\n#..#\n####\n\n######\n#....#\n#....#\n#....#\n######\n\n###\n#.#\n###\n"
+}
+],
+"p02405": [
+{
+"input": "3 4\n5 6\n3 3\n2 2\n1 1\n0 0\n",
+"output": "#.#.\n.#.#\n#.#.\n\n#.#.#.\n.#.#.#\n#.#.#.\n.#.#.#\n#.#.#.\n\n#.#\n.#.\n#.#\n\n#.\n.#\n\n#\n"
+}
+],
+"p02406": [
+{
+"input": "30\n",
+"output": " 3 6 9 12 13 15 18 21 23 24 27 30\n"
+}
+],
+"p02407": [
+{
+"input": "5\n1 2 3 4 5\n",
+"output": "5 4 3 2 1\n"
+},
+{
+"input": "8\n3 3 4 4 5 8 7 9\n",
+"output": "9 7 8 5 4 4 3 3\n"
+}
+],
+"p02408": [
+{
+"input": "47\nS 10\nS 11\nS 12\nS 13\nH 1\nH 2\nS 6\nS 7\nS 8\nS 9\nH 6\nH 8\nH 9\nH 10\nH 11\nH 4\nH 5\nS 2\nS 3\nS 4\nS 5\nH 12\nH 13\nC 1\nC 2\nD 1\nD 2\nD 3\nD 4\nD 5\nD 6\nD 7\nC 3\nC 4\nC 5\nC 6\nC 7\nC 8\nC 9\nC 10\nC 11\nC 13\nD 9\nD 10\nD 11\nD 12\nD 13\n",
+"output": "S 1\nH 3\nH 7\nC 12\nD 8\n"
+}
+],
+"p02409": [
+{
+"input": "3\n1 1 3 8\n3 2 2 7\n4 3 8 1\n",
+"output": " 0 0 8 0 0 0 0 0 0 0\n 0 0 0 0 0 0 0 0 0 0\n 0 0 0 0 0 0 0 0 0 0\n####################\n 0 0 0 0 0 0 0 0 0 0\n 0 0 0 0 0 0 0 0 0 0\n 0 0 0 0 0 0 0 0 0 0\n####################\n 0 0 0 0 0 0 0 0 0 0\n 0 7 0 0 0 0 0 0 0 0\n 0 0 0 0 0 0 0 0 0 0\n####################\n 0 0 0 0 0 0 0 0 0 0\n 0 0 0 0 0 0 0 0 0 0\n 0 0 0 0 0 0 0 1 0 0\n"
+}
+],
+"p02410": [
+{
+"input": "3 4\n1 2 0 1\n0 3 0 1\n4 1 1 0\n1\n2\n3\n0\n",
+"output": "5\n6\n9\n"
+}
+],
+"p02411": [
+{
+"input": "40 42 -1\n20 30 -1\n0 2 -1\n-1 -1 -1\n",
+"output": "A\nC\nF\n"
+}
+],
+"p02412": [
+{
+"input": "5 9\n0 0\n",
+"output": "2\n"
+}
+],
+"p02413": [
+{
+"input": "4 5\n1 1 3 4 5\n2 2 2 4 5\n3 3 0 1 1\n2 3 4 4 6\n",
+"output": "1 1 3 4 5 14\n2 2 2 4 5 15\n3 3 0 1 1 8\n2 3 4 4 6 19\n8 9 9 13 17 56\n"
+}
+],
+"p02414": [
+{
+"input": "3 2 3\n1 2\n0 3\n4 5\n1 2 1\n0 3 2\n",
+"output": "1 8 5\n0 9 6\n4 23 14\n"
+}
+],
+"p02415": [
+{
+"input": "fAIR, LATER, OCCASIONALLY CLOUDY.\n",
+"output": "Fair, later, occasionally cloudy.\n"
+}
+],
+"p02416": [
+{
+"input": "123\n55\n1000\n0\n",
+"output": "6\n10\n1\n"
+}
+],
+"p02417": [
+{
+"input": "This is a pen.\n",
+"output": "a : 1\nb : 0\nc : 0\nd : 0\ne : 1\nf : 0\ng : 0\nh : 1\ni : 2\nj : 0\nk : 0\nl : 0\nm : 0\nn : 1\no : 0\np : 1\nq : 0\nr : 0\ns : 2\nt : 1\nu : 0\nv : 0\nw : 0\nx : 0\ny : 0\nz : 0\n"
+}
+],
+"p02418": [
+{
+"input": "vanceknowledgetoad\nadvance\n",
+"output": "Yes\n"
+},
+{
+"input": "vanceknowledgetoad\nadvanced\n",
+"output": "No\n"
+}
+],
+"p02419": [
+{
+"input": "computer\nNurtures computer scientists and highly-skilled computer engineers\nwho will create and exploit \"knowledge\" for the new era.\nProvides an outstanding computer environment.\nEND_OF_TEXT\n",
+"output": "3\n"
+}
+],
+"p02420": [
+{
+"input": "aabc\n3\n1\n2\n1\nvwxyz\n2\n3\n4\n-\n",
+"output": "aabc\nxyzvw\n"
+}
+],
+"p02421": [
+{
+"input": "3\ncat dog\nfish fish\nlion tiger\n",
+"output": "1 7\n"
+}
+],
+"p02422": [
+{
+"input": "abcde\n3\nreplace 1 3 xyz\nreverse 0 2\nprint 1 4\n",
+"output": "xaze\n"
+},
+{
+"input": "xyz\n3\nprint 0 2\nreplace 0 2 abc\nprint 0 2\n",
+"output": "xyz\nabc\n"
+}
+],
+"p02534": [
+{
+"input": "3\n",
+"output": "ACLACLACL\n"
+}
+],
+"p02536": [
+{
+"input": "3 1\n1 2\n",
+"output": "1\n"
+}
+],
+"p02546": [
+{
+"input": "apple\n",
+"output": "apples\n"
+},
+{
+"input": "bus\n",
+"output": "buses\n"
+},
+{
+"input": "box\n",
+"output": "boxs\n"
+}
+],
+"p02547": [
+{
+"input": "5\n1 2\n6 6\n4 4\n3 3\n3 2\n",
+"output": "Yes\n"
+},
+{
+"input": "5\n1 1\n2 2\n3 4\n5 5\n6 6\n",
+"output": "No\n"
+},
+{
+"input": "6\n1 1\n2 2\n3 3\n4 4\n5 5\n6 6\n",
+"output": "Yes\n"
+}
+],
+"p02548": [
+{
+"input": "3\n",
+"output": "3\n"
+},
+{
+"input": "100\n",
+"output": "473\n"
+},
+{
+"input": "1000000\n",
+"output": "13969985\n"
+}
+],
+"p02549": [
+{
+"input": "5 2\n1 1\n3 4\n",
+"output": "4\n"
+},
+{
+"input": "5 2\n3 3\n5 5\n",
+"output": "0\n"
+},
+{
+"input": "5 1\n1 2\n",
+"output": "5\n"
+},
+{
+"input": "60 3\n5 8\n1 3\n10 15\n",
+"output": "221823067\n"
+}
+],
+"p02550": [
+{
+"input": "6 2 1001\n",
+"output": "1369\n"
+},
+{
+"input": "1000 2 16\n",
+"output": "6\n"
+},
+{
+"input": "10000000000 10 99959\n",
+"output": "492443256176507\n"
+}
+],
+"p02552": [
+{
+"input": "1\n",
+"output": "0\n"
+},
+{
+"input": "0\n",
+"output": "1\n"
+}
+],
+"p02553": [
+{
+"input": "1 2 1 1\n",
+"output": "2\n"
+},
+{
+"input": "3 5 -4 -2\n",
+"output": "-6\n"
+},
+{
+"input": "-1000000000 0 -1000000000 0\n",
+"output": "1000000000000000000\n"
+}
+],
+"p02554": [
+{
+"input": "2\n",
+"output": "2\n"
+},
+{
+"input": "1\n",
+"output": "0\n"
+},
+{
+"input": "869121\n",
+"output": "2511445\n"
+}
+],
+"p02555": [
+{
+"input": "7\n",
+"output": "3\n"
+},
+{
+"input": "2\n",
+"output": "0\n"
+},
+{
+"input": "1729\n",
+"output": "294867501\n"
+}
+],
+"p02556": [
+{
+"input": "3\n1 1\n2 4\n3 2\n",
+"output": "4\n"
+},
+{
+"input": "2\n1 1\n1 1\n",
+"output": "0\n"
+}
+],
+"p02570": [
+{
+"input": "1000 15 80\n",
+"output": "Yes\n"
+},
+{
+"input": "2000 20 100\n",
+"output": "Yes\n"
+},
+{
+"input": "10000 1 1\n",
+"output": "No\n"
+}
+],
+"p02571": [
+{
+"input": "cabacc\nabc\n",
+"output": "1\n"
+},
+{
+"input": "codeforces\natcoder\n",
+"output": "6\n"
+}
+],
+"p02572": [
+{
+"input": "3\n1 2 3\n",
+"output": "11\n"
+},
+{
+"input": "4\n141421356 17320508 22360679 244949\n",
+"output": "437235829\n"
+}
+],
+"p02573": [
+{
+"input": "5 3\n1 2\n3 4\n5 1\n",
+"output": "3\n"
+},
+{
+"input": "4 10\n1 2\n2 1\n1 2\n2 1\n1 2\n1 3\n1 4\n2 3\n2 4\n3 4\n",
+"output": "4\n"
+},
+{
+"input": "10 4\n3 1\n4 1\n5 9\n2 6\n",
+"output": "3\n"
+}
+],
+"p02574": [
+{
+"input": "3\n3 4 5\n",
+"output": "pairwise coprime\n"
+},
+{
+"input": "3\n6 10 15\n",
+"output": "setwise coprime\n"
+},
+{
+"input": "3\n6 10 16\n",
+"output": "not coprime\n"
+}
+],
+"p02576": [
+{
+"input": "20 12 6\n",
+"output": "12\n"
+},
+{
+"input": "1000 1 1000\n",
+"output": "1000000\n"
+}
+],
+"p02577": [
+{
+"input": "123456789\n",
+"output": "Yes\n"
+},
+{
+"input": "0\n",
+"output": "Yes\n"
+},
+{
+"input": "31415926535897932384626433832795028841971693993751058209749445923078164062862089986280\n",
+"output": "No\n"
+}
+],
+"p02578": [
+{
+"input": "5\n2 1 5 4 3\n",
+"output": "4\n"
+},
+{
+"input": "5\n3 3 3 3 3\n",
+"output": "0\n"
+}
+],
+"p02580": [
+{
+"input": "2 3 3\n2 2\n1 1\n1 3\n",
+"output": "3\n"
+},
+{
+"input": "3 3 4\n3 3\n3 1\n1 1\n1 2\n",
+"output": "3\n"
+},
+{
+"input": "5 5 10\n2 5\n4 3\n2 3\n5 5\n2 2\n5 4\n5 3\n5 1\n3 5\n1 4\n",
+"output": "6\n"
+}
+],
+"p02582": [
+{
+"input": "RRS\n",
+"output": "2\n"
+},
+{
+"input": "SSS\n",
+"output": "0\n"
+},
+{
+"input": "RSR\n",
+"output": "1\n"
+}
+],
+"p02583": [
+{
+"input": "5\n4 4 9 7 5\n",
+"output": "5\n"
+},
+{
+"input": "6\n4 5 4 3 3 5\n",
+"output": "8\n"
+},
+{
+"input": "10\n9 4 6 1 9 6 10 6 6 8\n",
+"output": "39\n"
+},
+{
+"input": "2\n1 1\n",
+"output": "0\n"
+}
+],
+"p02584": [
+{
+"input": "6 2 4\n",
+"output": "2\n"
+},
+{
+"input": "7 4 3\n",
+"output": "1\n"
+},
+{
+"input": "10 1 2\n",
+"output": "8\n"
+},
+{
+"input": "1000000000000000 1000000000000000 1000000000000000\n",
+"output": "1000000000000000\n"
+}
+],
+"p02585": [
+{
+"input": "5 2\n2 4 5 1 3\n3 4 -10 -8 8\n",
+"output": "8\n"
+},
+{
+"input": "2 3\n2 1\n10 -7\n",
+"output": "13\n"
+},
+{
+"input": "3 3\n3 1 2\n-1000 -2000 -3000\n",
+"output": "-1000\n"
+},
+{
+"input": "10 58\n9 1 6 7 8 4 3 2 10 5\n695279662 988782657 -119067776 382975538 -151885171 -177220596 -169777795 37619092 389386780 980092719\n",
+"output": "29507023469\n"
+}
+],
+"p02586": [
+{
+"input": "2 2 3\n1 1 3\n2 1 4\n1 2 5\n",
+"output": "8\n"
+},
+{
+"input": "2 5 5\n1 1 3\n2 4 20\n1 2 1\n1 3 4\n1 4 2\n",
+"output": "29\n"
+},
+{
+"input": "4 5 10\n2 5 12\n1 5 12\n2 3 15\n1 2 20\n1 1 28\n2 4 26\n3 2 27\n4 5 21\n3 5 10\n1 3 10\n",
+"output": "142\n"
+}
+],
+"p02594": [
+{
+"input": "25\n",
+"output": "No\n"
+},
+{
+"input": "30\n",
+"output": "Yes\n"
+}
+],
+"p02595": [
+{
+"input": "4 5\n0 5\n-2 4\n3 4\n4 -4\n",
+"output": "3\n"
+},
+{
+"input": "12 3\n1 1\n1 1\n1 1\n1 1\n1 2\n1 3\n2 1\n2 2\n2 3\n3 1\n3 2\n3 3\n",
+"output": "7\n"
+},
+{
+"input": "20 100000\n14309 -32939\n-56855 100340\n151364 25430\n103789 -113141\n147404 -136977\n-37006 -30929\n188810 -49557\n13419 70401\n-88280 165170\n-196399 137941\n-176527 -61904\n46659 115261\n-153551 114185\n98784 -6820\n94111 -86268\n-30401 61477\n-55056 7872\n5901 -163796\n138819 -185986\n-69848 -96669\n",
+"output": "6\n"
+}
+],
+"p02596": [
+{
+"input": "101\n",
+"output": "4\n"
+},
+{
+"input": "2\n",
+"output": "-1\n"
+},
+{
+"input": "999983\n",
+"output": "999982\n"
+}
+],
+"p02597": [
+{
+"input": "4\nWWRR\n",
+"output": "2\n"
+},
+{
+"input": "2\nRR\n",
+"output": "0\n"
+},
+{
+"input": "8\nWRWWRWRR\n",
+"output": "3\n"
+}
+],
+"p02598": [
+{
+"input": "2 3\n7 9\n",
+"output": "4\n"
+},
+{
+"input": "3 0\n3 4 5\n",
+"output": "5\n"
+},
+{
+"input": "10 10\n158260522 877914575 602436426 24979445 861648772 623690081 433933447 476190629 262703497 211047202\n",
+"output": "292638192\n"
+}
+],
+"p02600": [
+{
+"input": "725\n",
+"output": "7\n"
+},
+{
+"input": "1600\n",
+"output": "2\n"
+}
+],
+"p02601": [
+{
+"input": "7 2 5\n3\n",
+"output": "Yes\n"
+},
+{
+"input": "7 4 2\n3\n",
+"output": "No\n"
+}
+],
+"p02602": [
+{
+"input": "5 3\n96 98 95 100 20\n",
+"output": "Yes\nNo\n"
+},
+{
+"input": "3 2\n1001 869120 1001\n",
+"output": "No\n"
+},
+{
+"input": "15 7\n3 1 4 1 5 9 2 6 5 3 5 8 9 7 9\n",
+"output": "Yes\nYes\nNo\nYes\nYes\nNo\nYes\nYes\n"
+}
+],
+"p02603": [
+{
+"input": "7\n100 130 130 130 115 115 150\n",
+"output": "1685\n"
+},
+{
+"input": "6\n200 180 160 140 120 100\n",
+"output": "1000\n"
+},
+{
+"input": "2\n157 193\n",
+"output": "1216\n"
+}
+],
+"p02606": [
+{
+"input": "5 10 2\n",
+"output": "3\n"
+},
+{
+"input": "6 20 7\n",
+"output": "2\n"
+},
+{
+"input": "1 100 1\n",
+"output": "100\n"
+}
+],
+"p02607": [
+{
+"input": "5\n1 3 4 5 7\n",
+"output": "2\n"
+},
+{
+"input": "15\n13 76 46 15 50 98 93 77 31 43 84 90 6 24 14\n",
+"output": "3\n"
+}
+],
+"p02608": [
+{
+"input": "20\n",
+"output": "0\n0\n0\n0\n0\n1\n0\n0\n0\n0\n3\n0\n0\n0\n0\n0\n3\n3\n0\n0\n"
+}
+],
+"p02609": [
+{
+"input": "3\n011\n",
+"output": "2\n1\n1\n"
+},
+{
+"input": "23\n00110111001011011001110\n",
+"output": "2\n1\n2\n2\n1\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\n1\n3\n"
+}
+],
+"p02612": [
+{
+"input": "1900\n",
+"output": "100\n"
+},
+{
+"input": "3000\n",
+"output": "0\n"
+}
+],
+"p02613": [
+{
+"input": "6\nAC\nTLE\nAC\nAC\nWA\nTLE\n",
+"output": "AC x 3\nWA x 1\nTLE x 2\nRE x 0\n"
+},
+{
+"input": "10\nAC\nAC\nAC\nAC\nAC\nAC\nAC\nAC\nAC\nAC\n",
+"output": "AC x 10\nWA x 0\nTLE x 0\nRE x 0\n"
+}
+],
+"p02614": [
+{
+"input": "2 3 2\n..#\n###\n",
+"output": "5\n"
+},
+{
+"input": "2 3 4\n..#\n###\n",
+"output": "1\n"
+},
+{
+"input": "2 2 3\n##\n##\n",
+"output": "0\n"
+},
+{
+"input": "6 6 8\n..##..\n.#..#.\n#....#\n######\n#....#\n#....#\n",
+"output": "208\n"
+}
+],
+"p02615": [
+{
+"input": "4\n2 2 1 3\n",
+"output": "7\n"
+},
+{
+"input": "7\n1 1 1 1 1 1 1\n",
+"output": "6\n"
+}
+],
+"p02616": [
+{
+"input": "4 2\n1 2 -3 -4\n",
+"output": "12\n"
+},
+{
+"input": "4 3\n-1 -2 -3 -4\n",
+"output": "1000000001\n"
+},
+{
+"input": "2 1\n-1 1000000000\n",
+"output": "1000000000\n"
+},
+{
+"input": "10 10\n1000000000 100000000 10000000 1000000 100000 10000 1000 100 10 1\n",
+"output": "999983200\n"
+}
+],
+"p02618": [
+{
+"input": "5\n86 90 69 51 2 96 71 47 88 34 45 46 89 34 31 38 97 84 41 80 14 4 50 83 7 82\n19771 12979 18912 10432 10544 12928 13403 3047 10527 9740 8100 92 2856 14730 1396 15905 6534 4650 11469 3628 8433 2994 10899 16396 18355 11424\n6674 17707 13855 16407 12232 2886 11908 1705 5000 1537 10440 10711 4917 10770 17272 15364 19277 18094 3929 3705 7169 6159 18683 15410 9092 4570\n6878 4239 19925 1799 375 9563 3445 5658 19857 11401 6997 6498 19933 3848 2426 2146 19745 16880 17773 18359 3921 14172 16730 11157 5439 256\n8633 15862 15303 10749 18499 7792 10317 5901 9395 11433 3514 3959 5202 19850 19469 9790 5653 784 18500 10552 17975 16615 7852 197 8471 7452\n19855 17918 7990 10572 4333 438 9140 9104 12622 4985 12319 4028 19922 12132 16259 17476 2976 547 19195 19830 16285 4806 4471 9457 2864 2192\n",
+"output": "1\n17\n13\n14\n13\n"
+}
+],
+"p02619": [
+{
+"input": "5\n86 90 69 51 2 96 71 47 88 34 45 46 89 34 31 38 97 84 41 80 14 4 50 83 7 82\n19771 12979 18912 10432 10544 12928 13403 3047 10527 9740 8100 92 2856 14730 1396 15905 6534 4650 11469 3628 8433 2994 10899 16396 18355 11424\n6674 17707 13855 16407 12232 2886 11908 1705 5000 1537 10440 10711 4917 10770 17272 15364 19277 18094 3929 3705 7169 6159 18683 15410 9092 4570\n6878 4239 19925 1799 375 9563 3445 5658 19857 11401 6997 6498 19933 3848 2426 2146 19745 16880 17773 18359 3921 14172 16730 11157 5439 256\n8633 15862 15303 10749 18499 7792 10317 5901 9395 11433 3514 3959 5202 19850 19469 9790 5653 784 18500 10552 17975 16615 7852 197 8471 7452\n19855 17918 7990 10572 4333 438 9140 9104 12622 4985 12319 4028 19922 12132 16259 17476 2976 547 19195 19830 16285 4806 4471 9457 2864 2192\n1\n17\n13\n14\n13\n",
+"output": "18398\n35037\n51140\n65837\n79325\n"
+}
+],
+"p02621": [
+{
+"input": "2\n",
+"output": "14\n"
+},
+{
+"input": "10\n",
+"output": "1110\n"
+}
+],
+"p02622": [
+{
+"input": "cupofcoffee\ncupofhottea\n",
+"output": "4\n"
+},
+{
+"input": "abcde\nbcdea\n",
+"output": "5\n"
+},
+{
+"input": "apple\napple\n",
+"output": "0\n"
+}
+],
+"p02623": [
+{
+"input": "3 4 240\n60 90 120\n80 150 80 150\n",
+"output": "3\n"
+},
+{
+"input": "3 4 730\n60 90 120\n80 150 80 150\n",
+"output": "7\n"
+},
+{
+"input": "5 4 1\n1000000000 1000000000 1000000000 1000000000 1000000000\n1000000000 1000000000 1000000000 1000000000\n",
+"output": "0\n"
+}
+],
+"p02624": [
+{
+"input": "4\n",
+"output": "23\n"
+},
+{
+"input": "100\n",
+"output": "26879\n"
+},
+{
+"input": "10000000\n",
+"output": "838627288460105\n"
+}
+],
+"p02627": [
+{
+"input": "B\n",
+"output": "A\n"
+},
+{
+"input": "a\n",
+"output": "a\n"
+}
+],
+"p02628": [
+{
+"input": "5 3\n50 100 80 120 80\n",
+"output": "210\n"
+},
+{
+"input": "1 1\n1000\n",
+"output": "1000\n"
+}
+],
+"p02629": [
+{
+"input": "2\n",
+"output": "b\n"
+},
+{
+"input": "27\n",
+"output": "aa\n"
+},
+{
+"input": "123456789\n",
+"output": "jjddja\n"
+}
+],
+"p02630": [
+{
+"input": "4\n1 2 3 4\n3\n1 2\n3 4\n2 4\n",
+"output": "11\n12\n16\n"
+},
+{
+"input": "4\n1 1 1 1\n3\n1 2\n2 1\n3 5\n",
+"output": "8\n4\n4\n"
+},
+{
+"input": "2\n1 2\n3\n1 100\n2 100\n100 1000\n",
+"output": "102\n200\n2000\n"
+}
+],
+"p02631": [
+{
+"input": "4\n20 11 9 24\n",
+"output": "26 5 7 22\n"
+}
+],
+"p02632": [
+{
+"input": "5\noof\n",
+"output": "575111451\n"
+},
+{
+"input": "37564\nwhydidyoudesertme\n",
+"output": "318008117\n"
+}
+],
+"p02633": [
+{
+"input": "90\n",
+"output": "4\n"
+},
+{
+"input": "1\n",
+"output": "360\n"
+}
+],
+"p02639": [
+{
+"input": "0 2 3 4 5\n",
+"output": "1\n"
+},
+{
+"input": "1 2 0 4 5\n",
+"output": "3\n"
+}
+],
+"p02640": [
+{
+"input": "3 8\n",
+"output": "Yes\n"
+},
+{
+"input": "2 100\n",
+"output": "No\n"
+},
+{
+"input": "1 2\n",
+"output": "Yes\n"
+}
+],
+"p02641": [
+{
+"input": "6 5\n4 7 10 6 5\n",
+"output": "8\n"
+},
+{
+"input": "10 5\n4 7 10 6 5\n",
+"output": "9\n"
+},
+{
+"input": "100 0\n",
+"output": "100\n"
+}
+],
+"p02642": [
+{
+"input": "5\n24 11 8 3 16\n",
+"output": "3\n"
+},
+{
+"input": "4\n5 5 5 5\n",
+"output": "0\n"
+},
+{
+"input": "10\n33 18 45 28 8 19 89 86 2 4\n",
+"output": "5\n"
+}
+],
+"p02645": [
+{
+"input": "takahashi\n",
+"output": "tak\n"
+},
+{
+"input": "naohiro\n",
+"output": "nao\n"
+}
+],
+"p02646": [
+{
+"input": "1 2\n3 1\n3\n",
+"output": "YES\n"
+},
+{
+"input": "1 2\n3 2\n3\n",
+"output": "NO\n"
+},
+{
+"input": "1 2\n3 3\n3\n",
+"output": "NO\n"
+}
+],
+"p02647": [
+{
+"input": "5 1\n1 0 0 1 0\n",
+"output": "1 2 2 1 2 \n"
+},
+{
+"input": "5 2\n1 0 0 1 0\n",
+"output": "3 3 4 4 3 \n"
+}
+],
+"p02657": [
+{
+"input": "2 5\n",
+"output": "10\n"
+},
+{
+"input": "100 100\n",
+"output": "10000\n"
+}
+],
+"p02658": [
+{
+"input": "2\n1000000000 1000000000\n",
+"output": "1000000000000000000\n"
+},
+{
+"input": "3\n101 9901 999999000001\n",
+"output": "-1\n"
+},
+{
+"input": "31\n4 1 5 9 2 6 5 3 5 8 9 7 9 3 2 3 8 4 6 2 6 4 3 3 8 3 2 7 9 5 0\n",
+"output": "0\n"
+}
+],
+"p02659": [
+{
+"input": "198 1.10\n",
+"output": "217\n"
+},
+{
+"input": "1 0.01\n",
+"output": "0\n"
+},
+{
+"input": "1000000000000000 9.99\n",
+"output": "9990000000000000\n"
+}
+],
+"p02660": [
+{
+"input": "24\n",
+"output": "3\n"
+},
+{
+"input": "1\n",
+"output": "0\n"
+},
+{
+"input": "64\n",
+"output": "3\n"
+},
+{
+"input": "1000000007\n",
+"output": "1\n"
+},
+{
+"input": "997764507000\n",
+"output": "7\n"
+}
+],
+"p02661": [
+{
+"input": "2\n1 2\n2 3\n",
+"output": "3\n"
+},
+{
+"input": "3\n100 100\n10 10000\n1 1000000000\n",
+"output": "9991\n"
+}
+],
+"p02662": [
+{
+"input": "3 4\n2 2 4\n",
+"output": "6\n"
+},
+{
+"input": "5 8\n9 9 9 9 9\n",
+"output": "0\n"
+},
+{
+"input": "10 10\n3 1 4 1 5 9 2 6 5 3\n",
+"output": "3296\n"
+}
+],
+"p02663": [
+{
+"input": "10 0 15 0 30\n",
+"output": "270\n"
+},
+{
+"input": "10 0 12 0 120\n",
+"output": "0\n"
+}
+],
+"p02664": [
+{
+"input": "PD?D??P\n",
+"output": "PDPDPDP\n"
+},
+{
+"input": "P?P?\n",
+"output": "PDPD\n"
+}
+],
+"p02665": [
+{
+"input": "3\n0 1 1 2\n",
+"output": "7\n"
+},
+{
+"input": "4\n0 0 1 0 2\n",
+"output": "10\n"
+},
+{
+"input": "2\n0 3 1\n",
+"output": "-1\n"
+},
+{
+"input": "1\n1 1\n",
+"output": "-1\n"
+},
+{
+"input": "10\n0 0 1 1 2 3 5 8 13 21 34\n",
+"output": "264\n"
+}
+],
+"p02675": [
+{
+"input": "16\n",
+"output": "pon\n"
+},
+{
+"input": "2\n",
+"output": "hon\n"
+},
+{
+"input": "183\n",
+"output": "bon\n"
+}
+],
+"p02676": [
+{
+"input": "7\nnikoandsolstice\n",
+"output": "nikoand...\n"
+},
+{
+"input": "40\nferelibenterhominesidquodvoluntcredunt\n",
+"output": "ferelibenterhominesidquodvoluntcredunt\n"
+}
+],
+"p02677": [
+{
+"input": "3 4 9 0\n",
+"output": "5.00000000000000000000\n"
+},
+{
+"input": "3 4 10 40\n",
+"output": "4.56425719433005567605\n"
+}
+],
+"p02678": [
+{
+"input": "4 4\n1 2\n2 3\n3 4\n4 2\n",
+"output": "Yes\n1\n2\n2\n"
+},
+{
+"input": "6 9\n3 4\n6 1\n2 4\n5 3\n4 6\n1 5\n6 2\n4 5\n5 6\n",
+"output": "Yes\n6\n5\n5\n1\n1\n"
+}
+],
+"p02679": [
+{
+"input": "3\n1 2\n-1 1\n2 -1\n",
+"output": "5\n"
+},
+{
+"input": "10\n3 2\n3 2\n-1 1\n2 -1\n-3 -9\n-8 12\n7 7\n8 1\n8 2\n8 4\n",
+"output": "479\n"
+}
+],
+"p02681": [
+{
+"input": "chokudai\nchokudaiz\n",
+"output": "Yes\n"
+},
+{
+"input": "snuke\nsnekee\n",
+"output": "No\n"
+},
+{
+"input": "a\naa\n",
+"output": "Yes\n"
+}
+],
+"p02682": [
+{
+"input": "2 1 1 3\n",
+"output": "2\n"
+},
+{
+"input": "1 2 3 4\n",
+"output": "0\n"
+},
+{
+"input": "2000000000 0 0 2000000000\n",
+"output": "2000000000\n"
+}
+],
+"p02683": [
+{
+"input": "3 3 10\n60 2 2 4\n70 8 7 9\n50 2 3 9\n",
+"output": "120\n"
+},
+{
+"input": "3 3 10\n100 3 1 4\n100 1 5 9\n100 2 6 5\n",
+"output": "-1\n"
+},
+{
+"input": "8 5 22\n100 3 7 5 3 1\n164 4 5 2 7 8\n334 7 2 7 2 9\n234 4 7 2 8 2\n541 5 4 3 3 6\n235 4 8 6 9 7\n394 3 6 1 6 2\n872 8 4 3 7 2\n",
+"output": "1067\n"
+}
+],
+"p02684": [
+{
+"input": "4 5\n3 2 4 1\n",
+"output": "4\n"
+},
+{
+"input": "6 727202214173249351\n6 5 2 5 3 2\n",
+"output": "2\n"
+}
+],
+"p02685": [
+{
+"input": "3 2 1\n",
+"output": "6\n"
+},
+{
+"input": "100 100 0\n",
+"output": "73074801\n"
+},
+{
+"input": "60522 114575 7559\n",
+"output": "479519525\n"
+}
+],
+"p02686": [
+{
+"input": "2\n)\n(()\n",
+"output": "Yes\n"
+},
+{
+"input": "2\n)(\n()\n",
+"output": "No\n"
+},
+{
+"input": "4\n((()))\n((((((\n))))))\n()()()\n",
+"output": "Yes\n"
+},
+{
+"input": "3\n(((\n)\n)\n",
+"output": "No\n"
+}
+],
+"p02687": [
+{
+"input": "ABC\n",
+"output": "ARC\n"
+}
+],
+"p02688": [
+{
+"input": "3 2\n2\n1 3\n1\n3\n",
+"output": "1\n"
+},
+{
+"input": "3 3\n1\n3\n1\n3\n1\n3\n",
+"output": "2\n"
+}
+],
+"p02689": [
+{
+"input": "4 3\n1 2 3 4\n1 3\n2 3\n2 4\n",
+"output": "2\n"
+},
+{
+"input": "6 5\n8 6 9 1 2 1\n1 3\n4 2\n4 3\n4 6\n4 6\n",
+"output": "3\n"
+}
+],
+"p02690": [
+{
+"input": "33\n",
+"output": "2 -1\n"
+},
+{
+"input": "1\n",
+"output": "0 -1\n"
+}
+],
+"p02691": [
+{
+"input": "6\n2 3 3 1 3 1\n",
+"output": "3\n"
+},
+{
+"input": "6\n5 2 4 2 8 8\n",
+"output": "0\n"
+},
+{
+"input": "32\n3 1 4 1 5 9 2 6 5 3 5 8 9 7 9 3 2 3 8 4 6 2 6 4 3 3 8 3 2 7 9 5\n",
+"output": "22\n"
+}
+],
+"p02693": [
+{
+"input": "7\n500 600\n",
+"output": "OK\n"
+},
+{
+"input": "4\n5 7\n",
+"output": "NG\n"
+},
+{
+"input": "1\n11 11\n",
+"output": "OK\n"
+}
+],
+"p02694": [
+{
+"input": "103\n",
+"output": "3\n"
+},
+{
+"input": "1000000000000000000\n",
+"output": "3760\n"
+},
+{
+"input": "1333333333\n",
+"output": "1706\n"
+}
+],
+"p02695": [
+{
+"input": "3 4 3\n1 3 3 100\n1 2 2 10\n2 3 2 10\n",
+"output": "110\n"
+},
+{
+"input": "4 6 10\n2 4 1 86568\n1 4 0 90629\n2 3 0 90310\n3 4 1 29211\n3 4 3 78537\n3 4 2 8580\n1 2 1 96263\n1 4 2 2156\n1 2 0 94325\n1 4 3 94328\n",
+"output": "357500\n"
+},
+{
+"input": "10 10 1\n1 10 9 1\n",
+"output": "1\n"
+}
+],
+"p02696": [
+{
+"input": "5 7 4\n",
+"output": "2\n"
+},
+{
+"input": "11 10 9\n",
+"output": "9\n"
+}
+],
+"p02697": [
+{
+"input": "4 1\n",
+"output": "2 3\n"
+},
+{
+"input": "7 3\n",
+"output": "1 6\n2 5\n3 4\n"
+}
+],
+"p02699": [
+{
+"input": "4 5\n",
+"output": "unsafe\n"
+},
+{
+"input": "100 2\n",
+"output": "safe\n"
+},
+{
+"input": "10 10\n",
+"output": "unsafe\n"
+}
+],
+"p02700": [
+{
+"input": "10 9 10 10\n",
+"output": "No\n"
+},
+{
+"input": "46 4 40 5\n",
+"output": "Yes\n"
+}
+],
+"p02701": [
+{
+"input": "3\napple\norange\napple\n",
+"output": "2\n"
+},
+{
+"input": "5\ngrape\ngrape\ngrape\ngrape\ngrape\n",
+"output": "1\n"
+},
+{
+"input": "4\naaaa\na\naaa\naa\n",
+"output": "4\n"
+}
+],
+"p02702": [
+{
+"input": "1817181712114\n",
+"output": "3\n"
+},
+{
+"input": "14282668646\n",
+"output": "2\n"
+},
+{
+"input": "2119\n",
+"output": "0\n"
+}
+],
+"p02705": [
+{
+"input": "1\n",
+"output": "6.28318530717958623200\n"
+},
+{
+"input": "73\n",
+"output": "458.67252742410977361942\n"
+}
+],
+"p02706": [
+{
+"input": "41 2\n5 6\n",
+"output": "30\n"
+},
+{
+"input": "10 2\n5 6\n",
+"output": "-1\n"
+},
+{
+"input": "11 2\n5 6\n",
+"output": "0\n"
+},
+{
+"input": "314 15\n9 26 5 35 8 9 79 3 23 8 46 2 6 43 3\n",
+"output": "9\n"
+}
+],
+"p02707": [
+{
+"input": "5\n1 1 2 2\n",
+"output": "2\n2\n0\n0\n0\n"
+},
+{
+"input": "10\n1 1 1 1 1 1 1 1 1\n",
+"output": "9\n0\n0\n0\n0\n0\n0\n0\n0\n0\n"
+},
+{
+"input": "7\n1 2 3 4 5 6\n",
+"output": "1\n1\n1\n1\n1\n1\n0\n"
+}
+],
+"p02708": [
+{
+"input": "3 2\n",
+"output": "10\n"
+},
+{
+"input": "200000 200001\n",
+"output": "1\n"
+},
+{
+"input": "141421 35623\n",
+"output": "220280457\n"
+}
+],
+"p02709": [
+{
+"input": "4\n1 3 4 2\n",
+"output": "20\n"
+},
+{
+"input": "6\n5 5 6 1 1 1\n",
+"output": "58\n"
+},
+{
+"input": "6\n8 6 9 1 2 1\n",
+"output": "85\n"
+}
+],
+"p02711": [
+{
+"input": "117\n",
+"output": "Yes\n"
+},
+{
+"input": "123\n",
+"output": "No\n"
+},
+{
+"input": "777\n",
+"output": "Yes\n"
+}
+],
+"p02712": [
+{
+"input": "15\n",
+"output": "60\n"
+},
+{
+"input": "1000000\n",
+"output": "266666333332\n"
+}
+],
+"p02713": [
+{
+"input": "2\n",
+"output": "9\n"
+},
+{
+"input": "200\n",
+"output": "10813692\n"
+}
+],
+"p02714": [
+{
+"input": "4\nRRGB\n",
+"output": "1\n"
+},
+{
+"input": "39\nRBRBGRBGGBBRRGBBRRRBGGBRBGBRBGBRBBBGBBB\n",
+"output": "1800\n"
+}
+],
+"p02715": [
+{
+"input": "3 2\n",
+"output": "9\n"
+},
+{
+"input": "3 200\n",
+"output": "10813692\n"
+},
+{
+"input": "100000 100000\n",
+"output": "742202979\n"
+}
+],
+"p02716": [
+{
+"input": "6\n1 2 3 4 5 6\n",
+"output": "12\n"
+},
+{
+"input": "5\n-1000 -100 -10 0 10\n",
+"output": "0\n"
+},
+{
+"input": "10\n1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000\n",
+"output": "5000000000\n"
+},
+{
+"input": "27\n18 -28 18 28 -45 90 -45 23 -53 60 28 -74 -71 35 -26 -62 49 -77 57 24 -70 -93 69 -99 59 57 -49\n",
+"output": "295\n"
+}
+],
+"p02717": [
+{
+"input": "1 2 3\n",
+"output": "3 1 2\n"
+},
+{
+"input": "100 100 100\n",
+"output": "100 100 100\n"
+},
+{
+"input": "41 59 31\n",
+"output": "31 41 59\n"
+}
+],
+"p02718": [
+{
+"input": "4 1\n5 4 2 1\n",
+"output": "Yes\n"
+},
+{
+"input": "3 2\n380 19 1\n",
+"output": "No\n"
+},
+{
+"input": "12 3\n4 56 78 901 2 345 67 890 123 45 6 789\n",
+"output": "Yes\n"
+}
+],
+"p02719": [
+{
+"input": "7 4\n",
+"output": "1\n"
+},
+{
+"input": "2 6\n",
+"output": "2\n"
+},
+{
+"input": "1000000000000000000 1\n",
+"output": "0\n"
+}
+],
+"p02720": [
+{
+"input": "15\n",
+"output": "23\n"
+},
+{
+"input": "1\n",
+"output": "1\n"
+},
+{
+"input": "13\n",
+"output": "21\n"
+},
+{
+"input": "100000\n",
+"output": "3234566667\n"
+}
+],
+"p02721": [
+{
+"input": "11 3 2\nooxxxoxxxoo\n",
+"output": "6\n"
+},
+{
+"input": "5 2 3\nooxoo\n",
+"output": "1\n5\n"
+},
+{
+"input": "5 1 0\nooooo\n",
+"output": "\n"
+},
+{
+"input": "16 4 3\nooxxoxoxxxoxoxxo\n",
+"output": "11\n16\n"
+}
+],
+"p02722": [
+{
+"input": "6\n",
+"output": "3\n"
+},
+{
+"input": "3141\n",
+"output": "13\n"
+},
+{
+"input": "314159265358\n",
+"output": "9\n"
+}
+],
+"p02723": [
+{
+"input": "sippuu\n",
+"output": "Yes\n"
+},
+{
+"input": "iphone\n",
+"output": "No\n"
+},
+{
+"input": "coffee\n",
+"output": "Yes\n"
+}
+],
+"p02724": [
+{
+"input": "1024\n",
+"output": "2020\n"
+},
+{
+"input": "0\n",
+"output": "0\n"
+},
+{
+"input": "1000000000\n",
+"output": "2000000000\n"
+}
+],
+"p02725": [
+{
+"input": "20 3\n5 10 15\n",
+"output": "10\n"
+},
+{
+"input": "20 3\n0 5 15\n",
+"output": "10\n"
+}
+],
+"p02726": [
+{
+"input": "5 2 4\n",
+"output": "5\n4\n1\n0\n"
+},
+{
+"input": "3 1 3\n",
+"output": "3\n0\n"
+},
+{
+"input": "7 3 7\n",
+"output": "7\n8\n4\n2\n0\n0\n"
+},
+{
+"input": "10 4 8\n",
+"output": "10\n12\n10\n8\n4\n1\n0\n0\n0\n"
+}
+],
+"p02727": [
+{
+"input": "1 2 2 2 1\n2 4\n5 1\n3\n",
+"output": "12\n"
+},
+{
+"input": "2 2 2 2 2\n8 6\n9 1\n2 1\n",
+"output": "25\n"
+},
+{
+"input": "2 2 4 4 4\n11 12 13 14\n21 22 23 24\n1 2 3 4\n",
+"output": "74\n"
+}
+],
+"p02729": [
+{
+"input": "2 1\n",
+"output": "1\n"
+},
+{
+"input": "4 3\n",
+"output": "9\n"
+},
+{
+"input": "1 1\n",
+"output": "0\n"
+},
+{
+"input": "13 3\n",
+"output": "81\n"
+},
+{
+"input": "0 3\n",
+"output": "3\n"
+}
+],
+"p02730": [
+{
+"input": "akasaka\n",
+"output": "Yes\n"
+},
+{
+"input": "level\n",
+"output": "No\n"
+},
+{
+"input": "atcoder\n",
+"output": "No\n"
+}
+],
+"p02731": [
+{
+"input": "3\n",
+"output": "1.000000000000\n"
+},
+{
+"input": "999\n",
+"output": "36926037.000000000000\n"
+}
+],
+"p02732": [
+{
+"input": "5\n1 1 2 1 2\n",
+"output": "2\n2\n3\n2\n3\n"
+},
+{
+"input": "4\n1 2 3 4\n",
+"output": "0\n0\n0\n0\n"
+},
+{
+"input": "5\n3 3 3 3 3\n",
+"output": "6\n6\n6\n6\n6\n"
+},
+{
+"input": "8\n1 2 1 4 2 1 4 1\n",
+"output": "5\n7\n5\n7\n7\n5\n7\n5\n"
+}
+],
+"p02733": [
+{
+"input": "3 5 4\n11100\n10001\n00111\n",
+"output": "2\n"
+},
+{
+"input": "3 5 8\n11100\n10001\n00111\n",
+"output": "0\n"
+},
+{
+"input": "4 10 4\n1110010010\n1000101110\n0011101001\n1101000111\n",
+"output": "3\n"
+}
+],
+"p02735": [
+{
+"input": "3 3\n.##\n.#.\n##.\n",
+"output": "1\n"
+},
+{
+"input": "2 2\n#.\n.#\n",
+"output": "2\n"
+},
+{
+"input": "4 4\n..##\n#...\n###.\n###.\n",
+"output": "0\n"
+},
+{
+"input": "5 5\n.#.#.\n#.#.#\n.#.#.\n#.#.#\n.#.#.\n",
+"output": "4\n"
+}
+],
+"p02741": [
+{
+"input": "6\n",
+"output": "2\n"
+},
+{
+"input": "27\n",
+"output": "5\n"
+}
+],
+"p02742": [
+{
+"input": "4 5\n",
+"output": "10\n"
+},
+{
+"input": "7 3\n",
+"output": "11\n"
+},
+{
+"input": "1000000000 1000000000\n",
+"output": "500000000000000000\n"
+}
+],
+"p02743": [
+{
+"input": "2 3 9\n",
+"output": "No\n"
+},
+{
+"input": "2 3 10\n",
+"output": "Yes\n"
+}
+],
+"p02744": [
+{
+"input": "1\n",
+"output": "a\n"
+},
+{
+"input": "2\n",
+"output": "aa\nab\n"
+}
+],
+"p02747": [
+{
+"input": "hihi\n",
+"output": "Yes\n"
+},
+{
+"input": "hi\n",
+"output": "Yes\n"
+},
+{
+"input": "ha\n",
+"output": "No\n"
+}
+],
+"p02748": [
+{
+"input": "2 3 1\n3 3\n3 3 3\n1 2 1\n",
+"output": "5\n"
+},
+{
+"input": "1 1 2\n10\n10\n1 1 5\n1 1 10\n",
+"output": "10\n"
+},
+{
+"input": "2 2 1\n3 5\n3 5\n2 2 2\n",
+"output": "6\n"
+}
+],
+"p02753": [
+{
+"input": "ABA\n",
+"output": "Yes\n"
+},
+{
+"input": "BBA\n",
+"output": "Yes\n"
+},
+{
+"input": "BBB\n",
+"output": "No\n"
+}
+],
+"p02754": [
+{
+"input": "8 3 4\n",
+"output": "4\n"
+},
+{
+"input": "8 0 4\n",
+"output": "0\n"
+},
+{
+"input": "6 2 4\n",
+"output": "2\n"
+}
+],
+"p02755": [
+{
+"input": "2 2\n",
+"output": "25\n"
+},
+{
+"input": "8 10\n",
+"output": "100\n"
+},
+{
+"input": "19 99\n",
+"output": "-1\n"
+}
+],
+"p02756": [
+{
+"input": "a\n4\n2 1 p\n1\n2 2 c\n1\n",
+"output": "cpa\n"
+},
+{
+"input": "a\n6\n2 2 a\n2 1 b\n1\n2 2 c\n1\n1\n",
+"output": "aabc\n"
+},
+{
+"input": "y\n1\n2 1 x\n",
+"output": "xy\n"
+}
+],
+"p02757": [
+{
+"input": "4 3\n3543\n",
+"output": "6\n"
+},
+{
+"input": "4 2\n2020\n",
+"output": "10\n"
+},
+{
+"input": "20 11\n33883322005544116655\n",
+"output": "68\n"
+}
+],
+"p02759": [
+{
+"input": "5\n",
+"output": "3\n"
+},
+{
+"input": "2\n",
+"output": "1\n"
+},
+{
+"input": "100\n",
+"output": "50\n"
+}
+],
+"p02760": [
+{
+"input": "84 97 66\n79 89 11\n61 59 7\n7\n89\n7\n87\n79\n24\n84\n30\n",
+"output": "Yes\n"
+},
+{
+"input": "41 7 46\n26 89 2\n78 92 8\n5\n6\n45\n16\n57\n17\n",
+"output": "No\n"
+},
+{
+"input": "60 88 34\n92 41 43\n65 73 48\n10\n60\n43\n88\n11\n48\n73\n65\n41\n92\n34\n",
+"output": "Yes\n"
+}
+],
+"p02761": [
+{
+"input": "3 3\n1 7\n3 2\n1 7\n",
+"output": "702\n"
+},
+{
+"input": "3 2\n2 1\n2 3\n",
+"output": "-1\n"
+},
+{
+"input": "3 1\n1 0\n",
+"output": "-1\n"
+}
+],
+"p02762": [
+{
+"input": "4 4 1\n2 1\n1 3\n3 2\n3 4\n4 1\n",
+"output": "0 1 0 1\n"
+},
+{
+"input": "5 10 0\n1 2\n1 3\n1 4\n1 5\n3 2\n2 4\n2 5\n4 3\n5 3\n4 5\n",
+"output": "0 0 0 0 0\n"
+},
+{
+"input": "10 9 3\n10 1\n6 7\n8 2\n2 5\n8 4\n7 3\n10 9\n6 4\n5 8\n2 6\n7 5\n3 1\n",
+"output": "1 3 5 4 3 3 3 3 1 0\n"
+}
+],
+"p02763": [
+{
+"input": "7\nabcdbbd\n6\n2 3 6\n1 5 z\n2 1 1\n1 4 a\n1 7 d\n2 1 7\n",
+"output": "3\n1\n5\n"
+}
+],
+"p02765": [
+{
+"input": "2 2919\n",
+"output": "3719\n"
+},
+{
+"input": "22 3051\n",
+"output": "3051\n"
+}
+],
+"p02766": [
+{
+"input": "11 2\n",
+"output": "4\n"
+},
+{
+"input": "1010101 10\n",
+"output": "7\n"
+},
+{
+"input": "314159265 3\n",
+"output": "18\n"
+}
+],
+"p02767": [
+{
+"input": "2\n1 4\n",
+"output": "5\n"
+},
+{
+"input": "7\n14 14 2 13 56 2 37\n",
+"output": "2354\n"
+}
+],
+"p02768": [
+{
+"input": "4 1 3\n",
+"output": "7\n"
+},
+{
+"input": "1000000000 141421 173205\n",
+"output": "34076506\n"
+}
+],
+"p02769": [
+{
+"input": "3 2\n",
+"output": "10\n"
+},
+{
+"input": "200000 1000000000\n",
+"output": "607923868\n"
+},
+{
+"input": "15 6\n",
+"output": "22583772\n"
+}
+],
+"p02771": [
+{
+"input": "5 7 5\n",
+"output": "Yes\n"
+},
+{
+"input": "4 4 4\n",
+"output": "No\n"
+},
+{
+"input": "4 9 6\n",
+"output": "No\n"
+},
+{
+"input": "3 3 4\n",
+"output": "Yes\n"
+}
+],
+"p02772": [
+{
+"input": "5\n6 7 9 10 31\n",
+"output": "APPROVED\n"
+},
+{
+"input": "3\n28 27 24\n",
+"output": "DENIED\n"
+}
+],
+"p02773": [
+{
+"input": "7\nbeat\nvet\nbeet\nbed\nvet\nbet\nbeet\n",
+"output": "beet\nvet\n"
+},
+{
+"input": "8\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\n",
+"output": "buffalo\n"
+},
+{
+"input": "7\nbass\nbass\nkick\nkick\nbass\nkick\nkick\n",
+"output": "kick\n"
+},
+{
+"input": "4\nushi\ntapu\nnichia\nkun\n",
+"output": "kun\nnichia\ntapu\nushi\n"
+}
+],
+"p02775": [
+{
+"input": "36\n",
+"output": "8\n"
+},
+{
+"input": "91\n",
+"output": "3\n"
+},
+{
+"input": "314159265358979323846264338327950288419716939937551058209749445923078164062862089986280348253421170\n",
+"output": "243\n"
+}
+],
+"p02777": [
+{
+"input": "red blue\n3 4\nred\n",
+"output": "2 4\n"
+},
+{
+"input": "red blue\n5 5\nblue\n",
+"output": "5 4\n"
+}
+],
+"p02778": [
+{
+"input": "sardine\n",
+"output": "xxxxxxx\n"
+},
+{
+"input": "xxxx\n",
+"output": "xxxx\n"
+},
+{
+"input": "gone\n",
+"output": "xxxx\n"
+}
+],
+"p02779": [
+{
+"input": "5\n2 6 1 4 5\n",
+"output": "YES\n"
+},
+{
+"input": "6\n4 1 3 1 6 2\n",
+"output": "NO\n"
+},
+{
+"input": "2\n10000000 10000000\n",
+"output": "NO\n"
+}
+],
+"p02780": [
+{
+"input": "5 3\n1 2 2 4 5\n",
+"output": "7.000000000000\n"
+},
+{
+"input": "4 1\n6 6 6 6\n",
+"output": "3.500000000000\n"
+},
+{
+"input": "10 4\n17 13 13 12 15 20 10 13 17 11\n",
+"output": "32.000000000000\n"
+}
+],
+"p02781": [
+{
+"input": "100\n1\n",
+"output": "19\n"
+},
+{
+"input": "25\n2\n",
+"output": "14\n"
+},
+{
+"input": "314159\n2\n",
+"output": "937\n"
+},
+{
+"input": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999\n3\n",
+"output": "117879300\n"
+}
+],
+"p02783": [
+{
+"input": "10 4\n",
+"output": "3\n"
+},
+{
+"input": "1 10000\n",
+"output": "1\n"
+},
+{
+"input": "10000 1\n",
+"output": "10000\n"
+}
+],
+"p02784": [
+{
+"input": "10 3\n4 5 6\n",
+"output": "Yes\n"
+},
+{
+"input": "20 3\n4 5 6\n",
+"output": "No\n"
+},
+{
+"input": "210 5\n31 41 59 26 53\n",
+"output": "Yes\n"
+},
+{
+"input": "211 5\n31 41 59 26 53\n",
+"output": "No\n"
+}
+],
+"p02785": [
+{
+"input": "3 1\n4 1 5\n",
+"output": "5\n"
+},
+{
+"input": "8 9\n7 9 3 2 3 8 4 6\n",
+"output": "0\n"
+},
+{
+"input": "3 0\n1000000000 1000000000 1000000000\n",
+"output": "3000000000\n"
+}
+],
+"p02786": [
+{
+"input": "2\n",
+"output": "3\n"
+},
+{
+"input": "4\n",
+"output": "7\n"
+},
+{
+"input": "1000000000000\n",
+"output": "1099511627775\n"
+}
+],
+"p02787": [
+{
+"input": "9 3\n8 3\n4 2\n2 1\n",
+"output": "4\n"
+},
+{
+"input": "100 6\n1 1\n2 3\n3 9\n4 27\n5 81\n6 243\n",
+"output": "100\n"
+},
+{
+"input": "9999 10\n540 7550\n691 9680\n700 9790\n510 7150\n415 5818\n551 7712\n587 8227\n619 8671\n588 8228\n176 2461\n",
+"output": "139815\n"
+}
+],
+"p02788": [
+{
+"input": "3 3 2\n1 2\n5 4\n9 2\n",
+"output": "2\n"
+},
+{
+"input": "9 4 1\n1 5\n2 4\n3 3\n4 2\n5 1\n6 2\n7 3\n8 4\n9 5\n",
+"output": "5\n"
+},
+{
+"input": "3 0 1\n300000000 1000000000\n100000000 1000000000\n200000000 1000000000\n",
+"output": "3000000000\n"
+}
+],
+"p02789": [
+{
+"input": "3 3\n",
+"output": "Yes\n"
+},
+{
+"input": "3 2\n",
+"output": "No\n"
+},
+{
+"input": "1 1\n",
+"output": "Yes\n"
+}
+],
+"p02790": [
+{
+"input": "4 3\n",
+"output": "3333\n"
+},
+{
+"input": "7 7\n",
+"output": "7777777\n"
+}
+],
+"p02791": [
+{
+"input": "5\n4 2 5 1 3\n",
+"output": "3\n"
+},
+{
+"input": "4\n4 3 2 1\n",
+"output": "4\n"
+},
+{
+"input": "6\n1 2 3 4 5 6\n",
+"output": "1\n"
+},
+{
+"input": "8\n5 7 4 2 6 8 1 3\n",
+"output": "4\n"
+},
+{
+"input": "1\n1\n",
+"output": "1\n"
+}
+],
+"p02792": [
+{
+"input": "25\n",
+"output": "17\n"
+},
+{
+"input": "1\n",
+"output": "1\n"
+},
+{
+"input": "100\n",
+"output": "108\n"
+},
+{
+"input": "2020\n",
+"output": "40812\n"
+},
+{
+"input": "200000\n",
+"output": "400000008\n"
+}
+],
+"p02793": [
+{
+"input": "3\n2 3 4\n",
+"output": "13\n"
+},
+{
+"input": "5\n12 12 12 12 12\n",
+"output": "5\n"
+},
+{
+"input": "3\n1000000 999999 999998\n",
+"output": "996989508\n"
+}
+],
+"p02795": [
+{
+"input": "3\n7\n10\n",
+"output": "2\n"
+},
+{
+"input": "14\n12\n112\n",
+"output": "8\n"
+},
+{
+"input": "2\n100\n200\n",
+"output": "2\n"
+}
+],
+"p02796": [
+{
+"input": "4\n2 4\n4 3\n9 3\n100 5\n",
+"output": "3\n"
+},
+{
+"input": "2\n8 20\n1 10\n",
+"output": "1\n"
+},
+{
+"input": "5\n10 1\n2 1\n4 1\n6 1\n8 1\n",
+"output": "5\n"
+}
+],
+"p02797": [
+{
+"input": "4 2 3\n",
+"output": "1 2 3 4\n"
+},
+{
+"input": "5 3 100\n",
+"output": "50 50 50 30 70\n"
+}
+],
+"p02801": [
+{
+"input": "a\n",
+"output": "b\n"
+},
+{
+"input": "y\n",
+"output": "z\n"
+}
+],
+"p02802": [
+{
+"input": "2 5\n1 WA\n1 AC\n2 WA\n2 AC\n2 WA\n",
+"output": "2 2\n"
+},
+{
+"input": "100000 3\n7777 AC\n7777 AC\n7777 AC\n",
+"output": "1 0\n"
+},
+{
+"input": "6 0\n",
+"output": "0 0\n"
+}
+],
+"p02803": [
+{
+"input": "3 3\n...\n...\n...\n",
+"output": "4\n"
+},
+{
+"input": "3 5\n...#.\n.#.#.\n.#...\n",
+"output": "10\n"
+}
+],
+"p02804": [
+{
+"input": "4 2\n1 1 3 4\n",
+"output": "11\n"
+},
+{
+"input": "6 3\n10 10 10 -10 -10 -10\n",
+"output": "360\n"
+},
+{
+"input": "3 1\n1 1 1\n",
+"output": "0\n"
+},
+{
+"input": "10 6\n1000000000 1000000000 1000000000 1000000000 1000000000 0 0 0 0 0\n",
+"output": "999998537\n"
+}
+],
+"p02806": [
+{
+"input": "3\ndwango 2\nsixth 5\nprelims 25\ndwango\n",
+"output": "30\n"
+},
+{
+"input": "1\nabcde 1000\nabcde\n",
+"output": "0\n"
+},
+{
+"input": "15\nypnxn 279\nkgjgwx 464\nqquhuwq 327\nrxing 549\npmuduhznoaqu 832\ndagktgdarveusju 595\nwunfagppcoi 200\ndhavrncwfw 720\njpcmigg 658\nwrczqxycivdqn 639\nmcmkkbnjfeod 992\nhtqvkgkbhtytsz 130\ntwflegsjz 467\ndswxxrxuzzfhkp 989\nszfwtzfpnscgue 958\npmuduhznoaqu\n",
+"output": "6348\n"
+}
+],
+"p02811": [
+{
+"input": "2 900\n",
+"output": "Yes\n"
+},
+{
+"input": "1 501\n",
+"output": "No\n"
+},
+{
+"input": "4 2000\n",
+"output": "Yes\n"
+}
+],
+"p02812": [
+{
+"input": "10\nZABCDBABCQ\n",
+"output": "2\n"
+},
+{
+"input": "19\nTHREEONEFOURONEFIVE\n",
+"output": "0\n"
+},
+{
+"input": "33\nABCCABCBABCCABACBCBBABCBCBCBCABCB\n",
+"output": "5\n"
+}
+],
+"p02813": [
+{
+"input": "3\n1 3 2\n3 1 2\n",
+"output": "3\n"
+},
+{
+"input": "8\n7 3 5 4 2 1 6 8\n3 8 2 5 4 6 7 1\n",
+"output": "17517\n"
+},
+{
+"input": "3\n1 2 3\n1 2 3\n",
+"output": "0\n"
+}
+],
+"p02814": [
+{
+"input": "2 50\n6 10\n",
+"output": "2\n"
+},
+{
+"input": "3 100\n14 22 40\n",
+"output": "0\n"
+},
+{
+"input": "5 1000000000\n6 6 2 6 2\n",
+"output": "166666667\n"
+}
+],
+"p02817": [
+{
+"input": "oder atc\n",
+"output": "atcoder\n"
+},
+{
+"input": "humu humu\n",
+"output": "humuhumu\n"
+}
+],
+"p02818": [
+{
+"input": "2 3 3\n",
+"output": "0 2\n"
+},
+{
+"input": "500000000000 500000000000 1000000000000\n",
+"output": "0 0\n"
+}
+],
+"p02819": [
+{
+"input": "20\n",
+"output": "23\n"
+},
+{
+"input": "2\n",
+"output": "2\n"
+},
+{
+"input": "99992\n",
+"output": "100003\n"
+}
+],
+"p02820": [
+{
+"input": "5 2\n8 7 6\nrsrpr\n",
+"output": "27\n"
+},
+{
+"input": "7 1\n100 10 1\nssssppr\n",
+"output": "211\n"
+},
+{
+"input": "30 5\n325 234 123\nrspsspspsrpspsppprpsprpssprpsr\n",
+"output": "4996\n"
+}
+],
+"p02821": [
+{
+"input": "5 3\n10 14 19 34 33\n",
+"output": "202\n"
+},
+{
+"input": "9 14\n1 3 5 110 24 21 34 5 3\n",
+"output": "1837\n"
+},
+{
+"input": "9 73\n67597 52981 5828 66249 75177 64141 40773 79105 16076\n",
+"output": "8128170\n"
+}
+],
+"p02823": [
+{
+"input": "5 2 4\n",
+"output": "1\n"
+},
+{
+"input": "5 2 3\n",
+"output": "2\n"
+}
+],
+"p02829": [
+{
+"input": "3\n1\n",
+"output": "2\n"
+},
+{
+"input": "1\n2\n",
+"output": "3\n"
+}
+],
+"p02830": [
+{
+"input": "2\nip cc\n",
+"output": "icpc\n"
+},
+{
+"input": "8\nhmhmnknk uuuuuuuu\n",
+"output": "humuhumunukunuku\n"
+},
+{
+"input": "5\naaaaa aaaaa\n",
+"output": "aaaaaaaaaa\n"
+}
+],
+"p02831": [
+{
+"input": "2 3\n",
+"output": "6\n"
+},
+{
+"input": "123 456\n",
+"output": "18696\n"
+},
+{
+"input": "100000 99999\n",
+"output": "9999900000\n"
+}
+],
+"p02832": [
+{
+"input": "3\n2 1 2\n",
+"output": "1\n"
+},
+{
+"input": "3\n2 2 2\n",
+"output": "-1\n"
+},
+{
+"input": "10\n3 1 4 1 5 9 2 6 5 3\n",
+"output": "7\n"
+},
+{
+"input": "1\n1\n",
+"output": "0\n"
+}
+],
+"p02833": [
+{
+"input": "12\n",
+"output": "1\n"
+},
+{
+"input": "5\n",
+"output": "0\n"
+},
+{
+"input": "1000000000000000000\n",
+"output": "124999999999999995\n"
+}
+],
+"p02834": [
+{
+"input": "5 4 1\n1 2\n2 3\n3 4\n3 5\n",
+"output": "2\n"
+},
+{
+"input": "5 4 5\n1 2\n1 3\n1 4\n1 5\n",
+"output": "1\n"
+},
+{
+"input": "2 1 2\n1 2\n",
+"output": "0\n"
+},
+{
+"input": "9 6 1\n1 2\n2 3\n3 4\n4 5\n5 6\n4 7\n7 8\n8 9\n",
+"output": "5\n"
+}
+],
+"p02835": [
+{
+"input": "5 7 9\n",
+"output": "win\n"
+},
+{
+"input": "13 7 2\n",
+"output": "bust\n"
+}
+],
+"p02836": [
+{
+"input": "redcoder\n",
+"output": "1\n"
+},
+{
+"input": "vvvvvv\n",
+"output": "0\n"
+},
+{
+"input": "abcdabc\n",
+"output": "2\n"
+}
+],
+"p02837": [
+{
+"input": "3\n1\n2 1\n1\n1 1\n1\n2 0\n",
+"output": "2\n"
+},
+{
+"input": "3\n2\n2 1\n3 0\n2\n3 1\n1 0\n2\n1 1\n2 0\n",
+"output": "0\n"
+},
+{
+"input": "2\n1\n2 0\n1\n1 0\n",
+"output": "1\n"
+}
+],
+"p02838": [
+{
+"input": "3\n1 2 3\n",
+"output": "6\n"
+},
+{
+"input": "10\n3 1 4 1 5 9 2 6 5 3\n",
+"output": "237\n"
+},
+{
+"input": "10\n3 14 159 2653 58979 323846 2643383 27950288 419716939 9375105820\n",
+"output": "103715602\n"
+}
+],
+"p02841": [
+{
+"input": "11 16\n11 17\n",
+"output": "0\n"
+},
+{
+"input": "11 30\n12 1\n",
+"output": "1\n"
+}
+],
+"p02842": [
+{
+"input": "432\n",
+"output": "400\n"
+},
+{
+"input": "1079\n",
+"output": ":(\n"
+},
+{
+"input": "1001\n",
+"output": "927\n"
+}
+],
+"p02843": [
+{
+"input": "615\n",
+"output": "1\n"
+},
+{
+"input": "217\n",
+"output": "0\n"
+}
+],
+"p02844": [
+{
+"input": "4\n0224\n",
+"output": "3\n"
+},
+{
+"input": "6\n123123\n",
+"output": "17\n"
+},
+{
+"input": "19\n3141592653589793238\n",
+"output": "329\n"
+}
+],
+"p02845": [
+{
+"input": "6\n0 1 2 3 4 5\n",
+"output": "3\n"
+},
+{
+"input": "3\n0 0 0\n",
+"output": "6\n"
+},
+{
+"input": "54\n0 0 1 0 1 2 1 2 3 2 3 3 4 4 5 4 6 5 7 8 5 6 6 7 7 8 8 9 9 10 10 11 9 12 10 13 14 11 11 12 12 13 13 14 14 15 15 15 16 16 16 17 17 17\n",
+"output": "115295190\n"
+}
+],
+"p02846": [
+{
+"input": "1 2\n10 10\n12 4\n",
+"output": "1\n"
+},
+{
+"input": "100 1\n101 101\n102 1\n",
+"output": "infinity\n"
+},
+{
+"input": "12000 15700\n3390000000 3810000000\n5550000000 2130000000\n",
+"output": "113\n"
+}
+],
+"p02847": [
+{
+"input": "SAT\n",
+"output": "1\n"
+},
+{
+"input": "SUN\n",
+"output": "7\n"
+}
+],
+"p02848": [
+{
+"input": "2\nABCXYZ\n",
+"output": "CDEZAB\n"
+},
+{
+"input": "0\nABCXYZ\n",
+"output": "ABCXYZ\n"
+},
+{
+"input": "13\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n",
+"output": "NOPQRSTUVWXYZABCDEFGHIJKLM\n"
+}
+],
+"p02850": [
+{
+"input": "3\n1 2\n2 3\n",
+"output": "2\n1\n2\n"
+},
+{
+"input": "8\n1 2\n2 3\n2 4\n2 5\n4 7\n5 6\n6 8\n",
+"output": "4\n1\n2\n3\n4\n1\n1\n2\n"
+},
+{
+"input": "6\n1 2\n1 3\n1 4\n1 5\n1 6\n",
+"output": "5\n1\n2\n3\n4\n5\n"
+}
+],
+"p02851": [
+{
+"input": "5 4\n1 4 2 3 5\n",
+"output": "4\n"
+},
+{
+"input": "8 4\n4 2 4 2 4 2 4 2\n",
+"output": "7\n"
+},
+{
+"input": "10 7\n14 15 92 65 35 89 79 32 38 46\n",
+"output": "8\n"
+}
+],
+"p02852": [
+{
+"input": "9 3\n0001000100\n",
+"output": "1 3 2 3\n"
+},
+{
+"input": "5 4\n011110\n",
+"output": "-1\n"
+},
+{
+"input": "6 6\n0101010\n",
+"output": "6\n"
+}
+],
+"p02853": [
+{
+"input": "1 1\n",
+"output": "1000000\n"
+},
+{
+"input": "3 101\n",
+"output": "100000\n"
+},
+{
+"input": "4 4\n",
+"output": "0\n"
+}
+],
+"p02854": [
+{
+"input": "3\n2 4 3\n",
+"output": "3\n"
+},
+{
+"input": "12\n100 104 102 105 103 103 101 105 104 102 104 101\n",
+"output": "0\n"
+}
+],
+"p02855": [
+{
+"input": "3 3 5\n#.#\n.#.\n#.#\n",
+"output": "1 2 2\n1 3 4\n5 5 4\n"
+},
+{
+"input": "3 7 7\n#...#.#\n..#...#\n.#..#..\n",
+"output": "1 1 2 2 3 4 4\n6 6 2 2 3 5 5\n6 6 7 7 7 7 7\n"
+},
+{
+"input": "13 21 106\n.....................\n.####.####.####.####.\n..#.#..#.#.#....#....\n..#.#..#.#.#....#....\n..#.#..#.#.#....#....\n.####.####.####.####.\n.....................\n.####.####.####.####.\n....#.#..#....#.#..#.\n.####.#..#.####.#..#.\n.#....#..#.#....#..#.\n.####.####.####.####.\n.....................\n",
+"output": "12 12 23 34 45 45 60 71 82 93 93 2 13 24 35 35 17 28 39 50 50\n12 12 23 34 45 45 60 71 82 93 93 2 13 24 35 35 17 28 39 50 50\n12 12 56 89 89 89 60 104 82 31 31 46 13 24 35 35 61 61 39 50 50\n12 12 67 67 100 100 60 9 9 42 42 57 13 24 6 72 72 72 72 72 72\n12 12 78 5 5 5 20 20 20 53 68 68 90 24 6 83 83 83 83 83 83\n16 16 27 38 49 49 64 75 86 97 79 79 90 101 6 94 94 105 10 21 21\n16 16 27 38 49 49 64 75 86 97 79 79 90 101 6 94 94 105 10 21 21\n32 32 43 54 65 65 80 11 106 95 22 22 33 44 55 55 70 1 96 85 85\n32 32 43 54 76 76 91 11 106 84 84 4 99 66 66 66 81 1 96 74 74\n14 14 3 98 87 87 102 11 73 73 73 4 99 88 77 77 92 92 63 63 63\n25 25 3 98 87 87 7 29 62 62 62 15 99 88 77 77 103 19 30 52 52\n36 36 47 58 69 69 18 29 40 51 51 26 37 48 59 59 8 19 30 41 41\n36 36 47 58 69 69 18 29 40 51 51 26 37 48 59 59 8 19 30 41 41\n"
+}
+],
+"p02859": [
+{
+"input": "2\n",
+"output": "4\n"
+},
+{
+"input": "100\n",
+"output": "10000\n"
+}
+],
+"p02860": [
+{
+"input": "6\nabcabc\n",
+"output": "Yes\n"
+},
+{
+"input": "6\nabcadc\n",
+"output": "No\n"
+},
+{
+"input": "1\nz\n",
+"output": "No\n"
+}
+],
+"p02861": [
+{
+"input": "3\n0 0\n1 0\n0 1\n",
+"output": "2.2761423749\n"
+},
+{
+"input": "2\n-879 981\n-866 890\n",
+"output": "91.9238815543\n"
+},
+{
+"input": "8\n-406 10\n512 859\n494 362\n-955 -475\n128 553\n-986 -885\n763 77\n449 310\n",
+"output": "7641.9817824387\n"
+}
+],
+"p02862": [
+{
+"input": "3 3\n",
+"output": "2\n"
+},
+{
+"input": "2 2\n",
+"output": "0\n"
+},
+{
+"input": "999999 999999\n",
+"output": "151840682\n"
+}
+],
+"p02863": [
+{
+"input": "2 60\n10 10\n100 100\n",
+"output": "110\n"
+},
+{
+"input": "3 60\n10 10\n10 20\n10 30\n",
+"output": "60\n"
+},
+{
+"input": "3 60\n30 10\n30 20\n30 30\n",
+"output": "50\n"
+},
+{
+"input": "10 100\n15 23\n20 18\n13 17\n24 12\n18 29\n19 27\n23 21\n18 20\n27 15\n22 25\n",
+"output": "145\n"
+}
+],
+"p02865": [
+{
+"input": "4\n",
+"output": "1\n"
+},
+{
+"input": "999999\n",
+"output": "499999\n"
+}
+],
+"p02866": [
+{
+"input": "4\n0 1 1 2\n",
+"output": "2\n"
+},
+{
+"input": "4\n1 1 1 1\n",
+"output": "0\n"
+},
+{
+"input": "7\n0 3 2 1 2 2 1\n",
+"output": "24\n"
+}
+],
+"p02873": [
+{
+"input": "<>>\n",
+"output": "3\n"
+},
+{
+"input": "<>>><<><<<<<>>><\n",
+"output": "28\n"
+}
+],
+"p02879": [
+{
+"input": "2 5\n",
+"output": "10\n"
+},
+{
+"input": "5 10\n",
+"output": "-1\n"
+},
+{
+"input": "9 9\n",
+"output": "81\n"
+}
+],
+"p02880": [
+{
+"input": "10\n",
+"output": "Yes\n"
+},
+{
+"input": "50\n",
+"output": "No\n"
+},
+{
+"input": "81\n",
+"output": "Yes\n"
+}
+],
+"p02881": [
+{
+"input": "10\n",
+"output": "5\n"
+},
+{
+"input": "50\n",
+"output": "13\n"
+},
+{
+"input": "10000000019\n",
+"output": "10000000018\n"
+}
+],
+"p02882": [
+{
+"input": "2 2 4\n",
+"output": "45.0000000000\n"
+},
+{
+"input": "12 21 10\n",
+"output": "89.7834636934\n"
+},
+{
+"input": "3 1 8\n",
+"output": "4.2363947991\n"
+}
+],
+"p02883": [
+{
+"input": "3 5\n4 2 1\n2 3 1\n",
+"output": "2\n"
+},
+{
+"input": "3 8\n4 2 1\n2 3 1\n",
+"output": "0\n"
+},
+{
+"input": "11 14\n3 1 4 1 5 9 2 6 5 3 5\n8 9 7 9 3 2 3 8 4 6 2\n",
+"output": "12\n"
+}
+],
+"p02885": [
+{
+"input": "12 4\n",
+"output": "4\n"
+},
+{
+"input": "20 15\n",
+"output": "0\n"
+},
+{
+"input": "20 30\n",
+"output": "0\n"
+}
+],
+"p02886": [
+{
+"input": "3\n3 1 2\n",
+"output": "11\n"
+},
+{
+"input": "7\n5 0 7 8 3 3 2\n",
+"output": "312\n"
+}
+],
+"p02887": [
+{
+"input": "10\naabbbbaaca\n",
+"output": "5\n"
+},
+{
+"input": "5\naaaaa\n",
+"output": "1\n"
+},
+{
+"input": "20\nxxzaffeeeeddfkkkkllq\n",
+"output": "10\n"
+}
+],
+"p02888": [
+{
+"input": "4\n3 4 2 1\n",
+"output": "1\n"
+},
+{
+"input": "3\n1 1000 1\n",
+"output": "0\n"
+},
+{
+"input": "7\n218 786 704 233 645 728 389\n",
+"output": "23\n"
+}
+],
+"p02889": [
+{
+"input": "3 2 5\n1 2 3\n2 3 3\n2\n3 2\n1 3\n",
+"output": "0\n1\n"
+},
+{
+"input": "4 0 1\n1\n2 1\n",
+"output": "-1\n"
+},
+{
+"input": "5 4 4\n1 2 2\n2 3 2\n3 4 3\n4 5 2\n20\n2 1\n3 1\n4 1\n5 1\n1 2\n3 2\n4 2\n5 2\n1 3\n2 3\n4 3\n5 3\n1 4\n2 4\n3 4\n5 4\n1 5\n2 5\n3 5\n4 5\n",
+"output": "0\n0\n1\n2\n0\n0\n1\n2\n0\n0\n0\n1\n1\n1\n0\n0\n2\n2\n1\n0\n"
+}
+],
+"p02891": [
+{
+"input": "issii\n2\n",
+"output": "4\n"
+},
+{
+"input": "qq\n81\n",
+"output": "81\n"
+},
+{
+"input": "cooooooooonteeeeeeeeeest\n999993333\n",
+"output": "8999939997\n"
+}
+],
+"p02897": [
+{
+"input": "4\n",
+"output": "0.5000000000\n"
+},
+{
+"input": "5\n",
+"output": "0.6000000000\n"
+},
+{
+"input": "1\n",
+"output": "1.0000000000\n"
+}
+],
+"p02898": [
+{
+"input": "4 150\n150 140 100 200\n",
+"output": "2\n"
+},
+{
+"input": "1 500\n499\n",
+"output": "0\n"
+},
+{
+"input": "5 1\n100 200 300 400 500\n",
+"output": "5\n"
+}
+],
+"p02899": [
+{
+"input": "3\n2 3 1\n",
+"output": "3 1 2\n"
+},
+{
+"input": "5\n1 2 3 4 5\n",
+"output": "1 2 3 4 5\n"
+},
+{
+"input": "8\n8 2 7 3 4 5 6 1\n",
+"output": "8 2 4 5 6 7 3 1\n"
+}
+],
+"p02900": [
+{
+"input": "12 18\n",
+"output": "3\n"
+},
+{
+"input": "420 660\n",
+"output": "4\n"
+},
+{
+"input": "1 2019\n",
+"output": "1\n"
+}
+],
+"p02901": [
+{
+"input": "2 3\n10 1\n1\n15 1\n2\n30 2\n1 2\n",
+"output": "25\n"
+},
+{
+"input": "12 1\n100000 1\n2\n",
+"output": "-1\n"
+},
+{
+"input": "4 6\n67786 3\n1 3 4\n3497 1\n2\n44908 3\n2 3 4\n2156 3\n2 3 4\n26230 1\n2\n86918 1\n3\n",
+"output": "69942\n"
+}
+],
+"p02903": [
+{
+"input": "3 3 1 1\n",
+"output": "100\n010\n001\n"
+},
+{
+"input": "1 5 2 0\n",
+"output": "01010\n"
+}
+],
+"p02909": [
+{
+"input": "Sunny\n",
+"output": "Cloudy\n"
+},
+{
+"input": "Rainy\n",
+"output": "Sunny\n"
+}
+],
+"p02910": [
+{
+"input": "RUDLUDR\n",
+"output": "Yes\n"
+},
+{
+"input": "DULL\n",
+"output": "No\n"
+},
+{
+"input": "UUUUUUUUUUUUUUU\n",
+"output": "Yes\n"
+},
+{
+"input": "ULURU\n",
+"output": "No\n"
+},
+{
+"input": "RDULULDURURLRDULRLR\n",
+"output": "Yes\n"
+}
+],
+"p02911": [
+{
+"input": "6 3 4\n3\n1\n3\n2\n",
+"output": "No\nNo\nYes\nNo\nNo\nNo\n"
+},
+{
+"input": "6 5 4\n3\n1\n3\n2\n",
+"output": "Yes\nYes\nYes\nYes\nYes\nYes\n"
+},
+{
+"input": "10 13 15\n3\n1\n4\n1\n5\n9\n2\n6\n5\n3\n5\n8\n9\n7\n9\n",
+"output": "No\nNo\nNo\nNo\nYes\nNo\nNo\nNo\nYes\nNo\n"
+}
+],
+"p02912": [
+{
+"input": "3 3\n2 13 8\n",
+"output": "9\n"
+},
+{
+"input": "4 4\n1 9 3 5\n",
+"output": "6\n"
+},
+{
+"input": "1 100000\n1000000000\n",
+"output": "0\n"
+},
+{
+"input": "10 1\n1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000\n",
+"output": "9500000000\n"
+}
+],
+"p02913": [
+{
+"input": "5\nababa\n",
+"output": "2\n"
+},
+{
+"input": "2\nxy\n",
+"output": "0\n"
+},
+{
+"input": "13\nstrangeorange\n",
+"output": "5\n"
+}
+],
+"p02916": [
+{
+"input": "3\n3 1 2\n2 5 4\n3 6\n",
+"output": "14\n"
+},
+{
+"input": "4\n2 3 4 1\n13 5 8 24\n45 9 15\n",
+"output": "74\n"
+},
+{
+"input": "2\n1 2\n50 50\n50\n",
+"output": "150\n"
+}
+],
+"p02917": [
+{
+"input": "3\n2 5\n",
+"output": "9\n"
+},
+{
+"input": "2\n3\n",
+"output": "6\n"
+},
+{
+"input": "6\n0 153 10 10 23\n",
+"output": "53\n"
+}
+],
+"p02918": [
+{
+"input": "6 1\nLRLRRL\n",
+"output": "3\n"
+},
+{
+"input": "13 3\nLRRLRLRRLRLLR\n",
+"output": "9\n"
+},
+{
+"input": "10 1\nLLLLLRRRRR\n",
+"output": "9\n"
+},
+{
+"input": "9 2\nRRRLRLRLL\n",
+"output": "7\n"
+}
+],
+"p02921": [
+{
+"input": "CSS\nCSR\n",
+"output": "2\n"
+},
+{
+"input": "SSR\nSSR\n",
+"output": "3\n"
+},
+{
+"input": "RRR\nSSS\n",
+"output": "0\n"
+}
+],
+"p02922": [
+{
+"input": "4 10\n",
+"output": "3\n"
+},
+{
+"input": "8 9\n",
+"output": "2\n"
+},
+{
+"input": "8 8\n",
+"output": "1\n"
+}
+],
+"p02923": [
+{
+"input": "5\n10 4 8 7 3\n",
+"output": "2\n"
+},
+{
+"input": "7\n4 4 5 6 6 5 5\n",
+"output": "3\n"
+},
+{
+"input": "4\n1 2 3 4\n",
+"output": "0\n"
+}
+],
+"p02924": [
+{
+"input": "2\n",
+"output": "1\n"
+},
+{
+"input": "13\n",
+"output": "78\n"
+},
+{
+"input": "1\n",
+"output": "0\n"
+}
+],
+"p02925": [
+{
+"input": "3\n2 3\n1 3\n1 2\n",
+"output": "3\n"
+},
+{
+"input": "4\n2 3 4\n1 3 4\n4 1 2\n3 1 2\n",
+"output": "4\n"
+},
+{
+"input": "3\n2 3\n3 1\n1 2\n",
+"output": "-1\n"
+}
+],
+"p02927": [
+{
+"input": "15 40\n",
+"output": "10\n"
+},
+{
+"input": "12 31\n",
+"output": "5\n"
+},
+{
+"input": "1 1\n",
+"output": "0\n"
+}
+],
+"p02928": [
+{
+"input": "2 2\n2 1\n",
+"output": "3\n"
+},
+{
+"input": "3 5\n1 1 1\n",
+"output": "0\n"
+},
+{
+"input": "10 998244353\n10 9 8 7 5 6 3 4 2 1\n",
+"output": "185297239\n"
+}
+],
+"p02933": [
+{
+"input": "3200\npink\n",
+"output": "pink\n"
+},
+{
+"input": "3199\npink\n",
+"output": "red\n"
+},
+{
+"input": "4049\nred\n",
+"output": "red\n"
+}
+],
+"p02934": [
+{
+"input": "2\n10 30\n",
+"output": "7.5\n"
+},
+{
+"input": "3\n200 200 200\n",
+"output": "66.66666666666667\n"
+},
+{
+"input": "1\n1000\n",
+"output": "1000\n"
+}
+],
+"p02935": [
+{
+"input": "2\n3 4\n",
+"output": "3.5\n"
+},
+{
+"input": "3\n500 300 200\n",
+"output": "375\n"
+},
+{
+"input": "5\n138 138 138 138 138\n",
+"output": "138\n"
+}
+],
+"p02936": [
+{
+"input": "4 3\n1 2\n2 3\n2 4\n2 10\n1 100\n3 1\n",
+"output": "100 110 111 110\n"
+},
+{
+"input": "6 2\n1 2\n1 3\n2 4\n3 6\n2 5\n1 10\n1 10\n",
+"output": "20 20 20 20 20 20\n"
+}
+],
+"p02937": [
+{
+"input": "contest\nson\n",
+"output": "10\n"
+},
+{
+"input": "contest\nprogramming\n",
+"output": "-1\n"
+},
+{
+"input": "contest\nsentence\n",
+"output": "33\n"
+}
+],
+"p02939": [
+{
+"input": "aabbaa\n",
+"output": "4\n"
+},
+{
+"input": "aaaccacabaababc\n",
+"output": "12\n"
+}
+],
+"p02946": [
+{
+"input": "3 7\n",
+"output": "5 6 7 8 9\n"
+},
+{
+"input": "4 0\n",
+"output": "-3 -2 -1 0 1 2 3\n"
+},
+{
+"input": "1 100\n",
+"output": "100\n"
+}
+],
+"p02947": [
+{
+"input": "3\nacornistnt\npeanutbomb\nconstraint\n",
+"output": "1\n"
+},
+{
+"input": "2\noneplustwo\nninemodsix\n",
+"output": "0\n"
+},
+{
+"input": "5\nabaaaaaaaa\noneplustwo\naaaaaaaaba\ntwoplusone\naaaabaaaaa\n",
+"output": "4\n"
+}
+],
+"p02948": [
+{
+"input": "3 4\n4 3\n4 1\n2 2\n",
+"output": "5\n"
+},
+{
+"input": "5 3\n1 2\n1 3\n1 4\n2 1\n2 3\n",
+"output": "10\n"
+},
+{
+"input": "1 1\n2 1\n",
+"output": "0\n"
+}
+],
+"p02949": [
+{
+"input": "3 3 10\n1 2 20\n2 3 30\n1 3 45\n",
+"output": "35\n"
+},
+{
+"input": "2 2 10\n1 2 100\n2 2 100\n",
+"output": "-1\n"
+},
+{
+"input": "4 5 10\n1 2 1\n1 4 1\n3 4 1\n2 2 100\n3 3 100\n",
+"output": "0\n"
+}
+],
+"p02951": [
+{
+"input": "6 4 3\n",
+"output": "1\n"
+},
+{
+"input": "8 3 9\n",
+"output": "4\n"
+},
+{
+"input": "12 3 7\n",
+"output": "0\n"
+}
+],
+"p02952": [
+{
+"input": "11\n",
+"output": "9\n"
+},
+{
+"input": "136\n",
+"output": "46\n"
+},
+{
+"input": "100000\n",
+"output": "90909\n"
+}
+],
+"p02953": [
+{
+"input": "5\n1 2 1 1 3\n",
+"output": "Yes\n"
+},
+{
+"input": "4\n1 3 2 1\n",
+"output": "No\n"
+},
+{
+"input": "5\n1 2 3 4 5\n",
+"output": "Yes\n"
+},
+{
+"input": "1\n1000000000\n",
+"output": "Yes\n"
+}
+],
+"p02954": [
+{
+"input": "RRLRL\n",
+"output": "0 1 2 1 1\n"
+},
+{
+"input": "RRLLLLRLRRLL\n",
+"output": "0 3 3 0 0 0 1 1 0 2 2 0\n"
+},
+{
+"input": "RRRLLRLLRRRLLLLL\n",
+"output": "0 0 3 2 0 2 1 0 0 0 4 4 0 0 0 0\n"
+}
+],
+"p02955": [
+{
+"input": "2 3\n8 20\n",
+"output": "7\n"
+},
+{
+"input": "2 10\n3 5\n",
+"output": "8\n"
+},
+{
+"input": "4 5\n10 1 2 22\n",
+"output": "7\n"
+},
+{
+"input": "8 7\n1 7 5 6 8 2 6 5\n",
+"output": "5\n"
+}
+],
+"p02957": [
+{
+"input": "2 16\n",
+"output": "9\n"
+},
+{
+"input": "0 3\n",
+"output": "IMPOSSIBLE\n"
+},
+{
+"input": "998244353 99824435\n",
+"output": "549034394\n"
+}
+],
+"p02958": [
+{
+"input": "5\n5 2 3 4 1\n",
+"output": "YES\n"
+},
+{
+"input": "5\n2 4 3 5 1\n",
+"output": "NO\n"
+},
+{
+"input": "7\n1 2 3 4 5 6 7\n",
+"output": "YES\n"
+}
+],
+"p02959": [
+{
+"input": "2\n3 5 2\n4 5\n",
+"output": "9\n"
+},
+{
+"input": "3\n5 6 3 8\n5 100 8\n",
+"output": "22\n"
+},
+{
+"input": "2\n100 1 1\n1 100\n",
+"output": "3\n"
+}
+],
+"p02960": [
+{
+"input": "??2??5\n",
+"output": "768\n"
+},
+{
+"input": "?44\n",
+"output": "1\n"
+},
+{
+"input": "7?4\n",
+"output": "0\n"
+},
+{
+"input": "?6?42???8??2??06243????9??3???7258??5??7???????774????4?1??17???9?5?70???76???\n",
+"output": "153716888\n"
+}
+],
+"p02963": [
+{
+"input": "3\n",
+"output": "1 0 2 2 0 1\n"
+},
+{
+"input": "100\n",
+"output": "0 0 10 0 0 10\n"
+},
+{
+"input": "311114770564041497\n",
+"output": "314159265 358979323 846264338 327950288 419716939 937510582\n"
+}
+],
+"p02970": [
+{
+"input": "6 2\n",
+"output": "2\n"
+},
+{
+"input": "14 3\n",
+"output": "2\n"
+},
+{
+"input": "20 4\n",
+"output": "3\n"
+}
+],
+"p02971": [
+{
+"input": "3\n1\n4\n3\n",
+"output": "4\n3\n4\n"
+},
+{
+"input": "2\n5\n5\n",
+"output": "5\n5\n"
+}
+],
+"p02972": [
+{
+"input": "3\n1 0 0\n",
+"output": "1\n1\n"
+},
+{
+"input": "5\n0 0 0 0 0\n",
+"output": "0\n"
+}
+],
+"p02973": [
+{
+"input": "5\n2\n1\n4\n5\n3\n",
+"output": "2\n"
+},
+{
+"input": "4\n0\n0\n0\n0\n",
+"output": "4\n"
+}
+],
+"p02975": [
+{
+"input": "3\n1 2 3\n",
+"output": "Yes\n"
+},
+{
+"input": "4\n1 2 4 8\n",
+"output": "No\n"
+}
+],
+"p02982": [
+{
+"input": "3 2\n1 2\n5 5\n-2 8\n",
+"output": "1\n"
+},
+{
+"input": "3 4\n-3 7 8 2\n-12 1 10 2\n-2 8 9 3\n",
+"output": "2\n"
+},
+{
+"input": "5 1\n1\n2\n3\n4\n5\n",
+"output": "10\n"
+}
+],
+"p02983": [
+{
+"input": "2020 2040\n",
+"output": "2\n"
+},
+{
+"input": "4 5\n",
+"output": "20\n"
+}
+],
+"p02984": [
+{
+"input": "3\n2 2 4\n",
+"output": "4 0 4\n"
+},
+{
+"input": "5\n3 8 7 5 5\n",
+"output": "2 4 12 2 8\n"
+},
+{
+"input": "3\n1000000000 1000000000 0\n",
+"output": "0 2000000000 0\n"
+}
+],
+"p02987": [
+{
+"input": "ASSA\n",
+"output": "Yes\n"
+},
+{
+"input": "STOP\n",
+"output": "No\n"
+},
+{
+"input": "FFEE\n",
+"output": "Yes\n"
+},
+{
+"input": "FREE\n",
+"output": "No\n"
+}
+],
+"p02988": [
+{
+"input": "5\n1 3 5 4 2\n",
+"output": "2\n"
+},
+{
+"input": "9\n9 6 3 2 5 8 7 4 1\n",
+"output": "5\n"
+}
+],
+"p02989": [
+{
+"input": "6\n9 1 4 4 6 7\n",
+"output": "2\n"
+},
+{
+"input": "8\n9 1 14 5 5 4 4 14\n",
+"output": "0\n"
+},
+{
+"input": "14\n99592 10342 29105 78532 83018 11639 92015 77204 30914 21912 34519 80835 100000 1\n",
+"output": "42685\n"
+}
+],
+"p02990": [
+{
+"input": "5 3\n",
+"output": "3\n6\n1\n"
+},
+{
+"input": "2000 3\n",
+"output": "1998\n3990006\n327341989\n"
+}
+],
+"p02991": [
+{
+"input": "4 4\n1 2\n2 3\n3 4\n4 1\n1 3\n",
+"output": "2\n"
+},
+{
+"input": "3 3\n1 2\n2 3\n3 1\n1 2\n",
+"output": "-1\n"
+},
+{
+"input": "2 0\n1 2\n",
+"output": "-1\n"
+},
+{
+"input": "6 8\n1 2\n2 3\n3 4\n4 5\n5 1\n1 4\n1 5\n4 6\n1 6\n",
+"output": "2\n"
+}
+],
+"p02993": [
+{
+"input": "3776\n",
+"output": "Bad\n"
+},
+{
+"input": "8080\n",
+"output": "Good\n"
+},
+{
+"input": "1333\n",
+"output": "Bad\n"
+},
+{
+"input": "0024\n",
+"output": "Bad\n"
+}
+],
+"p02994": [
+{
+"input": "5 2\n",
+"output": "18\n"
+},
+{
+"input": "3 -1\n",
+"output": "0\n"
+},
+{
+"input": "30 -50\n",
+"output": "-1044\n"
+}
+],
+"p02995": [
+{
+"input": "4 9 2 3\n",
+"output": "2\n"
+},
+{
+"input": "10 40 6 8\n",
+"output": "23\n"
+},
+{
+"input": "314159265358979323 846264338327950288 419716939 937510582\n",
+"output": "532105071133627368\n"
+}
+],
+"p02996": [
+{
+"input": "5\n2 4\n1 9\n1 8\n4 9\n3 12\n",
+"output": "Yes\n"
+},
+{
+"input": "3\n334 1000\n334 1000\n334 1000\n",
+"output": "No\n"
+},
+{
+"input": "30\n384 8895\n1725 9791\n170 1024\n4 11105\n2 6\n578 1815\n702 3352\n143 5141\n1420 6980\n24 1602\n849 999\n76 7586\n85 5570\n444 4991\n719 11090\n470 10708\n1137 4547\n455 9003\n110 9901\n15 8578\n368 3692\n104 1286\n3 4\n366 12143\n7 6649\n610 2374\n152 7324\n4 7042\n292 11386\n334 5720\n",
+"output": "Yes\n"
+}
+],
+"p02997": [
+{
+"input": "5 3\n",
+"output": "5\n4 3\n1 2\n3 1\n4 5\n2 3\n"
+},
+{
+"input": "5 8\n",
+"output": "-1\n"
+}
+],
+"p02999": [
+{
+"input": "3 5\n",
+"output": "0\n"
+},
+{
+"input": "7 5\n",
+"output": "10\n"
+},
+{
+"input": "6 6\n",
+"output": "10\n"
+}
+],
+"p03000": [
+{
+"input": "3 6\n3 4 5\n",
+"output": "2\n"
+},
+{
+"input": "4 9\n3 3 3 3\n",
+"output": "4\n"
+}
+],
+"p03001": [
+{
+"input": "2 3 1 2\n",
+"output": "3.000000 0\n"
+},
+{
+"input": "2 2 1 1\n",
+"output": "2.000000 1\n"
+}
+],
+"p03003": [
+{
+"input": "2 2\n1 3\n3 1\n",
+"output": "3\n"
+},
+{
+"input": "2 2\n1 1\n1 1\n",
+"output": "6\n"
+},
+{
+"input": "4 4\n3 4 5 6\n3 4 5 6\n",
+"output": "16\n"
+},
+{
+"input": "10 9\n9 6 5 7 5 9 8 5 6 7\n8 6 8 5 5 7 9 9 7\n",
+"output": "191\n"
+},
+{
+"input": "20 20\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n",
+"output": "846527861\n"
+}
+],
+"p03005": [
+{
+"input": "3 2\n",
+"output": "1\n"
+},
+{
+"input": "3 1\n",
+"output": "0\n"
+},
+{
+"input": "8 5\n",
+"output": "3\n"
+}
+],
+"p03006": [
+{
+"input": "2\n1 1\n2 2\n",
+"output": "1\n"
+},
+{
+"input": "3\n1 4\n4 6\n7 8\n",
+"output": "1\n"
+},
+{
+"input": "4\n1 1\n1 2\n2 1\n2 2\n",
+"output": "2\n"
+}
+],
+"p03007": [
+{
+"input": "3\n1 -1 2\n",
+"output": "4\n-1 1\n2 -2\n"
+},
+{
+"input": "3\n1 1 1\n",
+"output": "1\n1 1\n1 0\n"
+}
+],
+"p03011": [
+{
+"input": "1 3 4\n",
+"output": "4\n"
+},
+{
+"input": "3 2 3\n",
+"output": "5\n"
+}
+],
+"p03012": [
+{
+"input": "3\n1 2 3\n",
+"output": "0\n"
+},
+{
+"input": "4\n1 3 1 1\n",
+"output": "2\n"
+},
+{
+"input": "8\n27 23 76 2 3 5 62 52\n",
+"output": "2\n"
+}
+],
+"p03013": [
+{
+"input": "6 1\n3\n",
+"output": "4\n"
+},
+{
+"input": "10 2\n4\n5\n",
+"output": "0\n"
+},
+{
+"input": "100 5\n1\n23\n45\n67\n89\n",
+"output": "608200469\n"
+}
+],
+"p03014": [
+{
+"input": "4 6\n#..#..\n.....#\n....#.\n#.#...\n",
+"output": "8\n"
+},
+{
+"input": "8 8\n..#...#.\n....#...\n##......\n..###..#\n...#..#.\n##....#.\n#...#...\n###.#..#\n",
+"output": "13\n"
+}
+],
+"p03017": [
+{
+"input": "7 1 3 6 7\n.#..#..\n",
+"output": "Yes\n"
+},
+{
+"input": "7 1 3 7 6\n.#..#..\n",
+"output": "No\n"
+},
+{
+"input": "15 1 3 15 13\n...#.#...#.#...\n",
+"output": "Yes\n"
+}
+],
+"p03018": [
+{
+"input": "ABCABC\n",
+"output": "3\n"
+},
+{
+"input": "C\n",
+"output": "0\n"
+},
+{
+"input": "ABCACCBABCBCAABCB\n",
+"output": "6\n"
+}
+],
+"p03024": [
+{
+"input": "oxoxoxoxoxoxox\n",
+"output": "YES\n"
+},
+{
+"input": "xxxxxxxx\n",
+"output": "NO\n"
+}
+],
+"p03026": [
+{
+"input": "5\n1 2\n2 3\n3 4\n4 5\n1 2 3 4 5\n",
+"output": "10\n1 2 3 4 5\n"
+},
+{
+"input": "5\n1 2\n1 3\n1 4\n1 5\n3141 59 26 53 59\n",
+"output": "197\n59 26 3141 59 53\n"
+}
+],
+"p03029": [
+{
+"input": "1 3\n",
+"output": "3\n"
+},
+{
+"input": "0 1\n",
+"output": "0\n"
+},
+{
+"input": "32 21\n",
+"output": "58\n"
+}
+],
+"p03030": [
+{
+"input": "6\nkhabarovsk 20\nmoscow 10\nkazan 50\nkazan 35\nmoscow 60\nkhabarovsk 40\n",
+"output": "3\n4\n6\n1\n5\n2\n"
+},
+{
+"input": "10\nyakutsk 10\nyakutsk 20\nyakutsk 30\nyakutsk 40\nyakutsk 50\nyakutsk 60\nyakutsk 70\nyakutsk 80\nyakutsk 90\nyakutsk 100\n",
+"output": "10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n"
+}
+],
+"p03031": [
+{
+"input": "2 2\n2 1 2\n1 2\n0 1\n",
+"output": "1\n"
+},
+{
+"input": "2 3\n2 1 2\n1 1\n1 2\n0 0 1\n",
+"output": "0\n"
+},
+{
+"input": "5 2\n3 1 2 5\n2 2 3\n1 0\n",
+"output": "8\n"
+}
+],
+"p03032": [
+{
+"input": "6 4\n-10 8 2 1 2 6\n",
+"output": "14\n"
+},
+{
+"input": "6 4\n-6 -100 50 -2 -5 -3\n",
+"output": "44\n"
+},
+{
+"input": "6 3\n-6 -100 50 -2 -5 -3\n",
+"output": "0\n"
+}
+],
+"p03033": [
+{
+"input": "4 6\n1 3 2\n7 13 10\n18 20 13\n3 4 2\n0\n1\n2\n3\n5\n8\n",
+"output": "2\n2\n10\n-1\n13\n-1\n"
+}
+],
+"p03035": [
+{
+"input": "30 100\n",
+"output": "100\n"
+},
+{
+"input": "12 100\n",
+"output": "50\n"
+},
+{
+"input": "0 100\n",
+"output": "0\n"
+}
+],
+"p03036": [
+{
+"input": "2 10 20\n",
+"output": "30\n50\n90\n170\n330\n650\n1290\n2570\n5130\n10250\n"
+},
+{
+"input": "4 40 60\n",
+"output": "200\n760\n3000\n11960\n47800\n191160\n764600\n3058360\n12233400\n48933560\n"
+}
+],
+"p03037": [
+{
+"input": "4 2\n1 3\n2 4\n",
+"output": "2\n"
+},
+{
+"input": "10 3\n3 6\n5 7\n6 9\n",
+"output": "1\n"
+},
+{
+"input": "100000 1\n1 100000\n",
+"output": "100000\n"
+}
+],
+"p03038": [
+{
+"input": "3 2\n5 1 4\n2 3\n1 5\n",
+"output": "14\n"
+},
+{
+"input": "10 3\n1 8 5 7 100 4 52 33 13 5\n3 10\n4 30\n1 4\n",
+"output": "338\n"
+},
+{
+"input": "3 2\n100 100 100\n3 99\n3 99\n",
+"output": "300\n"
+},
+{
+"input": "11 3\n1 1 1 1 1 1 1 1 1 1 1\n3 1000000000\n4 1000000000\n3 1000000000\n",
+"output": "10000000001\n"
+}
+],
+"p03039": [
+{
+"input": "2 2 2\n",
+"output": "8\n"
+},
+{
+"input": "4 5 4\n",
+"output": "87210\n"
+},
+{
+"input": "100 100 5000\n",
+"output": "817260251\n"
+}
+],
+"p03041": [
+{
+"input": "3 1\nABC\n",
+"output": "aBC\n"
+},
+{
+"input": "4 3\nCABA\n",
+"output": "CAbA\n"
+}
+],
+"p03042": [
+{
+"input": "1905\n",
+"output": "YYMM\n"
+},
+{
+"input": "0112\n",
+"output": "AMBIGUOUS\n"
+},
+{
+"input": "1700\n",
+"output": "NA\n"
+}
+],
+"p03043": [
+{
+"input": "3 10\n",
+"output": "0.145833333333\n"
+},
+{
+"input": "100000 5\n",
+"output": "0.999973749998\n"
+}
+],
+"p03044": [
+{
+"input": "3\n1 2 2\n2 3 1\n",
+"output": "0\n0\n1\n"
+},
+{
+"input": "5\n2 5 2\n2 3 10\n1 3 8\n3 4 2\n",
+"output": "1\n0\n1\n0\n1\n"
+}
+],
+"p03045": [
+{
+"input": "3 1\n1 2 1\n",
+"output": "2\n"
+},
+{
+"input": "6 5\n1 2 1\n2 3 2\n1 3 3\n4 5 4\n5 6 5\n",
+"output": "2\n"
+},
+{
+"input": "100000 1\n1 100000 100\n",
+"output": "99999\n"
+}
+],
+"p03047": [
+{
+"input": "3 2\n",
+"output": "2\n"
+},
+{
+"input": "13 3\n",
+"output": "11\n"
+}
+],
+"p03048": [
+{
+"input": "1 2 3 4\n",
+"output": "4\n"
+},
+{
+"input": "13 1 4 3000\n",
+"output": "87058\n"
+}
+],
+"p03049": [
+{
+"input": "3\nABCA\nXBAZ\nBAD\n",
+"output": "2\n"
+},
+{
+"input": "9\nBEWPVCRWH\nZZNQYIJX\nBAVREA\nPA\nHJMYITEOX\nBCJHMRMNK\nBP\nQVFABZ\nPRGKSPUNA\n",
+"output": "4\n"
+},
+{
+"input": "7\nRABYBBE\nJOZ\nBMHQUVA\nBPA\nISU\nMCMABAOBHZ\nSZMEHMA\n",
+"output": "4\n"
+}
+],
+"p03050": [
+{
+"input": "8\n",
+"output": "10\n"
+},
+{
+"input": "1000000000000\n",
+"output": "2499686339916\n"
+}
+],
+"p03053": [
+{
+"input": "3 3\n...\n.#.\n...\n",
+"output": "2\n"
+},
+{
+"input": "6 6\n..#..#\n......\n#..#..\n......\n.#....\n....#.\n",
+"output": "3\n"
+}
+],
+"p03059": [
+{
+"input": "3 5 7\n",
+"output": "10\n"
+},
+{
+"input": "3 2 9\n",
+"output": "6\n"
+},
+{
+"input": "20 20 19\n",
+"output": "0\n"
+}
+],
+"p03060": [
+{
+"input": "3\n10 2 5\n6 3 4\n",
+"output": "5\n"
+},
+{
+"input": "4\n13 21 6 19\n11 30 6 15\n",
+"output": "6\n"
+},
+{
+"input": "1\n1\n50\n",
+"output": "0\n"
+}
+],
+"p03061": [
+{
+"input": "3\n7 6 8\n",
+"output": "2\n"
+},
+{
+"input": "3\n12 15 18\n",
+"output": "6\n"
+},
+{
+"input": "2\n1000000000 1000000000\n",
+"output": "1000000000\n"
+}
+],
+"p03062": [
+{
+"input": "3\n-10 5 -4\n",
+"output": "19\n"
+},
+{
+"input": "5\n10 -4 -8 -11 3\n",
+"output": "30\n"
+},
+{
+"input": "11\n-1000000000 1000000000 -1000000000 1000000000 -1000000000 0 1000000000 -1000000000 1000000000 -1000000000 1000000000\n",
+"output": "10000000000\n"
+}
+],
+"p03067": [
+{
+"input": "3 8 5\n",
+"output": "Yes\n"
+},
+{
+"input": "7 3 1\n",
+"output": "No\n"
+},
+{
+"input": "10 2 4\n",
+"output": "Yes\n"
+},
+{
+"input": "31 41 59\n",
+"output": "No\n"
+}
+],
+"p03068": [
+{
+"input": "5\nerror\n2\n",
+"output": "*rr*r\n"
+},
+{
+"input": "6\neleven\n5\n",
+"output": "e*e*e*\n"
+},
+{
+"input": "9\neducation\n7\n",
+"output": "******i**\n"
+}
+],
+"p03069": [
+{
+"input": "3\n#.#\n",
+"output": "1\n"
+},
+{
+"input": "5\n#.##.\n",
+"output": "2\n"
+},
+{
+"input": "9\n.........\n",
+"output": "0\n"
+}
+],
+"p03071": [
+{
+"input": "5 3\n",
+"output": "9\n"
+},
+{
+"input": "3 4\n",
+"output": "7\n"
+},
+{
+"input": "6 6\n",
+"output": "12\n"
+}
+],
+"p03072": [
+{
+"input": "4\n6 5 6 8\n",
+"output": "3\n"
+},
+{
+"input": "5\n4 5 3 5 4\n",
+"output": "3\n"
+},
+{
+"input": "5\n9 5 6 8 4\n",
+"output": "1\n"
+}
+],
+"p03073": [
+{
+"input": "000\n",
+"output": "1\n"
+},
+{
+"input": "10010010\n",
+"output": "3\n"
+},
+{
+"input": "0\n",
+"output": "0\n"
+}
+],
+"p03074": [
+{
+"input": "5 1\n00010\n",
+"output": "4\n"
+},
+{
+"input": "14 2\n11101010110011\n",
+"output": "8\n"
+},
+{
+"input": "1 1\n1\n",
+"output": "1\n"
+}
+],
+"p03075": [
+{
+"input": "1\n2\n4\n8\n9\n15\n",
+"output": "Yay!\n"
+},
+{
+"input": "15\n18\n26\n35\n36\n18\n",
+"output": ":(\n"
+}
+],
+"p03076": [
+{
+"input": "29\n20\n7\n35\n120\n",
+"output": "215\n"
+},
+{
+"input": "101\n86\n119\n108\n57\n",
+"output": "481\n"
+},
+{
+"input": "123\n123\n123\n123\n123\n",
+"output": "643\n"
+}
+],
+"p03077": [
+{
+"input": "5\n3\n2\n4\n3\n5\n",
+"output": "7\n"
+},
+{
+"input": "10\n123\n123\n123\n123\n123\n",
+"output": "5\n"
+},
+{
+"input": "10000000007\n2\n3\n5\n7\n11\n",
+"output": "5000000008\n"
+}
+],
+"p03078": [
+{
+"input": "2 2 2 8\n4 6\n1 5\n3 8\n",
+"output": "19\n17\n15\n14\n13\n12\n10\n8\n"
+},
+{
+"input": "3 3 3 5\n1 10 100\n2 20 200\n1 10 100\n",
+"output": "400\n310\n310\n301\n301\n"
+},
+{
+"input": "10 10 10 20\n7467038376 5724769290 292794712 2843504496 3381970101 8402252870 249131806 6310293640 6690322794 6082257488\n1873977926 2576529623 1144842195 1379118507 6003234687 4925540914 3902539811 3326692703 484657758 2877436338\n4975681328 8974383988 2882263257 7690203955 514305523 6679823484 4263279310 585966808 3752282379 620585736\n",
+"output": "23379871545\n22444657051\n22302177772\n22095691512\n21667941469\n21366963278\n21287912315\n21279176669\n21160477018\n21085311041\n21059876163\n21017997739\n20703329561\n20702387965\n20590247696\n20383761436\n20343962175\n20254073196\n20210218542\n20150096547\n"
+}
+],
+"p03079": [
+{
+"input": "2 2 2\n",
+"output": "Yes\n"
+},
+{
+"input": "3 4 5\n",
+"output": "No\n"
+}
+],
+"p03080": [
+{
+"input": "4\nRRBR\n",
+"output": "Yes\n"
+},
+{
+"input": "4\nBRBR\n",
+"output": "No\n"
+}
+],
+"p03085": [
+{
+"input": "A\n",
+"output": "T\n"
+},
+{
+"input": "G\n",
+"output": "C\n"
+}
+],
+"p03086": [
+{
+"input": "ATCODER\n",
+"output": "3\n"
+},
+{
+"input": "HATAGAYA\n",
+"output": "5\n"
+},
+{
+"input": "SHINJUKU\n",
+"output": "0\n"
+}
+],
+"p03087": [
+{
+"input": "8 3\nACACTACG\n3 7\n2 3\n1 8\n",
+"output": "2\n0\n3\n"
+}
+],
+"p03088": [
+{
+"input": "3\n",
+"output": "61\n"
+},
+{
+"input": "4\n",
+"output": "230\n"
+},
+{
+"input": "100\n",
+"output": "388130742\n"
+}
+],
+"p03089": [
+{
+"input": "3\n1 2 1\n",
+"output": "1\n1\n2\n"
+},
+{
+"input": "2\n2 2\n",
+"output": "-1\n"
+},
+{
+"input": "9\n1 1 1 2 2 1 2 3 2\n",
+"output": "1\n2\n2\n3\n1\n2\n2\n1\n1\n"
+}
+],
+"p03090": [
+{
+"input": "3\n",
+"output": "2\n1 3\n2 3\n"
+}
+],
+"p03095": [
+{
+"input": "4\nabcd\n",
+"output": "15\n"
+},
+{
+"input": "3\nbaa\n",
+"output": "5\n"
+},
+{
+"input": "5\nabcab\n",
+"output": "17\n"
+}
+],
+"p03096": [
+{
+"input": "5\n1\n2\n1\n2\n2\n",
+"output": "3\n"
+},
+{
+"input": "6\n4\n2\n5\n4\n2\n4\n",
+"output": "5\n"
+},
+{
+"input": "7\n1\n3\n1\n2\n3\n3\n2\n",
+"output": "5\n"
+}
+],
+"p03101": [
+{
+"input": "3 2\n2 1\n",
+"output": "1\n"
+},
+{
+"input": "5 5\n2 3\n",
+"output": "6\n"
+},
+{
+"input": "2 4\n2 4\n",
+"output": "0\n"
+}
+],
+"p03102": [
+{
+"input": "2 3 -10\n1 2 3\n3 2 1\n1 2 2\n",
+"output": "1\n"
+},
+{
+"input": "5 2 -4\n-2 5\n100 41\n100 40\n-3 0\n-6 -2\n18 -13\n",
+"output": "2\n"
+},
+{
+"input": "3 3 0\n100 -100 0\n0 100 100\n100 100 100\n-100 100 100\n",
+"output": "0\n"
+}
+],
+"p03103": [
+{
+"input": "2 5\n4 9\n2 4\n",
+"output": "12\n"
+},
+{
+"input": "4 30\n6 18\n2 5\n3 10\n7 9\n",
+"output": "130\n"
+},
+{
+"input": "1 100000\n1000000000 100000\n",
+"output": "100000000000000\n"
+}
+],
+"p03105": [
+{
+"input": "2 11 4\n",
+"output": "4\n"
+},
+{
+"input": "3 9 5\n",
+"output": "3\n"
+},
+{
+"input": "100 1 10\n",
+"output": "0\n"
+}
+],
+"p03106": [
+{
+"input": "8 12 2\n",
+"output": "2\n"
+},
+{
+"input": "100 50 4\n",
+"output": "5\n"
+},
+{
+"input": "1 1 1\n",
+"output": "1\n"
+}
+],
+"p03107": [
+{
+"input": "0011\n",
+"output": "4\n"
+},
+{
+"input": "11011010001011\n",
+"output": "12\n"
+},
+{
+"input": "0\n",
+"output": "0\n"
+}
+],
+"p03108": [
+{
+"input": "4 5\n1 2\n3 4\n1 3\n2 3\n1 4\n",
+"output": "0\n0\n4\n5\n6\n"
+},
+{
+"input": "6 5\n2 3\n1 2\n5 6\n3 4\n4 5\n",
+"output": "8\n9\n12\n14\n15\n"
+},
+{
+"input": "2 1\n1 2\n",
+"output": "1\n"
+}
+],
+"p03109": [
+{
+"input": "2019/04/30\n",
+"output": "Heisei\n"
+},
+{
+"input": "2019/11/01\n",
+"output": "TBD\n"
+}
+],
+"p03110": [
+{
+"input": "2\n10000 JPY\n0.10000000 BTC\n",
+"output": "48000.0\n"
+},
+{
+"input": "3\n100000000 JPY\n100.00000000 BTC\n0.00000001 BTC\n",
+"output": "138000000.0038\n"
+}
+],
+"p03111": [
+{
+"input": "5 100 90 80\n98\n40\n30\n21\n80\n",
+"output": "23\n"
+},
+{
+"input": "8 100 90 80\n100\n100\n90\n90\n90\n80\n80\n80\n",
+"output": "0\n"
+},
+{
+"input": "8 1000 800 100\n300\n333\n400\n444\n500\n555\n600\n666\n",
+"output": "243\n"
+}
+],
+"p03112": [
+{
+"input": "2 3 4\n100\n600\n400\n900\n1000\n150\n2000\n899\n799\n",
+"output": "350\n1400\n301\n399\n"
+},
+{
+"input": "1 1 3\n1\n10000000000\n2\n9999999999\n5000000000\n",
+"output": "10000000000\n10000000000\n14999999998\n"
+}
+],
+"p03125": [
+{
+"input": "4 12\n",
+"output": "16\n"
+},
+{
+"input": "8 20\n",
+"output": "12\n"
+},
+{
+"input": "1 1\n",
+"output": "2\n"
+}
+],
+"p03126": [
+{
+"input": "3 4\n2 1 3\n3 1 2 3\n2 3 2\n",
+"output": "1\n"
+},
+{
+"input": "5 5\n4 2 3 4 5\n4 1 3 4 5\n4 1 2 4 5\n4 1 2 3 5\n4 1 2 3 4\n",
+"output": "0\n"
+},
+{
+"input": "1 30\n3 5 10 30\n",
+"output": "3\n"
+}
+],
+"p03127": [
+{
+"input": "4\n2 10 8 40\n",
+"output": "2\n"
+},
+{
+"input": "4\n5 13 8 1000000000\n",
+"output": "1\n"
+},
+{
+"input": "3\n1000000000 1000000000 1000000000\n",
+"output": "1000000000\n"
+}
+],
+"p03128": [
+{
+"input": "20 4\n3 7 8 4\n",
+"output": "777773\n"
+},
+{
+"input": "101 9\n9 8 7 6 5 4 3 2 1\n",
+"output": "71111111111111111111111111111111111111111111111111\n"
+},
+{
+"input": "15 3\n5 4 6\n",
+"output": "654\n"
+}
+],
+"p03129": [
+{
+"input": "3 2\n",
+"output": "YES\n"
+},
+{
+"input": "5 5\n",
+"output": "NO\n"
+},
+{
+"input": "31 10\n",
+"output": "YES\n"
+},
+{
+"input": "10 90\n",
+"output": "NO\n"
+}
+],
+"p03130": [
+{
+"input": "4 2\n1 3\n2 3\n",
+"output": "YES\n"
+},
+{
+"input": "3 2\n2 4\n1 2\n",
+"output": "NO\n"
+},
+{
+"input": "2 1\n3 2\n4 3\n",
+"output": "YES\n"
+}
+],
+"p03131": [
+{
+"input": "4 2 6\n",
+"output": "7\n"
+},
+{
+"input": "7 3 4\n",
+"output": "8\n"
+},
+{
+"input": "314159265 35897932 384626433\n",
+"output": "48518828981938099\n"
+}
+],
+"p03135": [
+{
+"input": "8 3\n",
+"output": "2.6666666667\n"
+},
+{
+"input": "99 1\n",
+"output": "99.0000000000\n"
+},
+{
+"input": "1 100\n",
+"output": "0.0100000000\n"
+}
+],
+"p03136": [
+{
+"input": "4\n3 8 5 1\n",
+"output": "Yes\n"
+},
+{
+"input": "4\n3 8 4 1\n",
+"output": "No\n"
+},
+{
+"input": "10\n1 8 10 5 8 12 34 100 11 3\n",
+"output": "No\n"
+}
+],
+"p03137": [
+{
+"input": "2 5\n10 12 1 2 14\n",
+"output": "5\n"
+},
+{
+"input": "3 7\n-10 -3 0 9 -100 2 17\n",
+"output": "19\n"
+},
+{
+"input": "100 1\n-100000\n",
+"output": "0\n"
+}
+],
+"p03139": [
+{
+"input": "10 3 5\n",
+"output": "3 0\n"
+},
+{
+"input": "10 7 5\n",
+"output": "5 2\n"
+},
+{
+"input": "100 100 100\n",
+"output": "100 100\n"
+}
+],
+"p03140": [
+{
+"input": "4\nwest\neast\nwait\n",
+"output": "3\n"
+},
+{
+"input": "9\ndifferent\ndifferent\ndifferent\n",
+"output": "0\n"
+},
+{
+"input": "7\nzenkoku\ntouitsu\nprogram\n",
+"output": "13\n"
+}
+],
+"p03141": [
+{
+"input": "3\n10 10\n20 20\n30 30\n",
+"output": "20\n"
+},
+{
+"input": "3\n20 10\n20 20\n20 30\n",
+"output": "20\n"
+},
+{
+"input": "6\n1 1000000000\n1 1000000000\n1 1000000000\n1 1000000000\n1 1000000000\n1 1000000000\n",
+"output": "-2999999997\n"
+}
+],
+"p03145": [
+{
+"input": "3 4 5\n",
+"output": "6\n"
+},
+{
+"input": "5 12 13\n",
+"output": "30\n"
+},
+{
+"input": "45 28 53\n",
+"output": "630\n"
+}
+],
+"p03146": [
+{
+"input": "8\n",
+"output": "5\n"
+},
+{
+"input": "7\n",
+"output": "18\n"
+},
+{
+"input": "54\n",
+"output": "114\n"
+}
+],
+"p03147": [
+{
+"input": "4\n1 2 2 1\n",
+"output": "2\n"
+},
+{
+"input": "5\n3 1 2 3 1\n",
+"output": "5\n"
+},
+{
+"input": "8\n4 23 75 0 23 96 50 100\n",
+"output": "221\n"
+}
+],
+"p03148": [
+{
+"input": "5 3\n1 9\n1 7\n2 6\n2 5\n3 1\n",
+"output": "26\n"
+},
+{
+"input": "7 4\n1 1\n2 1\n3 1\n4 6\n4 5\n4 5\n4 5\n",
+"output": "25\n"
+},
+{
+"input": "6 5\n5 1000000000\n2 990000000\n3 980000000\n6 970000000\n6 960000000\n4 950000000\n",
+"output": "4900000016\n"
+}
+],
+"p03149": [
+{
+"input": "1 7 9 4\n",
+"output": "YES\n"
+},
+{
+"input": "1 9 7 4\n",
+"output": "YES\n"
+},
+{
+"input": "1 2 9 1\n",
+"output": "NO\n"
+},
+{
+"input": "4 9 0 8\n",
+"output": "NO\n"
+}
+],
+"p03150": [
+{
+"input": "keyofscience\n",
+"output": "YES\n"
+},
+{
+"input": "mpyszsbznf\n",
+"output": "NO\n"
+},
+{
+"input": "ashlfyha\n",
+"output": "NO\n"
+},
+{
+"input": "keyence\n",
+"output": "YES\n"
+}
+],
+"p03151": [
+{
+"input": "3\n2 3 5\n3 4 1\n",
+"output": "3\n"
+},
+{
+"input": "3\n2 3 3\n2 2 1\n",
+"output": "0\n"
+},
+{
+"input": "3\n17 7 1\n25 6 14\n",
+"output": "-1\n"
+},
+{
+"input": "12\n757232153 372327760 440075441 195848680 354974235 458054863 463477172 740174259 615762794 632963102 529866931 64991604\n74164189 98239366 465611891 362739947 147060907 118867039 63189252 78303147 501410831 110823640 122948912 572905212\n",
+"output": "5\n"
+}
+],
+"p03156": [
+{
+"input": "7\n5 15\n1 10 16 2 7 20 12\n",
+"output": "2\n"
+},
+{
+"input": "8\n3 8\n5 5 5 10 10 10 15 20\n",
+"output": "0\n"
+},
+{
+"input": "3\n5 6\n5 6 10\n",
+"output": "1\n"
+}
+],
+"p03157": [
+{
+"input": "3 3\n.#.\n..#\n#..\n",
+"output": "10\n"
+},
+{
+"input": "2 4\n....\n....\n",
+"output": "0\n"
+},
+{
+"input": "4 3\n###\n###\n...\n###\n",
+"output": "6\n"
+}
+],
+"p03160": [
+{
+"input": "4\n10 30 40 20\n",
+"output": "30\n"
+},
+{
+"input": "2\n10 10\n",
+"output": "0\n"
+},
+{
+"input": "6\n30 10 60 10 60 50\n",
+"output": "40\n"
+}
+],
+"p03161": [
+{
+"input": "5 3\n10 30 40 50 20\n",
+"output": "30\n"
+},
+{
+"input": "3 1\n10 20 10\n",
+"output": "20\n"
+},
+{
+"input": "2 100\n10 10\n",
+"output": "0\n"
+},
+{
+"input": "10 4\n40 10 20 70 80 10 20 70 80 60\n",
+"output": "40\n"
+}
+],
+"p03162": [
+{
+"input": "3\n10 40 70\n20 50 80\n30 60 90\n",
+"output": "210\n"
+},
+{
+"input": "1\n100 10 1\n",
+"output": "100\n"
+},
+{
+"input": "7\n6 7 8\n8 8 3\n2 5 2\n7 8 6\n4 6 8\n2 3 4\n7 5 1\n",
+"output": "46\n"
+}
+],
+"p03165": [
+{
+"input": "axyb\nabyxb\n",
+"output": "axb\n"
+},
+{
+"input": "aa\nxayaz\n",
+"output": "aa\n"
+},
+{
+"input": "a\nz\n",
+"output": "\n"
+},
+{
+"input": "abracadabra\navadakedavra\n",
+"output": "aaadara\n"
+}
+],
+"p03166": [
+{
+"input": "4 5\n1 2\n1 3\n3 2\n2 4\n3 4\n",
+"output": "3\n"
+},
+{
+"input": "6 3\n2 3\n4 5\n5 6\n",
+"output": "2\n"
+},
+{
+"input": "5 8\n5 3\n2 3\n2 4\n5 2\n5 1\n1 4\n4 3\n1 3\n",
+"output": "3\n"
+}
+],
+"p03167": [
+{
+"input": "3 4\n...#\n.#..\n....\n",
+"output": "3\n"
+},
+{
+"input": "5 2\n..\n#.\n..\n.#\n..\n",
+"output": "0\n"
+},
+{
+"input": "5 5\n..#..\n.....\n#...#\n.....\n..#..\n",
+"output": "24\n"
+},
+{
+"input": "20 20\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n....................\n",
+"output": "345263555\n"
+}
+],
+"p03168": [
+{
+"input": "3\n0.30 0.60 0.80\n",
+"output": "0.612\n"
+},
+{
+"input": "1\n0.50\n",
+"output": "0.5\n"
+},
+{
+"input": "5\n0.42 0.01 0.42 0.99 0.42\n",
+"output": "0.3821815872\n"
+}
+],
+"p03170": [
+{
+"input": "2 4\n2 3\n",
+"output": "First\n"
+},
+{
+"input": "2 5\n2 3\n",
+"output": "Second\n"
+},
+{
+"input": "2 7\n2 3\n",
+"output": "First\n"
+},
+{
+"input": "3 20\n1 2 3\n",
+"output": "Second\n"
+},
+{
+"input": "3 21\n1 2 3\n",
+"output": "First\n"
+},
+{
+"input": "1 100000\n1\n",
+"output": "Second\n"
+}
+],
+"p03186": [
+{
+"input": "3 1 4\n",
+"output": "5\n"
+},
+{
+"input": "5 2 9\n",
+"output": "10\n"
+},
+{
+"input": "8 8 1\n",
+"output": "9\n"
+}
+],
+"p03192": [
+{
+"input": "1222\n",
+"output": "3\n"
+},
+{
+"input": "3456\n",
+"output": "0\n"
+},
+{
+"input": "9592\n",
+"output": "1\n"
+}
+],
+"p03193": [
+{
+"input": "3 5 2\n10 3\n5 2\n2 5\n",
+"output": "2\n"
+},
+{
+"input": "10 587586158 185430194\n894597290 708587790\n680395892 306946994\n590262034 785368612\n922328576 106880540\n847058850 326169610\n936315062 193149191\n702035777 223363392\n11672949 146832978\n779291680 334178158\n615808191 701464268\n",
+"output": "8\n"
+}
+],
+"p03197": [
+{
+"input": "2\n1\n2\n",
+"output": "first\n"
+},
+{
+"input": "3\n100000\n30000\n20000\n",
+"output": "second\n"
+}
+],
+"p03200": [
+{
+"input": "BBW\n",
+"output": "2\n"
+},
+{
+"input": "BWBWBW\n",
+"output": "6\n"
+}
+],
+"p03206": [
+{
+"input": "25\n",
+"output": "Christmas\n"
+},
+{
+"input": "22\n",
+"output": "Christmas Eve Eve Eve\n"
+}
+],
+"p03207": [
+{
+"input": "3\n4980\n7980\n6980\n",
+"output": "15950\n"
+},
+{
+"input": "4\n4320\n4320\n4320\n4320\n",
+"output": "15120\n"
+}
+],
+"p03208": [
+{
+"input": "5 3\n10\n15\n11\n14\n12\n",
+"output": "2\n"
+},
+{
+"input": "5 3\n5\n7\n5\n7\n7\n",
+"output": "0\n"
+}
+],
+"p03209": [
+{
+"input": "2 7\n",
+"output": "4\n"
+},
+{
+"input": "1 1\n",
+"output": "0\n"
+},
+{
+"input": "50 4321098765432109\n",
+"output": "2160549382716056\n"
+}
+],
+"p03210": [
+{
+"input": "5\n",
+"output": "YES\n"
+},
+{
+"input": "6\n",
+"output": "NO\n"
+}
+],
+"p03211": [
+{
+"input": "1234567876\n",
+"output": "34\n"
+},
+{
+"input": "35753\n",
+"output": "0\n"
+},
+{
+"input": "1111111111\n",
+"output": "642\n"
+}
+],
+"p03212": [
+{
+"input": "575\n",
+"output": "4\n"
+},
+{
+"input": "3600\n",
+"output": "13\n"
+},
+{
+"input": "999999999\n",
+"output": "26484\n"
+}
+],
+"p03213": [
+{
+"input": "9\n",
+"output": "0\n"
+},
+{
+"input": "10\n",
+"output": "1\n"
+},
+{
+"input": "100\n",
+"output": "543\n"
+}
+],
+"p03214": [
+{
+"input": "3\n1 2 3\n",
+"output": "1\n"
+},
+{
+"input": "4\n2 5 2 5\n",
+"output": "0\n"
+}
+],
+"p03219": [
+{
+"input": "81 58\n",
+"output": "110\n"
+},
+{
+"input": "4 54\n",
+"output": "31\n"
+}
+],
+"p03220": [
+{
+"input": "2\n12 5\n1000 2000\n",
+"output": "1\n"
+},
+{
+"input": "3\n21 -11\n81234 94124 52141\n",
+"output": "3\n"
+}
+],
+"p03221": [
+{
+"input": "2 3\n1 32\n2 63\n1 12\n",
+"output": "000001000002\n000002000001\n000001000001\n"
+},
+{
+"input": "2 3\n2 55\n2 77\n2 99\n",
+"output": "000002000001\n000002000002\n000002000003\n"
+}
+],
+"p03222": [
+{
+"input": "1 3 2\n",
+"output": "1\n"
+},
+{
+"input": "1 3 1\n",
+"output": "2\n"
+},
+{
+"input": "2 3 3\n",
+"output": "1\n"
+},
+{
+"input": "2 3 1\n",
+"output": "5\n"
+},
+{
+"input": "7 1 1\n",
+"output": "1\n"
+},
+{
+"input": "15 8 5\n",
+"output": "437760187\n"
+}
+],
+"p03227": [
+{
+"input": "abc\n",
+"output": "cba\n"
+},
+{
+"input": "ac\n",
+"output": "ac\n"
+}
+],
+"p03228": [
+{
+"input": "5 4 2\n",
+"output": "5 3\n"
+},
+{
+"input": "3 3 3\n",
+"output": "1 3\n"
+},
+{
+"input": "314159265 358979323 84\n",
+"output": "448759046 224379523\n"
+}
+],
+"p03229": [
+{
+"input": "5\n6\n8\n1\n2\n3\n",
+"output": "21\n"
+},
+{
+"input": "6\n3\n1\n4\n1\n5\n9\n",
+"output": "25\n"
+},
+{
+"input": "3\n5\n5\n1\n",
+"output": "8\n"
+}
+],
+"p03230": [
+{
+"input": "3\n",
+"output": "Yes\n3\n2 1 2\n2 3 1\n2 2 3\n"
+},
+{
+"input": "4\n",
+"output": "No\n"
+}
+],
+"p03231": [
+{
+"input": "3 2\nacp\nae\n",
+"output": "6\n"
+},
+{
+"input": "6 3\nabcdef\nabc\n",
+"output": "-1\n"
+},
+{
+"input": "15 9\ndnsusrayukuaiia\ndujrunuma\n",
+"output": "45\n"
+}
+],
+"p03238": [
+{
+"input": "1\n",
+"output": "Hello World\n"
+},
+{
+"input": "2\n3\n5\n",
+"output": "8\n"
+}
+],
+"p03239": [
+{
+"input": "3 70\n7 60\n1 80\n4 50\n",
+"output": "4\n"
+},
+{
+"input": "4 3\n1 1000\n2 4\n3 1000\n4 500\n",
+"output": "TLE\n"
+},
+{
+"input": "5 9\n25 8\n5 9\n4 10\n1000 1000\n6 1\n",
+"output": "5\n"
+}
+],
+"p03240": [
+{
+"input": "4\n2 3 5\n2 1 5\n1 2 5\n3 2 5\n",
+"output": "2 2 6\n"
+},
+{
+"input": "2\n0 0 100\n1 1 98\n",
+"output": "0 0 100\n"
+},
+{
+"input": "3\n99 1 191\n100 1 192\n99 0 192\n",
+"output": "100 0 193\n"
+}
+],
+"p03241": [
+{
+"input": "3 14\n",
+"output": "2\n"
+},
+{
+"input": "10 123\n",
+"output": "3\n"
+},
+{
+"input": "100000 1000000000\n",
+"output": "10000\n"
+}
+],
+"p03242": [
+{
+"input": "119\n",
+"output": "991\n"
+},
+{
+"input": "999\n",
+"output": "111\n"
+}
+],
+"p03243": [
+{
+"input": "111\n",
+"output": "111\n"
+},
+{
+"input": "112\n",
+"output": "222\n"
+},
+{
+"input": "750\n",
+"output": "777\n"
+}
+],
+"p03244": [
+{
+"input": "4\n3 1 3 2\n",
+"output": "1\n"
+},
+{
+"input": "6\n105 119 105 119 105 119\n",
+"output": "0\n"
+},
+{
+"input": "4\n1 1 1 1\n",
+"output": "2\n"
+}
+],
+"p03250": [
+{
+"input": "1 5 2\n",
+"output": "53\n"
+},
+{
+"input": "9 9 9\n",
+"output": "108\n"
+},
+{
+"input": "6 6 7\n",
+"output": "82\n"
+}
+],
+"p03251": [
+{
+"input": "3 2 10 20\n8 15 13\n16 22\n",
+"output": "No War\n"
+},
+{
+"input": "4 2 -48 -1\n-20 -35 -91 -23\n-22 66\n",
+"output": "War\n"
+},
+{
+"input": "5 3 6 8\n-10 3 1 5 -100\n100 6 14\n",
+"output": "War\n"
+}
+],
+"p03252": [
+{
+"input": "azzel\napple\n",
+"output": "Yes\n"
+},
+{
+"input": "chokudai\nredcoder\n",
+"output": "No\n"
+},
+{
+"input": "abcdefghijklmnopqrstuvwxyz\nibyhqfrekavclxjstdwgpzmonu\n",
+"output": "Yes\n"
+}
+],
+"p03253": [
+{
+"input": "2 6\n",
+"output": "4\n"
+},
+{
+"input": "3 12\n",
+"output": "18\n"
+},
+{
+"input": "100000 1000000000\n",
+"output": "957870001\n"
+}
+],
+"p03254": [
+{
+"input": "3 70\n20 30 10\n",
+"output": "2\n"
+},
+{
+"input": "3 10\n20 30 10\n",
+"output": "1\n"
+},
+{
+"input": "4 1111\n1 10 100 1000\n",
+"output": "4\n"
+},
+{
+"input": "2 10\n20 20\n",
+"output": "0\n"
+}
+],
+"p03260": [
+{
+"input": "3 1\n",
+"output": "Yes\n"
+},
+{
+"input": "1 2\n",
+"output": "No\n"
+},
+{
+"input": "2 2\n",
+"output": "No\n"
+}
+],
+"p03261": [
+{
+"input": "4\nhoge\nenglish\nhoge\nenigma\n",
+"output": "No\n"
+},
+{
+"input": "9\nbasic\nc\ncpp\nphp\npython\nnadesico\nocaml\nlua\nassembly\n",
+"output": "Yes\n"
+},
+{
+"input": "8\na\naa\naaa\naaaa\naaaaa\naaaaaa\naaa\naaaaaaa\n",
+"output": "No\n"
+},
+{
+"input": "3\nabc\narc\nagc\n",
+"output": "No\n"
+}
+],
+"p03262": [
+{
+"input": "3 3\n1 7 11\n",
+"output": "2\n"
+},
+{
+"input": "3 81\n33 105 57\n",
+"output": "24\n"
+},
+{
+"input": "1 1\n1000000000\n",
+"output": "999999999\n"
+}
+],
+"p03263": [
+{
+"input": "2 3\n1 2 3\n0 1 1\n",
+"output": "3\n2 2 2 3\n1 1 1 2\n1 3 1 2\n"
+},
+{
+"input": "3 2\n1 0\n2 1\n1 0\n",
+"output": "3\n1 1 1 2\n1 2 2 2\n3 1 3 2\n"
+},
+{
+"input": "1 5\n9 9 9 9 9\n",
+"output": "2\n1 1 1 2\n1 3 1 4\n"
+}
+],
+"p03264": [
+{
+"input": "3\n",
+"output": "2\n"
+},
+{
+"input": "6\n",
+"output": "9\n"
+},
+{
+"input": "11\n",
+"output": "30\n"
+},
+{
+"input": "50\n",
+"output": "625\n"
+}
+],
+"p03265": [
+{
+"input": "0 0 0 1\n",
+"output": "-1 1 -1 0\n"
+},
+{
+"input": "2 3 6 6\n",
+"output": "3 10 -1 7\n"
+},
+{
+"input": "31 -41 -59 26\n",
+"output": "-126 -64 -36 -131\n"
+}
+],
+"p03268": [
+{
+"input": "3 2\n",
+"output": "9\n"
+},
+{
+"input": "5 3\n",
+"output": "1\n"
+},
+{
+"input": "31415 9265\n",
+"output": "27\n"
+},
+{
+"input": "35897 932\n",
+"output": "114191\n"
+}
+],
+"p03272": [
+{
+"input": "4 2\n",
+"output": "3\n"
+},
+{
+"input": "1 1\n",
+"output": "1\n"
+},
+{
+"input": "15 11\n",
+"output": "5\n"
+}
+],
+"p03273": [
+{
+"input": "4 4\n##.#\n....\n##.#\n.#.#\n",
+"output": "###\n###\n.##\n"
+},
+{
+"input": "3 3\n#..\n.#.\n..#\n",
+"output": "#..\n.#.\n..#\n"
+},
+{
+"input": "4 5\n.....\n.....\n..#..\n.....\n",
+"output": "#\n"
+},
+{
+"input": "7 6\n......\n....#.\n.#....\n..#...\n..#...\n......\n.#..#.\n",
+"output": "..#\n#..\n.#.\n.#.\n#.#\n"
+}
+],
+"p03274": [
+{
+"input": "5 3\n-30 -10 10 20 50\n",
+"output": "40\n"
+},
+{
+"input": "3 2\n10 20 30\n",
+"output": "20\n"
+},
+{
+"input": "1 1\n0\n",
+"output": "0\n"
+},
+{
+"input": "8 5\n-9 -7 -4 -3 1 2 3 4\n",
+"output": "10\n"
+}
+],
+"p03281": [
+{
+"input": "105\n",
+"output": "1\n"
+},
+{
+"input": "7\n",
+"output": "0\n"
+}
+],
+"p03282": [
+{
+"input": "1214\n4\n",
+"output": "2\n"
+},
+{
+"input": "3\n157\n",
+"output": "3\n"
+},
+{
+"input": "299792458\n9460730472580800\n",
+"output": "2\n"
+}
+],
+"p03283": [
+{
+"input": "2 3 1\n1 1\n1 2\n2 2\n1 2\n",
+"output": "3\n"
+},
+{
+"input": "10 3 2\n1 5\n2 8\n7 10\n1 7\n3 10\n",
+"output": "1\n1\n"
+},
+{
+"input": "10 10 10\n1 6\n2 9\n4 5\n4 7\n4 7\n5 8\n6 6\n6 7\n7 9\n10 10\n1 8\n1 9\n1 10\n2 8\n2 9\n2 10\n3 8\n3 9\n3 10\n1 10\n",
+"output": "7\n9\n10\n6\n8\n9\n6\n7\n8\n10\n"
+}
+],
+"p03284": [
+{
+"input": "7 3\n",
+"output": "1\n"
+},
+{
+"input": "100 10\n",
+"output": "0\n"
+},
+{
+"input": "1 1\n",
+"output": "0\n"
+}
+],
+"p03285": [
+{
+"input": "11\n",
+"output": "Yes\n"
+},
+{
+"input": "40\n",
+"output": "Yes\n"
+},
+{
+"input": "3\n",
+"output": "No\n"
+}
+],
+"p03286": [
+{
+"input": "-9\n",
+"output": "1011\n"
+},
+{
+"input": "123456789\n",
+"output": "11000101011001101110100010101\n"
+},
+{
+"input": "0\n",
+"output": "0\n"
+}
+],
+"p03287": [
+{
+"input": "3 2\n4 1 5\n",
+"output": "3\n"
+},
+{
+"input": "13 17\n29 7 5 7 9 51 7 13 8 55 42 9 81\n",
+"output": "6\n"
+},
+{
+"input": "10 400000000\n1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000\n",
+"output": "25\n"
+}
+],
+"p03288": [
+{
+"input": "1199\n",
+"output": "ABC\n"
+},
+{
+"input": "1200\n",
+"output": "ARC\n"
+},
+{
+"input": "4208\n",
+"output": "AGC\n"
+}
+],
+"p03289": [
+{
+"input": "AtCoder\n",
+"output": "AC\n"
+},
+{
+"input": "ACoder\n",
+"output": "WA\n"
+},
+{
+"input": "AcycliC\n",
+"output": "WA\n"
+},
+{
+"input": "AtCoCo\n",
+"output": "WA\n"
+},
+{
+"input": "Atcoder\n",
+"output": "WA\n"
+}
+],
+"p03290": [
+{
+"input": "2 700\n3 500\n5 800\n",
+"output": "3\n"
+},
+{
+"input": "2 2000\n3 500\n5 800\n",
+"output": "7\n"
+},
+{
+"input": "2 400\n3 500\n5 800\n",
+"output": "2\n"
+},
+{
+"input": "5 25000\n20 1000\n40 1000\n50 1000\n30 1000\n1 1000\n",
+"output": "66\n"
+}
+],
+"p03291": [
+{
+"input": "A??C\n",
+"output": "8\n"
+},
+{
+"input": "ABCBC\n",
+"output": "3\n"
+},
+{
+"input": "????C?????B??????A???????\n",
+"output": "979596887\n"
+}
+],
+"p03292": [
+{
+"input": "1 6 3\n",
+"output": "5\n"
+},
+{
+"input": "11 5 5\n",
+"output": "6\n"
+},
+{
+"input": "100 100 100\n",
+"output": "0\n"
+}
+],
+"p03293": [
+{
+"input": "kyoto\ntokyo\n",
+"output": "Yes\n"
+},
+{
+"input": "abc\narc\n",
+"output": "No\n"
+},
+{
+"input": "aaaaaaaaaaaaaaab\naaaaaaaaaaaaaaab\n",
+"output": "Yes\n"
+}
+],
+"p03294": [
+{
+"input": "3\n3 4 6\n",
+"output": "10\n"
+},
+{
+"input": "5\n7 46 11 20 11\n",
+"output": "90\n"
+},
+{
+"input": "7\n994 518 941 851 647 2 581\n",
+"output": "4527\n"
+}
+],
+"p03295": [
+{
+"input": "5 2\n1 4\n2 5\n",
+"output": "1\n"
+},
+{
+"input": "9 5\n1 8\n2 7\n3 5\n4 6\n7 9\n",
+"output": "2\n"
+},
+{
+"input": "5 10\n1 2\n1 3\n1 4\n1 5\n2 3\n2 4\n2 5\n3 4\n3 5\n4 5\n",
+"output": "4\n"
+}
+],
+"p03296": [
+{
+"input": "5\n1 1 2 2 2\n",
+"output": "2\n"
+},
+{
+"input": "3\n1 2 1\n",
+"output": "0\n"
+},
+{
+"input": "5\n1 1 1 1 1\n",
+"output": "2\n"
+},
+{
+"input": "14\n1 2 2 3 3 3 4 4 4 4 1 2 3 4\n",
+"output": "4\n"
+}
+],
+"p03303": [
+{
+"input": "abcdefgh\n3\n",
+"output": "adg\n"
+},
+{
+"input": "lllll\n1\n",
+"output": "lllll\n"
+},
+{
+"input": "souuundhound\n2\n",
+"output": "suudon\n"
+}
+],
+"p03304": [
+{
+"input": "2 3 1\n",
+"output": "1.0000000000\n"
+},
+{
+"input": "1000000000 180707 0\n",
+"output": "0.0001807060\n"
+}
+],
+"p03307": [
+{
+"input": "3\n",
+"output": "6\n"
+},
+{
+"input": "10\n",
+"output": "10\n"
+},
+{
+"input": "999999999\n",
+"output": "1999999998\n"
+}
+],
+"p03311": [
+{
+"input": "5\n2 2 3 5 5\n",
+"output": "2\n"
+},
+{
+"input": "9\n1 2 3 4 5 6 7 8 9\n",
+"output": "0\n"
+},
+{
+"input": "6\n6 5 4 3 2 1\n",
+"output": "18\n"
+},
+{
+"input": "7\n1 1 1 1 2 3 4\n",
+"output": "6\n"
+}
+],
+"p03315": [
+{
+"input": "+-++\n",
+"output": "2\n"
+},
+{
+"input": "-+--\n",
+"output": "-2\n"
+},
+{
+"input": "----\n",
+"output": "-4\n"
+}
+],
+"p03317": [
+{
+"input": "4 3\n2 3 1 4\n",
+"output": "2\n"
+},
+{
+"input": "3 3\n1 2 3\n",
+"output": "1\n"
+},
+{
+"input": "8 3\n7 3 1 8 4 6 2 5\n",
+"output": "4\n"
+}
+],
+"p03323": [
+{
+"input": "5 4\n",
+"output": "Yay!\n"
+},
+{
+"input": "8 8\n",
+"output": "Yay!\n"
+},
+{
+"input": "11 4\n",
+"output": ":(\n"
+}
+],
+"p03324": [
+{
+"input": "0 5\n",
+"output": "5\n"
+},
+{
+"input": "1 11\n",
+"output": "1100\n"
+},
+{
+"input": "2 85\n",
+"output": "850000\n"
+}
+],
+"p03325": [
+{
+"input": "3\n5 2 4\n",
+"output": "3\n"
+},
+{
+"input": "4\n631 577 243 199\n",
+"output": "0\n"
+},
+{
+"input": "10\n2184 2126 1721 1800 1024 2528 3360 1945 1280 1776\n",
+"output": "39\n"
+}
+],
+"p03326": [
+{
+"input": "5 3\n3 1 4\n1 5 9\n2 6 5\n3 5 8\n9 7 9\n",
+"output": "56\n"
+},
+{
+"input": "5 3\n1 -2 3\n-4 5 -6\n7 -8 -9\n-10 11 -12\n13 -14 15\n",
+"output": "54\n"
+},
+{
+"input": "10 5\n10 -80 21\n23 8 38\n-94 28 11\n-26 -2 18\n-69 72 79\n-26 -86 -54\n-72 -50 59\n21 65 -32\n40 -94 87\n-62 18 82\n",
+"output": "638\n"
+},
+{
+"input": "3 2\n2000000000 -9000000000 4000000000\n7000000000 -5000000000 3000000000\n6000000000 -1000000000 8000000000\n",
+"output": "30000000000\n"
+}
+],
+"p03327": [
+{
+"input": "999\n",
+"output": "ABC\n"
+},
+{
+"input": "1000\n",
+"output": "ABD\n"
+},
+{
+"input": "1481\n",
+"output": "ABD\n"
+}
+],
+"p03328": [
+{
+"input": "8 13\n",
+"output": "2\n"
+},
+{
+"input": "54 65\n",
+"output": "1\n"
+}
+],
+"p03329": [
+{
+"input": "127\n",
+"output": "4\n"
+},
+{
+"input": "3\n",
+"output": "3\n"
+},
+{
+"input": "44852\n",
+"output": "16\n"
+}
+],
+"p03330": [
+{
+"input": "2 3\n0 1 1\n1 0 1\n1 4 0\n1 2\n3 3\n",
+"output": "3\n"
+},
+{
+"input": "4 3\n0 12 71\n81 0 53\n14 92 0\n1 1 2 1\n2 1 1 2\n2 2 1 3\n1 1 2 2\n",
+"output": "428\n"
+}
+],
+"p03331": [
+{
+"input": "15\n",
+"output": "6\n"
+},
+{
+"input": "100000\n",
+"output": "10\n"
+}
+],
+"p03337": [
+{
+"input": "3 1\n",
+"output": "4\n"
+},
+{
+"input": "4 -2\n",
+"output": "6\n"
+},
+{
+"input": "0 0\n",
+"output": "0\n"
+}
+],
+"p03338": [
+{
+"input": "6\naabbca\n",
+"output": "2\n"
+},
+{
+"input": "10\naaaaaaaaaa\n",
+"output": "1\n"
+},
+{
+"input": "45\ntgxgdqkyjzhyputjjtllptdfxocrylqfqjynmfbfucbir\n",
+"output": "9\n"
+}
+],
+"p03339": [
+{
+"input": "5\nWEEWW\n",
+"output": "1\n"
+},
+{
+"input": "12\nWEWEWEEEWWWE\n",
+"output": "4\n"
+},
+{
+"input": "8\nWWWWWEEE\n",
+"output": "3\n"
+}
+],
+"p03345": [
+{
+"input": "1 2 3 1\n",
+"output": "1\n"
+},
+{
+"input": "2 3 2 0\n",
+"output": "-1\n"
+},
+{
+"input": "1000000000 1000000000 1000000000 1000000000000000000\n",
+"output": "0\n"
+}
+],
+"p03346": [
+{
+"input": "4\n1\n3\n2\n4\n",
+"output": "2\n"
+},
+{
+"input": "6\n3\n2\n5\n1\n4\n6\n",
+"output": "4\n"
+},
+{
+"input": "8\n6\n3\n1\n2\n7\n4\n8\n5\n",
+"output": "5\n"
+}
+],
+"p03347": [
+{
+"input": "4\n0\n1\n1\n2\n",
+"output": "3\n"
+},
+{
+"input": "3\n1\n2\n1\n",
+"output": "-1\n"
+},
+{
+"input": "9\n0\n1\n1\n0\n1\n2\n2\n1\n2\n",
+"output": "8\n"
+}
+],
+"p03351": [
+{
+"input": "4 7 9 3\n",
+"output": "Yes\n"
+},
+{
+"input": "100 10 1 2\n",
+"output": "No\n"
+},
+{
+"input": "10 10 10 1\n",
+"output": "Yes\n"
+},
+{
+"input": "1 100 2 10\n",
+"output": "Yes\n"
+}
+],
+"p03352": [
+{
+"input": "10\n",
+"output": "9\n"
+},
+{
+"input": "1\n",
+"output": "1\n"
+},
+{
+"input": "999\n",
+"output": "961\n"
+}
+],
+"p03353": [
+{
+"input": "aba\n4\n",
+"output": "b\n"
+},
+{
+"input": "atcoderandatcodeer\n5\n",
+"output": "andat\n"
+},
+{
+"input": "z\n1\n",
+"output": "z\n"
+}
+],
+"p03354": [
+{
+"input": "5 2\n5 3 1 4 2\n1 3\n5 4\n",
+"output": "2\n"
+},
+{
+"input": "3 2\n3 2 1\n1 2\n2 3\n",
+"output": "3\n"
+},
+{
+"input": "10 8\n5 3 6 8 7 10 9 1 2 4\n3 1\n4 1\n5 9\n2 5\n6 5\n3 5\n8 9\n7 9\n",
+"output": "8\n"
+},
+{
+"input": "5 1\n1 2 3 4 5\n1 5\n",
+"output": "5\n"
+}
+],
+"p03359": [
+{
+"input": "5 5\n",
+"output": "5\n"
+},
+{
+"input": "2 1\n",
+"output": "1\n"
+},
+{
+"input": "11 30\n",
+"output": "11\n"
+}
+],
+"p03360": [
+{
+"input": "5 3 11\n1\n",
+"output": "30\n"
+},
+{
+"input": "3 3 4\n2\n",
+"output": "22\n"
+}
+],
+"p03361": [
+{
+"input": "3 3\n.#.\n###\n.#.\n",
+"output": "Yes\n"
+},
+{
+"input": "5 5\n#.#.#\n.#.#.\n#.#.#\n.#.#.\n#.#.#\n",
+"output": "No\n"
+},
+{
+"input": "11 11\n...#####...\n.##.....##.\n#..##.##..#\n#..##.##..#\n#.........#\n#...###...#\n.#########.\n.#.#.#.#.#.\n##.#.#.#.##\n..##.#.##..\n.##..#..##.\n",
+"output": "Yes\n"
+}
+],
+"p03362": [
+{
+"input": "5\n",
+"output": "3 5 7 11 31\n"
+},
+{
+"input": "6\n",
+"output": "2 3 5 7 11 13\n"
+},
+{
+"input": "8\n",
+"output": "2 5 7 13 19 37 67 79\n"
+}
+],
+"p03363": [
+{
+"input": "6\n1 3 -4 2 2 -2\n",
+"output": "3\n"
+},
+{
+"input": "7\n1 -1 1 -1 1 -1 1\n",
+"output": "12\n"
+},
+{
+"input": "5\n1 -2 3 -4 5\n",
+"output": "0\n"
+}
+],
+"p03369": [
+{
+"input": "oxo\n",
+"output": "900\n"
+},
+{
+"input": "ooo\n",
+"output": "1000\n"
+},
+{
+"input": "xxx\n",
+"output": "700\n"
+}
+],
+"p03370": [
+{
+"input": "3 1000\n120\n100\n140\n",
+"output": "9\n"
+},
+{
+"input": "4 360\n90\n90\n90\n90\n",
+"output": "4\n"
+},
+{
+"input": "5 3000\n150\n130\n150\n130\n110\n",
+"output": "26\n"
+}
+],
+"p03371": [
+{
+"input": "1500 2000 1600 3 2\n",
+"output": "7900\n"
+},
+{
+"input": "1500 2000 1900 3 2\n",
+"output": "8500\n"
+},
+{
+"input": "1500 2000 500 90000 100000\n",
+"output": "100000000\n"
+}
+],
+"p03372": [
+{
+"input": "3 20\n2 80\n9 120\n16 1\n",
+"output": "191\n"
+},
+{
+"input": "3 20\n2 80\n9 1\n16 120\n",
+"output": "192\n"
+},
+{
+"input": "1 100000000000000\n50000000000000 1\n",
+"output": "0\n"
+},
+{
+"input": "15 10000000000\n400000000 1000000000\n800000000 1000000000\n1900000000 1000000000\n2400000000 1000000000\n2900000000 1000000000\n3300000000 1000000000\n3700000000 1000000000\n3800000000 1000000000\n4000000000 1000000000\n4100000000 1000000000\n5200000000 1000000000\n6600000000 1000000000\n8000000000 1000000000\n9300000000 1000000000\n9700000000 1000000000\n",
+"output": "6500000000\n"
+}
+],
+"p03377": [
+{
+"input": "3 5 4\n",
+"output": "YES\n"
+},
+{
+"input": "2 2 6\n",
+"output": "NO\n"
+},
+{
+"input": "5 3 2\n",
+"output": "NO\n"
+}
+],
+"p03378": [
+{
+"input": "5 3 3\n1 2 4\n",
+"output": "1\n"
+},
+{
+"input": "7 3 2\n4 5 6\n",
+"output": "0\n"
+},
+{
+"input": "10 7 5\n1 2 3 4 6 8 9\n",
+"output": "3\n"
+}
+],
+"p03379": [
+{
+"input": "4\n2 4 4 3\n",
+"output": "4\n3\n3\n4\n"
+},
+{
+"input": "2\n1 2\n",
+"output": "2\n1\n"
+},
+{
+"input": "6\n5 5 4 4 3 3\n",
+"output": "4\n4\n4\n4\n4\n4\n"
+}
+],
+"p03380": [
+{
+"input": "5\n6 9 4 2 11\n",
+"output": "11 6\n"
+},
+{
+"input": "2\n100 0\n",
+"output": "100 0\n"
+}
+],
+"p03385": [
+{
+"input": "bac\n",
+"output": "Yes\n"
+},
+{
+"input": "bab\n",
+"output": "No\n"
+},
+{
+"input": "abc\n",
+"output": "Yes\n"
+},
+{
+"input": "aaa\n",
+"output": "No\n"
+}
+],
+"p03386": [
+{
+"input": "3 8 2\n",
+"output": "3\n4\n7\n8\n"
+},
+{
+"input": "4 8 3\n",
+"output": "4\n5\n6\n7\n8\n"
+},
+{
+"input": "2 9 100\n",
+"output": "2\n3\n4\n5\n6\n7\n8\n9\n"
+}
+],
+"p03387": [
+{
+"input": "2 5 4\n",
+"output": "2\n"
+},
+{
+"input": "2 6 3\n",
+"output": "5\n"
+},
+{
+"input": "31 41 5\n",
+"output": "23\n"
+}
+],
+"p03393": [
+{
+"input": "atcoder\n",
+"output": "atcoderb\n"
+},
+{
+"input": "abc\n",
+"output": "abcd\n"
+},
+{
+"input": "zyxwvutsrqponmlkjihgfedcba\n",
+"output": "-1\n"
+},
+{
+"input": "abcdefghijklmnopqrstuvwzyx\n",
+"output": "abcdefghijklmnopqrstuvx\n"
+}
+],
+"p03399": [
+{
+"input": "600\n300\n220\n420\n",
+"output": "520\n"
+},
+{
+"input": "555\n555\n400\n200\n",
+"output": "755\n"
+},
+{
+"input": "549\n817\n715\n603\n",
+"output": "1152\n"
+}
+],
+"p03400": [
+{
+"input": "3\n7 1\n2\n5\n10\n",
+"output": "8\n"
+},
+{
+"input": "2\n8 20\n1\n10\n",
+"output": "29\n"
+},
+{
+"input": "5\n30 44\n26\n18\n81\n18\n6\n",
+"output": "56\n"
+}
+],
+"p03401": [
+{
+"input": "3\n3 5 -1\n",
+"output": "12\n8\n10\n"
+},
+{
+"input": "5\n1 1 1 2 0\n",
+"output": "4\n4\n4\n2\n4\n"
+},
+{
+"input": "6\n-679 -2409 -3258 3095 -3291 -4462\n",
+"output": "21630\n21630\n19932\n8924\n21630\n19288\n"
+}
+],
+"p03402": [
+{
+"input": "2 3\n",
+"output": "3 3\n##.\n..#\n#.#\n"
+},
+{
+"input": "7 8\n",
+"output": "3 5\n#.#.#\n.#.#.\n#.#.#\n"
+},
+{
+"input": "1 1\n",
+"output": "4 2\n..\n#.\n##\n##\n"
+},
+{
+"input": "3 14\n",
+"output": "8 18\n..................\n..................\n....##.......####.\n....#.#.....#.....\n...#...#....#.....\n..#.###.#...#.....\n.#.......#..#.....\n#.........#..####.\n"
+}
+],
+"p03407": [
+{
+"input": "50 100 120\n",
+"output": "Yes\n"
+},
+{
+"input": "500 100 1000\n",
+"output": "No\n"
+},
+{
+"input": "19 123 143\n",
+"output": "No\n"
+},
+{
+"input": "19 123 142\n",
+"output": "Yes\n"
+}
+],
+"p03408": [
+{
+"input": "3\napple\norange\napple\n1\ngrape\n",
+"output": "2\n"
+},
+{
+"input": "3\napple\norange\napple\n5\napple\napple\napple\napple\napple\n",
+"output": "1\n"
+},
+{
+"input": "1\nvoldemort\n10\nvoldemort\nvoldemort\nvoldemort\nvoldemort\nvoldemort\nvoldemort\nvoldemort\nvoldemort\nvoldemort\nvoldemort\n",
+"output": "0\n"
+},
+{
+"input": "6\nred\nred\nblue\nyellow\nyellow\nred\n5\nred\nred\nyellow\ngreen\nblue\n",
+"output": "1\n"
+}
+],
+"p03409": [
+{
+"input": "3\n2 0\n3 1\n1 3\n4 2\n0 4\n5 5\n",
+"output": "2\n"
+},
+{
+"input": "3\n0 0\n1 1\n5 2\n2 3\n3 4\n4 5\n",
+"output": "2\n"
+},
+{
+"input": "2\n2 2\n3 3\n0 0\n1 1\n",
+"output": "0\n"
+},
+{
+"input": "5\n0 0\n7 3\n2 2\n4 8\n1 6\n8 5\n6 9\n5 4\n9 1\n3 7\n",
+"output": "5\n"
+},
+{
+"input": "5\n0 0\n1 1\n5 5\n6 6\n7 7\n2 2\n3 3\n4 4\n8 8\n9 9\n",
+"output": "4\n"
+}
+],
+"p03415": [
+{
+"input": "ant\nobe\nrec\n",
+"output": "abc\n"
+},
+{
+"input": "edu\ncat\nion\n",
+"output": "ean\n"
+}
+],
+"p03416": [
+{
+"input": "11009 11332\n",
+"output": "4\n"
+},
+{
+"input": "31415 92653\n",
+"output": "612\n"
+}
+],
+"p03417": [
+{
+"input": "2 2\n",
+"output": "0\n"
+},
+{
+"input": "1 7\n",
+"output": "5\n"
+},
+{
+"input": "314 1592\n",
+"output": "496080\n"
+}
+],
+"p03418": [
+{
+"input": "5 2\n",
+"output": "7\n"
+},
+{
+"input": "10 0\n",
+"output": "100\n"
+},
+{
+"input": "31415 9265\n",
+"output": "287927211\n"
+}
+],
+"p03423": [
+{
+"input": "8\n",
+"output": "2\n"
+},
+{
+"input": "2\n",
+"output": "0\n"
+},
+{
+"input": "9\n",
+"output": "3\n"
+}
+],
+"p03424": [
+{
+"input": "6\nG W Y P Y W\n",
+"output": "Four\n"
+},
+{
+"input": "9\nG W W G P W P G G\n",
+"output": "Three\n"
+},
+{
+"input": "8\nP Y W G Y W Y Y\n",
+"output": "Four\n"
+}
+],
+"p03425": [
+{
+"input": "5\nMASHIKE\nRUMOI\nOBIRA\nHABORO\nHOROKANAI\n",
+"output": "2\n"
+},
+{
+"input": "4\nZZ\nZZZ\nZ\nZZZZZZZZZZ\n",
+"output": "0\n"
+},
+{
+"input": "5\nCHOKUDAI\nRNG\nMAKOTO\nAOKI\nRINGO\n",
+"output": "7\n"
+}
+],
+"p03426": [
+{
+"input": "3 3 2\n1 4 3\n2 5 7\n8 9 6\n1\n4 8\n",
+"output": "5\n"
+},
+{
+"input": "4 2 3\n3 7\n1 4\n5 2\n6 8\n2\n2 2\n2 2\n",
+"output": "0\n0\n"
+},
+{
+"input": "5 5 4\n13 25 7 15 17\n16 22 20 2 9\n14 11 12 1 19\n10 6 23 8 18\n3 21 5 24 4\n3\n13 13\n2 10\n13 13\n",
+"output": "0\n5\n0\n"
+}
+],
+"p03427": [
+{
+"input": "100\n",
+"output": "18\n"
+},
+{
+"input": "9995\n",
+"output": "35\n"
+},
+{
+"input": "3141592653589793\n",
+"output": "137\n"
+}
+],
+"p03433": [
+{
+"input": "2018\n218\n",
+"output": "Yes\n"
+},
+{
+"input": "2763\n0\n",
+"output": "No\n"
+},
+{
+"input": "37\n514\n",
+"output": "Yes\n"
+}
+],
+"p03434": [
+{
+"input": "2\n3 1\n",
+"output": "2\n"
+},
+{
+"input": "3\n2 7 4\n",
+"output": "5\n"
+},
+{
+"input": "4\n20 18 2 18\n",
+"output": "18\n"
+}
+],
+"p03435": [
+{
+"input": "1 0 1\n2 1 2\n1 0 1\n",
+"output": "Yes\n"
+},
+{
+"input": "2 2 2\n2 1 2\n2 2 2\n",
+"output": "No\n"
+},
+{
+"input": "0 8 8\n0 8 8\n0 8 8\n",
+"output": "Yes\n"
+},
+{
+"input": "1 8 6\n2 9 7\n0 7 7\n",
+"output": "No\n"
+}
+],
+"p03436": [
+{
+"input": "3 3\n..#\n#..\n...\n",
+"output": "2\n"
+},
+{
+"input": "10 37\n.....................................\n...#...####...####..###...###...###..\n..#.#..#...#.##....#...#.#...#.#...#.\n..#.#..#...#.#.....#...#.#...#.#...#.\n.#...#.#..##.#.....#...#.#.###.#.###.\n.#####.####..#.....#...#..##....##...\n.#...#.#...#.#.....#...#.#...#.#...#.\n.#...#.#...#.##....#...#.#...#.#...#.\n.#...#.####...####..###...###...###..\n.....................................\n",
+"output": "209\n"
+}
+],
+"p03437": [
+{
+"input": "8 6\n",
+"output": "16\n"
+},
+{
+"input": "3 3\n",
+"output": "-1\n"
+}
+],
+"p03438": [
+{
+"input": "3\n1 2 3\n5 2 2\n",
+"output": "Yes\n"
+},
+{
+"input": "5\n3 1 4 1 5\n2 7 1 8 2\n",
+"output": "No\n"
+},
+{
+"input": "5\n2 7 1 8 2\n3 1 4 1 5\n",
+"output": "No\n"
+}
+],
+"p03447": [
+{
+"input": "1234\n150\n100\n",
+"output": "84\n"
+},
+{
+"input": "1000\n108\n108\n",
+"output": "28\n"
+},
+{
+"input": "579\n123\n456\n",
+"output": "0\n"
+},
+{
+"input": "7477\n549\n593\n",
+"output": "405\n"
+}
+],
+"p03448": [
+{
+"input": "2\n2\n2\n100\n",
+"output": "2\n"
+},
+{
+"input": "5\n1\n0\n150\n",
+"output": "0\n"
+},
+{
+"input": "30\n40\n50\n6000\n",
+"output": "213\n"
+}
+],
+"p03449": [
+{
+"input": "5\n3 2 2 4 1\n1 2 2 2 1\n",
+"output": "14\n"
+},
+{
+"input": "4\n1 1 1 1\n1 1 1 1\n",
+"output": "5\n"
+},
+{
+"input": "7\n3 3 4 5 4 5 3\n5 3 4 4 2 3 2\n",
+"output": "29\n"
+},
+{
+"input": "1\n2\n3\n",
+"output": "5\n"
+}
+],
+"p03450": [
+{
+"input": "3 3\n1 2 1\n2 3 1\n1 3 2\n",
+"output": "Yes\n"
+},
+{
+"input": "3 3\n1 2 1\n2 3 1\n1 3 5\n",
+"output": "No\n"
+},
+{
+"input": "4 3\n2 1 1\n2 3 5\n3 4 2\n",
+"output": "Yes\n"
+},
+{
+"input": "10 3\n8 7 100\n7 9 100\n9 8 100\n",
+"output": "No\n"
+},
+{
+"input": "100 0\n",
+"output": "Yes\n"
+}
+],
+"p03455": [
+{
+"input": "3 4\n",
+"output": "Even\n"
+},
+{
+"input": "1 21\n",
+"output": "Odd\n"
+}
+],
+"p03456": [
+{
+"input": "1 21\n",
+"output": "Yes\n"
+},
+{
+"input": "100 100\n",
+"output": "No\n"
+},
+{
+"input": "12 10\n",
+"output": "No\n"
+}
+],
+"p03457": [
+{
+"input": "2\n3 1 2\n6 1 1\n",
+"output": "Yes\n"
+},
+{
+"input": "1\n2 100 100\n",
+"output": "No\n"
+},
+{
+"input": "2\n5 1 1\n100 1 1\n",
+"output": "No\n"
+}
+],
+"p03463": [
+{
+"input": "5 2 4\n",
+"output": "Alice\n"
+},
+{
+"input": "2 1 2\n",
+"output": "Borys\n"
+},
+{
+"input": "58 23 42\n",
+"output": "Borys\n"
+}
+],
+"p03464": [
+{
+"input": "4\n3 4 3 2\n",
+"output": "6 8\n"
+},
+{
+"input": "5\n3 4 100 3 2\n",
+"output": "-1\n"
+},
+{
+"input": "10\n2 2 2 2 2 2 2 2 2 2\n",
+"output": "2 3\n"
+}
+],
+"p03469": [
+{
+"input": "2017/01/07\n",
+"output": "2018/01/07\n"
+},
+{
+"input": "2017/01/31\n",
+"output": "2018/01/31\n"
+}
+],
+"p03470": [
+{
+"input": "4\n10\n8\n8\n6\n",
+"output": "3\n"
+},
+{
+"input": "3\n15\n15\n15\n",
+"output": "1\n"
+},
+{
+"input": "7\n50\n30\n50\n100\n50\n80\n30\n",
+"output": "4\n"
+}
+],
+"p03471": [
+{
+"input": "9 45000\n",
+"output": "4 0 5\n"
+},
+{
+"input": "20 196000\n",
+"output": "-1 -1 -1\n"
+},
+{
+"input": "1000 1234000\n",
+"output": "14 27 959\n"
+},
+{
+"input": "2000 20000000\n",
+"output": "2000 0 0\n"
+}
+],
+"p03472": [
+{
+"input": "1 10\n3 5\n",
+"output": "3\n"
+},
+{
+"input": "2 10\n3 5\n2 6\n",
+"output": "2\n"
+},
+{
+"input": "4 1000000000\n1 1\n1 10000000\n1 30000000\n1 99999999\n",
+"output": "860000004\n"
+},
+{
+"input": "5 500\n35 44\n28 83\n46 62\n31 79\n40 43\n",
+"output": "9\n"
+}
+],
+"p03473": [
+{
+"input": "21\n",
+"output": "27\n"
+},
+{
+"input": "12\n",
+"output": "36\n"
+}
+],
+"p03474": [
+{
+"input": "3 4\n269-6650\n",
+"output": "Yes\n"
+},
+{
+"input": "1 1\n---\n",
+"output": "No\n"
+},
+{
+"input": "1 2\n7444\n",
+"output": "No\n"
+}
+],
+"p03475": [
+{
+"input": "3\n6 5 1\n1 10 1\n",
+"output": "12\n11\n0\n"
+},
+{
+"input": "4\n12 24 6\n52 16 4\n99 2 2\n",
+"output": "187\n167\n101\n0\n"
+},
+{
+"input": "4\n12 13 1\n44 17 17\n66 4096 64\n",
+"output": "4162\n4162\n4162\n0\n"
+}
+],
+"p03476": [
+{
+"input": "1\n3 7\n",
+"output": "2\n"
+},
+{
+"input": "4\n13 13\n7 11\n7 11\n2017 2017\n",
+"output": "1\n0\n0\n1\n"
+},
+{
+"input": "6\n1 53\n13 91\n37 55\n19 51\n73 91\n13 49\n",
+"output": "4\n4\n1\n1\n1\n2\n"
+}
+],
+"p03477": [
+{
+"input": "3 8 7 1\n",
+"output": "Left\n"
+},
+{
+"input": "3 4 5 2\n",
+"output": "Balanced\n"
+},
+{
+"input": "1 7 6 4\n",
+"output": "Right\n"
+}
+],
+"p03478": [
+{
+"input": "20 2 5\n",
+"output": "84\n"
+},
+{
+"input": "10 1 2\n",
+"output": "13\n"
+},
+{
+"input": "100 4 16\n",
+"output": "4554\n"
+}
+],
+"p03479": [
+{
+"input": "3 20\n",
+"output": "3\n"
+},
+{
+"input": "25 100\n",
+"output": "3\n"
+},
+{
+"input": "314159265 358979323846264338\n",
+"output": "31\n"
+}
+],
+"p03485": [
+{
+"input": "1 3\n",
+"output": "2\n"
+},
+{
+"input": "7 4\n",
+"output": "6\n"
+},
+{
+"input": "5 5\n",
+"output": "5\n"
+}
+],
+"p03486": [
+{
+"input": "yx\naxy\n",
+"output": "Yes\n"
+},
+{
+"input": "ratcode\natlas\n",
+"output": "Yes\n"
+},
+{
+"input": "cd\nabc\n",
+"output": "No\n"
+},
+{
+"input": "w\nww\n",
+"output": "Yes\n"
+},
+{
+"input": "zzz\nzzz\n",
+"output": "No\n"
+}
+],
+"p03487": [
+{
+"input": "4\n3 3 3 3\n",
+"output": "1\n"
+},
+{
+"input": "5\n2 4 1 4 2\n",
+"output": "2\n"
+},
+{
+"input": "6\n1 2 2 3 3 3\n",
+"output": "0\n"
+},
+{
+"input": "1\n1000000000\n",
+"output": "1\n"
+},
+{
+"input": "8\n2 7 1 8 2 8 1 8\n",
+"output": "5\n"
+}
+],
+"p03488": [
+{
+"input": "FTFFTFFF\n4 2\n",
+"output": "Yes\n"
+},
+{
+"input": "FTFFTFFF\n-2 -2\n",
+"output": "Yes\n"
+},
+{
+"input": "FF\n1 0\n",
+"output": "No\n"
+},
+{
+"input": "TF\n1 0\n",
+"output": "No\n"
+},
+{
+"input": "FFTTFF\n0 0\n",
+"output": "Yes\n"
+},
+{
+"input": "TTTT\n1 0\n",
+"output": "No\n"
+}
+],
+"p03494": [
+{
+"input": "3\n8 12 40\n",
+"output": "2\n"
+},
+{
+"input": "4\n5 6 8 10\n",
+"output": "0\n"
+},
+{
+"input": "6\n382253568 723152896 37802240 379425024 404894720 471526144\n",
+"output": "8\n"
+}
+],
+"p03495": [
+{
+"input": "5 2\n1 1 2 2 5\n",
+"output": "1\n"
+},
+{
+"input": "4 4\n1 1 2 2\n",
+"output": "0\n"
+},
+{
+"input": "10 3\n5 1 3 2 4 1 1 2 3 4\n",
+"output": "3\n"
+}
+],
+"p03496": [
+{
+"input": "3\n-2 5 -1\n",
+"output": "2\n2 3\n3 3\n"
+},
+{
+"input": "2\n-1 -3\n",
+"output": "1\n2 1\n"
+},
+{
+"input": "5\n0 0 0 0 0\n",
+"output": "0\n"
+}
+],
+"p03501": [
+{
+"input": "7 17 120\n",
+"output": "119\n"
+},
+{
+"input": "5 20 100\n",
+"output": "100\n"
+},
+{
+"input": "6 18 100\n",
+"output": "100\n"
+}
+],
+"p03502": [
+{
+"input": "12\n",
+"output": "Yes\n"
+},
+{
+"input": "57\n",
+"output": "No\n"
+},
+{
+"input": "148\n",
+"output": "No\n"
+}
+],
+"p03503": [
+{
+"input": "1\n1 1 0 1 0 0 0 1 0 1\n3 4 5 6 7 8 9 -2 -3 4 -2\n",
+"output": "8\n"
+},
+{
+"input": "2\n1 1 1 1 1 0 0 0 0 0\n0 0 0 0 0 1 1 1 1 1\n0 -2 -2 -2 -2 -2 -1 -1 -1 -1 -1\n0 -2 -2 -2 -2 -2 -1 -1 -1 -1 -1\n",
+"output": "-2\n"
+},
+{
+"input": "3\n1 1 1 1 1 1 0 0 1 1\n0 1 0 1 1 1 1 0 1 0\n1 0 1 1 0 1 0 1 0 1\n-8 6 -2 -8 -8 4 8 7 -6 2 2\n-9 2 0 1 7 -5 0 -2 -6 5 5\n6 -6 7 -9 6 -5 8 0 -9 -7 -7\n",
+"output": "23\n"
+}
+],
+"p03504": [
+{
+"input": "3 2\n1 7 2\n7 8 1\n8 12 1\n",
+"output": "2\n"
+},
+{
+"input": "3 4\n1 3 2\n3 4 4\n1 4 3\n",
+"output": "3\n"
+},
+{
+"input": "9 4\n56 60 4\n33 37 2\n89 90 3\n32 43 1\n67 68 3\n49 51 3\n31 32 3\n70 71 1\n11 12 3\n",
+"output": "2\n"
+}
+],
+"p03523": [
+{
+"input": "KIHBR\n",
+"output": "YES\n"
+},
+{
+"input": "AKIBAHARA\n",
+"output": "NO\n"
+},
+{
+"input": "AAKIAHBAARA\n",
+"output": "NO\n"
+}
+],
+"p03524": [
+{
+"input": "abac\n",
+"output": "YES\n"
+},
+{
+"input": "aba\n",
+"output": "NO\n"
+},
+{
+"input": "babacccabab\n",
+"output": "YES\n"
+}
+],
+"p03543": [
+{
+"input": "1118\n",
+"output": "Yes\n"
+},
+{
+"input": "7777\n",
+"output": "Yes\n"
+},
+{
+"input": "1234\n",
+"output": "No\n"
+}
+],
+"p03544": [
+{
+"input": "5\n",
+"output": "11\n"
+},
+{
+"input": "86\n",
+"output": "939587134549734843\n"
+}
+],
+"p03545": [
+{
+"input": "1222\n",
+"output": "1+2+2+2=7\n"
+},
+{
+"input": "0290\n",
+"output": "0-2+9+0=7\n"
+},
+{
+"input": "3242\n",
+"output": "3+2+4-2=7\n"
+}
+],
+"p03546": [
+{
+"input": "2 4\n0 9 9 9 9 9 9 9 9 9\n9 0 9 9 9 9 9 9 9 9\n9 9 0 9 9 9 9 9 9 9\n9 9 9 0 9 9 9 9 9 9\n9 9 9 9 0 9 9 9 9 2\n9 9 9 9 9 0 9 9 9 9\n9 9 9 9 9 9 0 9 9 9\n9 9 9 9 9 9 9 0 9 9\n9 9 9 9 2 9 9 9 0 9\n9 2 9 9 9 9 9 9 9 0\n-1 -1 -1 -1\n8 1 1 8\n",
+"output": "12\n"
+},
+{
+"input": "5 5\n0 999 999 999 999 999 999 999 999 999\n999 0 999 999 999 999 999 999 999 999\n999 999 0 999 999 999 999 999 999 999\n999 999 999 0 999 999 999 999 999 999\n999 999 999 999 0 999 999 999 999 999\n999 999 999 999 999 0 999 999 999 999\n999 999 999 999 999 999 0 999 999 999\n999 999 999 999 999 999 999 0 999 999\n999 999 999 999 999 999 999 999 0 999\n999 999 999 999 999 999 999 999 999 0\n1 1 1 1 1\n1 1 1 1 1\n1 1 1 1 1\n1 1 1 1 1\n1 1 1 1 1\n",
+"output": "0\n"
+},
+{
+"input": "3 5\n0 4 3 6 2 7 2 5 3 3\n4 0 5 3 7 5 3 7 2 7\n5 7 0 7 2 9 3 2 9 1\n3 6 2 0 2 4 6 4 2 3\n3 5 7 4 0 6 9 7 6 7\n9 8 5 2 2 0 4 7 6 5\n5 4 6 3 2 3 0 5 4 3\n3 6 2 3 4 2 4 0 8 9\n4 6 5 4 3 5 3 2 0 8\n2 1 3 4 5 7 8 6 4 0\n3 5 2 6 1\n2 5 3 2 1\n6 9 2 5 6\n",
+"output": "47\n"
+}
+],
+"p03547": [
+{
+"input": "A B\n",
+"output": "<\n"
+},
+{
+"input": "E C\n",
+"output": ">\n"
+},
+{
+"input": "F F\n",
+"output": "=\n"
+}
+],
+"p03548": [
+{
+"input": "13 3 1\n",
+"output": "3\n"
+},
+{
+"input": "12 3 1\n",
+"output": "2\n"
+},
+{
+"input": "100000 1 1\n",
+"output": "49999\n"
+},
+{
+"input": "64146 123 456\n",
+"output": "110\n"
+},
+{
+"input": "64145 123 456\n",
+"output": "109\n"
+}
+],
+"p03549": [
+{
+"input": "1 1\n",
+"output": "3800\n"
+},
+{
+"input": "10 2\n",
+"output": "18400\n"
+},
+{
+"input": "100 5\n",
+"output": "608000\n"
+}
+],
+"p03555": [
+{
+"input": "pot\ntop\n",
+"output": "YES\n"
+},
+{
+"input": "tab\nbet\n",
+"output": "NO\n"
+},
+{
+"input": "eye\neel\n",
+"output": "NO\n"
+}
+],
+"p03556": [
+{
+"input": "10\n",
+"output": "9\n"
+},
+{
+"input": "81\n",
+"output": "81\n"
+},
+{
+"input": "271828182\n",
+"output": "271821169\n"
+}
+],
+"p03559": [
+{
+"input": "2\n1 5\n2 4\n3 6\n",
+"output": "3\n"
+},
+{
+"input": "3\n1 1 1\n2 2 2\n3 3 3\n",
+"output": "27\n"
+},
+{
+"input": "6\n3 14 159 2 6 53\n58 9 79 323 84 6\n2643 383 2 79 50 288\n",
+"output": "87\n"
+}
+],
+"p03563": [
+{
+"input": "2002\n2017\n",
+"output": "2032\n"
+},
+{
+"input": "4500\n0\n",
+"output": "-4500\n"
+}
+],
+"p03564": [
+{
+"input": "4\n3\n",
+"output": "10\n"
+},
+{
+"input": "10\n10\n",
+"output": "76\n"
+}
+],
+"p03565": [
+{
+"input": "?tc????\ncoder\n",
+"output": "atcoder\n"
+},
+{
+"input": "??p??d??\nabc\n",
+"output": "UNRESTORABLE\n"
+}
+],
+"p03567": [
+{
+"input": "BACD\n",
+"output": "Yes\n"
+},
+{
+"input": "ABCD\n",
+"output": "No\n"
+},
+{
+"input": "CABD\n",
+"output": "No\n"
+},
+{
+"input": "ACACA\n",
+"output": "Yes\n"
+},
+{
+"input": "XX\n",
+"output": "No\n"
+}
+],
+"p03568": [
+{
+"input": "2\n2 3\n",
+"output": "7\n"
+},
+{
+"input": "3\n3 3 3\n",
+"output": "26\n"
+},
+{
+"input": "1\n100\n",
+"output": "1\n"
+},
+{
+"input": "10\n90 52 56 71 44 8 13 30 57 84\n",
+"output": "58921\n"
+}
+],
+"p03569": [
+{
+"input": "xabxa\n",
+"output": "2\n"
+},
+{
+"input": "ab\n",
+"output": "-1\n"
+},
+{
+"input": "a\n",
+"output": "0\n"
+},
+{
+"input": "oxxx\n",
+"output": "3\n"
+}
+],
+"p03573": [
+{
+"input": "5 7 5\n",
+"output": "7\n"
+},
+{
+"input": "1 1 7\n",
+"output": "7\n"
+},
+{
+"input": "-100 100 100\n",
+"output": "-100\n"
+}
+],
+"p03574": [
+{
+"input": "3 5\n.....\n.#.#.\n.....\n",
+"output": "11211\n1#2#1\n11211\n"
+},
+{
+"input": "3 5\n#####\n#####\n#####\n",
+"output": "#####\n#####\n#####\n"
+},
+{
+"input": "6 6\n#####.\n#.#.##\n####.#\n.#..#.\n#.##..\n#.#...\n",
+"output": "#####3\n#8#7##\n####5#\n4#65#2\n#5##21\n#4#310\n"
+}
+],
+"p03575": [
+{
+"input": "7 7\n1 3\n2 7\n3 4\n4 5\n4 6\n5 6\n6 7\n",
+"output": "4\n"
+},
+{
+"input": "3 3\n1 2\n1 3\n2 3\n",
+"output": "0\n"
+},
+{
+"input": "6 5\n1 2\n2 3\n3 4\n4 5\n5 6\n",
+"output": "5\n"
+}
+],
+"p03576": [
+{
+"input": "4 4\n1 4\n3 3\n6 2\n8 1\n",
+"output": "21\n"
+},
+{
+"input": "4 2\n0 0\n1 1\n2 2\n3 3\n",
+"output": "1\n"
+},
+{
+"input": "4 3\n-1000000000 -1000000000\n1000000000 1000000000\n-999999999 999999999\n999999999 -999999999\n",
+"output": "3999999996000000001\n"
+}
+],
+"p03578": [
+{
+"input": "5\n3 1 4 1 5\n3\n5 4 3\n",
+"output": "YES\n"
+},
+{
+"input": "7\n100 200 500 700 1200 1600 2000\n6\n100 200 500 700 1600 1600\n",
+"output": "NO\n"
+},
+{
+"input": "1\n800\n5\n100 100 100 100 100\n",
+"output": "NO\n"
+},
+{
+"input": "15\n1 2 2 3 3 3 4 4 4 4 5 5 5 5 5\n9\n5 4 3 2 1 2 3 4 5\n",
+"output": "YES\n"
+}
+],
+"p03583": [
+{
+"input": "2\n",
+"output": "1 2 2\n"
+},
+{
+"input": "3485\n",
+"output": "872 1012974 1539173474040\n"
+},
+{
+"input": "4664\n",
+"output": "3498 3498 3498\n"
+}
+],
+"p03588": [
+{
+"input": "3\n4 7\n2 9\n6 2\n",
+"output": "8\n"
+},
+{
+"input": "5\n1 10\n3 6\n5 2\n4 4\n2 8\n",
+"output": "7\n"
+},
+{
+"input": "2\n1 1000000000\n1000000000 1\n",
+"output": "1000000001\n"
+}
+],
+"p03591": [
+{
+"input": "YAKINIKU\n",
+"output": "Yes\n"
+},
+{
+"input": "TAKOYAKI\n",
+"output": "No\n"
+},
+{
+"input": "YAK\n",
+"output": "No\n"
+}
+],
+"p03592": [
+{
+"input": "2 2 2\n",
+"output": "Yes\n"
+},
+{
+"input": "2 2 1\n",
+"output": "No\n"
+},
+{
+"input": "3 5 8\n",
+"output": "Yes\n"
+},
+{
+"input": "7 9 20\n",
+"output": "No\n"
+}
+],
+"p03593": [
+{
+"input": "3 4\naabb\naabb\naacc\n",
+"output": "Yes\n"
+},
+{
+"input": "2 2\naa\nbb\n",
+"output": "No\n"
+},
+{
+"input": "5 1\nt\nw\ne\ne\nt\n",
+"output": "Yes\n"
+},
+{
+"input": "2 5\nabxba\nabyba\n",
+"output": "No\n"
+},
+{
+"input": "1 1\nz\n",
+"output": "Yes\n"
+}
+],
+"p03597": [
+{
+"input": "3\n4\n",
+"output": "5\n"
+},
+{
+"input": "19\n100\n",
+"output": "261\n"
+},
+{
+"input": "10\n0\n",
+"output": "100\n"
+}
+],
+"p03598": [
+{
+"input": "1\n10\n2\n",
+"output": "4\n"
+},
+{
+"input": "2\n9\n3 6\n",
+"output": "12\n"
+},
+{
+"input": "5\n20\n11 12 9 17 12\n",
+"output": "74\n"
+}
+],
+"p03599": [
+{
+"input": "1 2 10 20 15 200\n",
+"output": "110 10\n"
+},
+{
+"input": "1 2 1 2 100 1000\n",
+"output": "200 100\n"
+},
+{
+"input": "17 19 22 26 55 2802\n",
+"output": "2634 934\n"
+}
+],
+"p03600": [
+{
+"input": "3\n0 1 3\n1 0 2\n3 2 0\n",
+"output": "3\n"
+},
+{
+"input": "3\n0 1 3\n1 0 1\n3 1 0\n",
+"output": "-1\n"
+},
+{
+"input": "5\n0 21 18 11 28\n21 0 13 10 26\n18 13 0 23 13\n11 10 23 0 17\n28 26 13 17 0\n",
+"output": "82\n"
+},
+{
+"input": "3\n0 1000000000 1000000000\n1000000000 0 1000000000\n1000000000 1000000000 0\n",
+"output": "3000000000\n"
+}
+],
+"p03605": [
+{
+"input": "29\n",
+"output": "Yes\n"
+},
+{
+"input": "72\n",
+"output": "No\n"
+},
+{
+"input": "91\n",
+"output": "Yes\n"
+}
+],
+"p03606": [
+{
+"input": "1\n24 30\n",
+"output": "7\n"
+},
+{
+"input": "2\n6 8\n3 3\n",
+"output": "4\n"
+}
+],
+"p03607": [
+{
+"input": "3\n6\n2\n6\n",
+"output": "1\n"
+},
+{
+"input": "4\n2\n5\n5\n2\n",
+"output": "0\n"
+},
+{
+"input": "6\n12\n22\n16\n22\n18\n12\n",
+"output": "2\n"
+}
+],
+"p03608": [
+{
+"input": "3 3 3\n1 2 3\n1 2 1\n2 3 1\n3 1 4\n",
+"output": "2\n"
+},
+{
+"input": "3 3 2\n1 3\n2 3 2\n1 3 6\n1 2 2\n",
+"output": "4\n"
+},
+{
+"input": "4 6 3\n2 3 4\n1 2 4\n2 3 3\n4 3 1\n1 4 1\n4 2 2\n3 1 6\n",
+"output": "3\n"
+}
+],
+"p03609": [
+{
+"input": "100 17\n",
+"output": "83\n"
+},
+{
+"input": "48 58\n",
+"output": "0\n"
+},
+{
+"input": "1000000000 1000000000\n",
+"output": "0\n"
+}
+],
+"p03610": [
+{
+"input": "atcoder\n",
+"output": "acdr\n"
+},
+{
+"input": "aaaa\n",
+"output": "aa\n"
+},
+{
+"input": "z\n",
+"output": "z\n"
+},
+{
+"input": "fukuokayamaguchi\n",
+"output": "fkoaaauh\n"
+}
+],
+"p03611": [
+{
+"input": "7\n3 1 4 1 5 9 2\n",
+"output": "4\n"
+},
+{
+"input": "10\n0 1 2 3 4 5 6 7 8 9\n",
+"output": "3\n"
+},
+{
+"input": "1\n99999\n",
+"output": "1\n"
+}
+],
+"p03612": [
+{
+"input": "5\n1 4 3 5 2\n",
+"output": "2\n"
+},
+{
+"input": "2\n1 2\n",
+"output": "1\n"
+},
+{
+"input": "2\n2 1\n",
+"output": "0\n"
+},
+{
+"input": "9\n1 2 4 9 5 8 7 3 6\n",
+"output": "3\n"
+}
+],
+"p03617": [
+{
+"input": "20 30 70 90\n3\n",
+"output": "150\n"
+},
+{
+"input": "10000 1000 100 10\n1\n",
+"output": "100\n"
+},
+{
+"input": "10 100 1000 10000\n1\n",
+"output": "40\n"
+},
+{
+"input": "12345678 87654321 12345678 87654321\n123456789\n",
+"output": "1524157763907942\n"
+}
+],
+"p03618": [
+{
+"input": "aatt\n",
+"output": "5\n"
+},
+{
+"input": "xxxxxxxxxx\n",
+"output": "1\n"
+},
+{
+"input": "abracadabra\n",
+"output": "44\n"
+}
+],
+"p03623": [
+{
+"input": "5 2 7\n",
+"output": "B\n"
+},
+{
+"input": "1 999 1000\n",
+"output": "A\n"
+}
+],
+"p03624": [
+{
+"input": "atcoderregularcontest\n",
+"output": "b\n"
+},
+{
+"input": "abcdefghijklmnopqrstuvwxyz\n",
+"output": "None\n"
+},
+{
+"input": "fajsonlslfepbjtsaayxbymeskptcumtwrmkkinjxnnucagfrg\n",
+"output": "d\n"
+}
+],
+"p03625": [
+{
+"input": "6\n3 1 2 4 2 1\n",
+"output": "2\n"
+},
+{
+"input": "4\n1 2 3 4\n",
+"output": "0\n"
+},
+{
+"input": "10\n3 3 3 3 4 4 4 5 5 5\n",
+"output": "20\n"
+}
+],
+"p03626": [
+{
+"input": "3\naab\nccb\n",
+"output": "6\n"
+},
+{
+"input": "1\nZ\nZ\n",
+"output": "3\n"
+},
+{
+"input": "52\nRvvttdWIyyPPQFFZZssffEEkkaSSDKqcibbeYrhAljCCGGJppHHn\nRLLwwdWIxxNNQUUXXVVMMooBBaggDKqcimmeYrhAljOOTTJuuzzn\n",
+"output": "958681902\n"
+}
+],
+"p03631": [
+{
+"input": "575\n",
+"output": "Yes\n"
+},
+{
+"input": "123\n",
+"output": "No\n"
+},
+{
+"input": "812\n",
+"output": "No\n"
+}
+],
+"p03632": [
+{
+"input": "0 75 25 100\n",
+"output": "50\n"
+},
+{
+"input": "0 33 66 99\n",
+"output": "0\n"
+},
+{
+"input": "10 90 20 80\n",
+"output": "60\n"
+}
+],
+"p03633": [
+{
+"input": "2\n2\n3\n",
+"output": "6\n"
+},
+{
+"input": "5\n2\n5\n10\n1000000000000000000\n1000000000000000000\n",
+"output": "1000000000000000000\n"
+}
+],
+"p03634": [
+{
+"input": "5\n1 2 1\n1 3 1\n2 4 1\n3 5 1\n3 1\n2 4\n2 3\n4 5\n",
+"output": "3\n2\n4\n"
+},
+{
+"input": "7\n1 2 1\n1 3 3\n1 4 5\n1 5 7\n1 6 9\n1 7 11\n3 2\n1 3\n4 5\n6 7\n",
+"output": "5\n14\n22\n"
+},
+{
+"input": "10\n1 2 1000000000\n2 3 1000000000\n3 4 1000000000\n4 5 1000000000\n5 6 1000000000\n6 7 1000000000\n7 8 1000000000\n8 9 1000000000\n9 10 1000000000\n1 1\n9 10\n",
+"output": "17000000000\n"
+}
+],
+"p03635": [
+{
+"input": "3 4\n",
+"output": "6\n"
+},
+{
+"input": "2 2\n",
+"output": "1\n"
+}
+],
+"p03636": [
+{
+"input": "internationalization\n",
+"output": "i18n\n"
+},
+{
+"input": "smiles\n",
+"output": "s4s\n"
+},
+{
+"input": "xyz\n",
+"output": "x1z\n"
+}
+],
+"p03637": [
+{
+"input": "3\n1 10 100\n",
+"output": "Yes\n"
+},
+{
+"input": "4\n1 2 3 4\n",
+"output": "No\n"
+},
+{
+"input": "3\n1 4 1\n",
+"output": "Yes\n"
+},
+{
+"input": "2\n1 1\n",
+"output": "No\n"
+},
+{
+"input": "6\n2 7 1 8 2 8\n",
+"output": "Yes\n"
+}
+],
+"p03638": [
+{
+"input": "2 2\n3\n2 1 1\n",
+"output": "1 1\n2 3\n"
+},
+{
+"input": "3 5\n5\n1 2 3 4 5\n",
+"output": "1 4 4 4 3\n2 5 4 5 3\n2 5 5 5 3\n"
+},
+{
+"input": "1 1\n1\n1\n",
+"output": "1\n"
+}
+],
+"p03643": [
+{
+"input": "100\n",
+"output": "ABC100\n"
+},
+{
+"input": "425\n",
+"output": "ABC425\n"
+},
+{
+"input": "999\n",
+"output": "ABC999\n"
+}
+],
+"p03644": [
+{
+"input": "7\n",
+"output": "4\n"
+},
+{
+"input": "32\n",
+"output": "32\n"
+},
+{
+"input": "1\n",
+"output": "1\n"
+},
+{
+"input": "100\n",
+"output": "64\n"
+}
+],
+"p03645": [
+{
+"input": "3 2\n1 2\n2 3\n",
+"output": "POSSIBLE\n"
+},
+{
+"input": "4 3\n1 2\n2 3\n3 4\n",
+"output": "IMPOSSIBLE\n"
+},
+{
+"input": "100000 1\n1 99999\n",
+"output": "IMPOSSIBLE\n"
+},
+{
+"input": "5 5\n1 3\n4 5\n2 3\n2 4\n1 4\n",
+"output": "POSSIBLE\n"
+}
+],
+"p03646": [
+{
+"input": "0\n",
+"output": "4\n3 3 3 3\n"
+},
+{
+"input": "1\n",
+"output": "3\n1 0 3\n"
+},
+{
+"input": "2\n",
+"output": "2\n2 2\n"
+},
+{
+"input": "3\n",
+"output": "7\n27 0 0 0 0 0 0\n"
+},
+{
+"input": "1234567894848\n",
+"output": "10\n1000 193 256 777 0 1 1192 1234567891011 48 425\n"
+}
+],
+"p03651": [
+{
+"input": "3 7\n9 3 4\n",
+"output": "POSSIBLE\n"
+},
+{
+"input": "3 5\n6 9 3\n",
+"output": "IMPOSSIBLE\n"
+},
+{
+"input": "4 11\n11 3 7 15\n",
+"output": "POSSIBLE\n"
+},
+{
+"input": "5 12\n10 2 8 6 4\n",
+"output": "IMPOSSIBLE\n"
+}
+],
+"p03657": [
+{
+"input": "4 5\n",
+"output": "Possible\n"
+},
+{
+"input": "1 1\n",
+"output": "Impossible\n"
+}
+],
+"p03658": [
+{
+"input": "5 3\n1 2 3 4 5\n",
+"output": "12\n"
+},
+{
+"input": "15 14\n50 26 27 21 41 7 42 35 7 5 5 36 39 1 45\n",
+"output": "386\n"
+}
+],
+"p03659": [
+{
+"input": "6\n1 2 3 4 5 6\n",
+"output": "1\n"
+},
+{
+"input": "2\n10 -10\n",
+"output": "20\n"
+}
+],
+"p03660": [
+{
+"input": "7\n3 6\n1 2\n3 1\n7 4\n5 7\n1 4\n",
+"output": "Fennec\n"
+},
+{
+"input": "4\n1 4\n4 2\n2 3\n",
+"output": "Snuke\n"
+}
+],
+"p03665": [
+{
+"input": "2 0\n1 3\n",
+"output": "2\n"
+},
+{
+"input": "1 1\n50\n",
+"output": "0\n"
+},
+{
+"input": "3 0\n1 1 1\n",
+"output": "4\n"
+},
+{
+"input": "45 1\n17 55 85 55 74 20 90 67 40 70 39 89 91 50 16 24 14 43 24 66 25 9 89 71 41 16 53 13 61 15 85 72 62 67 42 26 36 66 4 87 59 91 4 25 26\n",
+"output": "17592186044416\n"
+}
+],
+"p03671": [
+{
+"input": "700 600 780\n",
+"output": "1300\n"
+},
+{
+"input": "10000 10000 10000\n",
+"output": "20000\n"
+}
+],
+"p03672": [
+{
+"input": "abaababaab\n",
+"output": "6\n"
+},
+{
+"input": "xxxx\n",
+"output": "2\n"
+},
+{
+"input": "abcabcabcabc\n",
+"output": "6\n"
+},
+{
+"input": "akasakaakasakasakaakas\n",
+"output": "14\n"
+}
+],
+"p03673": [
+{
+"input": "4\n1 2 3 4\n",
+"output": "4 2 1 3\n"
+},
+{
+"input": "3\n1 2 3\n",
+"output": "3 1 2\n"
+},
+{
+"input": "1\n1000000000\n",
+"output": "1000000000\n"
+},
+{
+"input": "6\n0 6 7 6 7 0\n",
+"output": "0 6 6 0 7 7\n"
+}
+],
+"p03679": [
+{
+"input": "4 3 6\n",
+"output": "safe\n"
+},
+{
+"input": "6 5 1\n",
+"output": "delicious\n"
+},
+{
+"input": "3 7 12\n",
+"output": "dangerous\n"
+}
+],
+"p03680": [
+{
+"input": "3\n3\n1\n2\n",
+"output": "2\n"
+},
+{
+"input": "4\n3\n4\n1\n2\n",
+"output": "-1\n"
+},
+{
+"input": "5\n3\n3\n4\n2\n4\n",
+"output": "3\n"
+}
+],
+"p03681": [
+{
+"input": "2 2\n",
+"output": "8\n"
+},
+{
+"input": "3 2\n",
+"output": "12\n"
+},
+{
+"input": "1 8\n",
+"output": "0\n"
+},
+{
+"input": "100000 100000\n",
+"output": "530123477\n"
+}
+],
+"p03687": [
+{
+"input": "serval\n",
+"output": "3\n"
+},
+{
+"input": "jackal\n",
+"output": "2\n"
+},
+{
+"input": "zzz\n",
+"output": "0\n"
+},
+{
+"input": "whbrjpjyhsrywlqjxdbrbaomnw\n",
+"output": "8\n"
+}
+],
+"p03693": [
+{
+"input": "4 3 2\n",
+"output": "YES\n"
+},
+{
+"input": "2 3 4\n",
+"output": "NO\n"
+}
+],
+"p03694": [
+{
+"input": "4\n2 3 7 9\n",
+"output": "7\n"
+},
+{
+"input": "8\n3 1 4 1 5 9 2 6\n",
+"output": "8\n"
+}
+],
+"p03695": [
+{
+"input": "4\n2100 2500 2700 2700\n",
+"output": "2 2\n"
+},
+{
+"input": "5\n1100 1900 2800 3200 3200\n",
+"output": "3 5\n"
+},
+{
+"input": "20\n800 810 820 830 840 850 860 870 880 890 900 910 920 930 940 950 960 970 980 990\n",
+"output": "1 1\n"
+}
+],
+"p03696": [
+{
+"input": "3\n())\n",
+"output": "(())\n"
+},
+{
+"input": "6\n)))())\n",
+"output": "(((()))())\n"
+},
+{
+"input": "8\n))))((((\n",
+"output": "(((())))(((())))\n"
+}
+],
+"p03697": [
+{
+"input": "6 3\n",
+"output": "9\n"
+},
+{
+"input": "6 4\n",
+"output": "error\n"
+}
+],
+"p03698": [
+{
+"input": "uncopyrightable\n",
+"output": "yes\n"
+},
+{
+"input": "different\n",
+"output": "no\n"
+},
+{
+"input": "no\n",
+"output": "yes\n"
+}
+],
+"p03699": [
+{
+"input": "3\n5\n10\n15\n",
+"output": "25\n"
+},
+{
+"input": "3\n10\n10\n15\n",
+"output": "35\n"
+},
+{
+"input": "3\n10\n20\n30\n",
+"output": "0\n"
+}
+],
+"p03700": [
+{
+"input": "4 5 3\n8\n7\n4\n2\n",
+"output": "2\n"
+},
+{
+"input": "2 10 4\n20\n20\n",
+"output": "4\n"
+},
+{
+"input": "5 2 1\n900000000\n900000000\n1000000000\n1000000000\n1000000000\n",
+"output": "800000000\n"
+}
+],
+"p03705": [
+{
+"input": "4 4 6\n",
+"output": "5\n"
+},
+{
+"input": "5 4 3\n",
+"output": "0\n"
+},
+{
+"input": "1 7 10\n",
+"output": "0\n"
+},
+{
+"input": "1 3 3\n",
+"output": "1\n"
+}
+],
+"p03711": [
+{
+"input": "1 3\n",
+"output": "Yes\n"
+},
+{
+"input": "2 4\n",
+"output": "No\n"
+}
+],
+"p03712": [
+{
+"input": "2 3\nabc\narc\n",
+"output": "#####\n#abc#\n#arc#\n#####\n"
+},
+{
+"input": "1 1\nz\n",
+"output": "###\n#z#\n###\n"
+}
+],
+"p03719": [
+{
+"input": "1 3 2\n",
+"output": "Yes\n"
+},
+{
+"input": "6 5 4\n",
+"output": "No\n"
+},
+{
+"input": "2 2 2\n",
+"output": "Yes\n"
+}
+],
+"p03720": [
+{
+"input": "4 3\n1 2\n2 3\n1 4\n",
+"output": "2\n2\n1\n1\n"
+},
+{
+"input": "2 5\n1 2\n2 1\n1 2\n2 1\n1 2\n",
+"output": "5\n5\n"
+},
+{
+"input": "8 8\n1 2\n3 4\n1 5\n2 8\n3 7\n5 2\n4 1\n6 8\n",
+"output": "3\n3\n2\n2\n2\n1\n1\n2\n"
+}
+],
+"p03721": [
+{
+"input": "3 4\n1 1\n2 2\n3 3\n",
+"output": "3\n"
+},
+{
+"input": "10 500000\n1 100000\n1 100000\n1 100000\n1 100000\n1 100000\n100000 100000\n100000 100000\n100000 100000\n100000 100000\n100000 100000\n",
+"output": "1\n"
+}
+],
+"p03722": [
+{
+"input": "3 3\n1 2 4\n2 3 3\n1 3 5\n",
+"output": "7\n"
+},
+{
+"input": "2 2\n1 2 1\n2 1 1\n",
+"output": "inf\n"
+},
+{
+"input": "6 5\n1 2 -1000000000\n2 3 -1000000000\n3 4 -1000000000\n4 5 -1000000000\n5 6 -1000000000\n",
+"output": "-5000000000\n"
+}
+],
+"p03723": [
+{
+"input": "4 12 20\n",
+"output": "3\n"
+},
+{
+"input": "14 14 14\n",
+"output": "-1\n"
+},
+{
+"input": "454 414 444\n",
+"output": "1\n"
+}
+],
+"p03724": [
+{
+"input": "4 4\n1 2\n2 4\n1 3\n3 4\n",
+"output": "YES\n"
+},
+{
+"input": "5 5\n1 2\n3 5\n5 1\n3 4\n2 3\n",
+"output": "NO\n"
+}
+],
+"p03729": [
+{
+"input": "rng gorilla apple\n",
+"output": "YES\n"
+},
+{
+"input": "yakiniku unagi sushi\n",
+"output": "NO\n"
+},
+{
+"input": "a a a\n",
+"output": "YES\n"
+},
+{
+"input": "aaaaaaaaab aaaaaaaaaa aaaaaaaaab\n",
+"output": "NO\n"
+}
+],
+"p03730": [
+{
+"input": "7 5 1\n",
+"output": "YES\n"
+},
+{
+"input": "2 2 1\n",
+"output": "NO\n"
+},
+{
+"input": "1 100 97\n",
+"output": "YES\n"
+},
+{
+"input": "40 98 58\n",
+"output": "YES\n"
+},
+{
+"input": "77 42 36\n",
+"output": "NO\n"
+}
+],
+"p03732": [
+{
+"input": "4 6\n2 1\n3 4\n4 10\n3 4\n",
+"output": "11\n"
+},
+{
+"input": "4 6\n2 1\n3 7\n4 10\n3 6\n",
+"output": "13\n"
+},
+{
+"input": "4 10\n1 100\n1 100\n1 100\n1 100\n",
+"output": "400\n"
+},
+{
+"input": "4 1\n10 100\n10 100\n10 100\n10 100\n",
+"output": "0\n"
+}
+],
+"p03733": [
+{
+"input": "2 4\n0 3\n",
+"output": "7\n"
+},
+{
+"input": "2 4\n0 5\n",
+"output": "8\n"
+},
+{
+"input": "4 1000000000\n0 1000 1000000 1000000000\n",
+"output": "2000000000\n"
+},
+{
+"input": "1 1\n0\n",
+"output": "1\n"
+},
+{
+"input": "9 10\n0 3 5 7 100 110 200 300 311\n",
+"output": "67\n"
+}
+],
+"p03737": [
+{
+"input": "atcoder beginner contest\n",
+"output": "ABC\n"
+},
+{
+"input": "resident register number\n",
+"output": "RRN\n"
+},
+{
+"input": "k nearest neighbor\n",
+"output": "KNN\n"
+},
+{
+"input": "async layered coding\n",
+"output": "ALC\n"
+}
+],
+"p03738": [
+{
+"input": "36\n24\n",
+"output": "GREATER\n"
+},
+{
+"input": "850\n3777\n",
+"output": "LESS\n"
+},
+{
+"input": "9720246\n22516266\n",
+"output": "LESS\n"
+},
+{
+"input": "123456789012345678901234567890\n234567890123456789012345678901\n",
+"output": "LESS\n"
+}
+],
+"p03739": [
+{
+"input": "4\n1 -3 1 0\n",
+"output": "4\n"
+},
+{
+"input": "5\n3 -6 4 -5 7\n",
+"output": "0\n"
+},
+{
+"input": "6\n-1 4 3 2 -5 4\n",
+"output": "8\n"
+}
+],
+"p03745": [
+{
+"input": "6\n1 2 3 2 2 1\n",
+"output": "2\n"
+},
+{
+"input": "9\n1 2 1 2 1 2 1 2 1\n",
+"output": "5\n"
+},
+{
+"input": "7\n1 2 3 2 1 999999999 1000000000\n",
+"output": "3\n"
+}
+],
+"p03759": [
+{
+"input": "2 4 6\n",
+"output": "YES\n"
+},
+{
+"input": "2 5 6\n",
+"output": "NO\n"
+},
+{
+"input": "3 2 1\n",
+"output": "YES\n"
+}
+],
+"p03760": [
+{
+"input": "xyz\nabc\n",
+"output": "xaybzc\n"
+},
+{
+"input": "atcoderbeginnercontest\natcoderregularcontest\n",
+"output": "aattccooddeerrbreeggiunlnaerrccoonntteesstt\n"
+}
+],
+"p03761": [
+{
+"input": "3\ncbaa\ndaacc\nacacac\n",
+"output": "aac\n"
+},
+{
+"input": "3\na\naa\nb\n",
+"output": "\n"
+}
+],
+"p03762": [
+{
+"input": "3 3\n1 3 4\n1 3 6\n",
+"output": "60\n"
+},
+{
+"input": "6 5\n-790013317 -192321079 95834122 418379342 586260100 802780784\n-253230108 193944314 363756450 712662868 735867677\n",
+"output": "835067060\n"
+}
+],
+"p03767": [
+{
+"input": "2\n5 2 8 5 1 5\n",
+"output": "10\n"
+},
+{
+"input": "10\n1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000\n",
+"output": "10000000000\n"
+}
+],
+"p03773": [
+{
+"input": "9 12\n",
+"output": "21\n"
+},
+{
+"input": "19 0\n",
+"output": "19\n"
+},
+{
+"input": "23 2\n",
+"output": "1\n"
+}
+],
+"p03774": [
+{
+"input": "2 2\n2 0\n0 0\n-1 0\n1 0\n",
+"output": "2\n1\n"
+},
+{
+"input": "3 4\n10 10\n-10 -10\n3 3\n1 2\n2 3\n3 5\n3 5\n",
+"output": "3\n1\n2\n"
+},
+{
+"input": "5 5\n-100000000 -100000000\n-100000000 100000000\n100000000 -100000000\n100000000 100000000\n0 0\n0 0\n100000000 100000000\n100000000 -100000000\n-100000000 100000000\n-100000000 -100000000\n",
+"output": "5\n4\n3\n2\n1\n"
+}
+],
+"p03775": [
+{
+"input": "10000\n",
+"output": "3\n"
+},
+{
+"input": "1000003\n",
+"output": "7\n"
+},
+{
+"input": "9876543210\n",
+"output": "6\n"
+}
+],
+"p03776": [
+{
+"input": "5 2 2\n1 2 3 4 5\n",
+"output": "4.500000\n1\n"
+},
+{
+"input": "4 2 3\n10 20 10 10\n",
+"output": "15.000000\n3\n"
+},
+{
+"input": "5 1 5\n1000000000000000 999999999999999 999999999999998 999999999999997 999999999999996\n",
+"output": "1000000000000000.000000\n1\n"
+}
+],
+"p03777": [
+{
+"input": "H H\n",
+"output": "H\n"
+},
+{
+"input": "D H\n",
+"output": "D\n"
+},
+{
+"input": "D D\n",
+"output": "H\n"
+}
+],
+"p03778": [
+{
+"input": "3 2 6\n",
+"output": "1\n"
+},
+{
+"input": "3 1 3\n",
+"output": "0\n"
+},
+{
+"input": "5 10 1\n",
+"output": "4\n"
+}
+],
+"p03779": [
+{
+"input": "6\n",
+"output": "3\n"
+},
+{
+"input": "2\n",
+"output": "2\n"
+},
+{
+"input": "11\n",
+"output": "5\n"
+}
+],
+"p03785": [
+{
+"input": "5 3 5\n1\n2\n3\n6\n12\n",
+"output": "3\n"
+},
+{
+"input": "6 3 3\n7\n6\n2\n8\n10\n6\n",
+"output": "3\n"
+}
+],
+"p03786": [
+{
+"input": "3\n3 1 4\n",
+"output": "2\n"
+},
+{
+"input": "5\n1 1 1 1 1\n",
+"output": "5\n"
+},
+{
+"input": "6\n40 1 30 2 7 20\n",
+"output": "4\n"
+}
+],
+"p03795": [
+{
+"input": "20\n",
+"output": "15800\n"
+},
+{
+"input": "60\n",
+"output": "47200\n"
+}
+],
+"p03796": [
+{
+"input": "3\n",
+"output": "6\n"
+},
+{
+"input": "10\n",
+"output": "3628800\n"
+},
+{
+"input": "100000\n",
+"output": "457992974\n"
+}
+],
+"p03797": [
+{
+"input": "1 6\n",
+"output": "2\n"
+},
+{
+"input": "12345 678901\n",
+"output": "175897\n"
+}
+],
+"p03803": [
+{
+"input": "8 6\n",
+"output": "Alice\n"
+},
+{
+"input": "1 1\n",
+"output": "Draw\n"
+},
+{
+"input": "13 1\n",
+"output": "Bob\n"
+}
+],
+"p03804": [
+{
+"input": "3 2\n#.#\n.#.\n#.#\n#.\n.#\n",
+"output": "Yes\n"
+},
+{
+"input": "4 1\n....\n....\n....\n....\n#\n",
+"output": "No\n"
+}
+],
+"p03805": [
+{
+"input": "3 3\n1 2\n1 3\n2 3\n",
+"output": "2\n"
+},
+{
+"input": "7 7\n1 3\n2 7\n3 4\n4 5\n4 6\n5 6\n6 7\n",
+"output": "1\n"
+}
+],
+"p03806": [
+{
+"input": "3 1 1\n1 2 1\n2 1 2\n3 3 10\n",
+"output": "3\n"
+},
+{
+"input": "1 1 10\n10 10 10\n",
+"output": "-1\n"
+}
+],
+"p03807": [
+{
+"input": "3\n1 2 3\n",
+"output": "YES\n"
+},
+{
+"input": "5\n1 2 3 4 5\n",
+"output": "NO\n"
+}
+],
+"p03813": [
+{
+"input": "1000\n",
+"output": "ABC\n"
+},
+{
+"input": "2000\n",
+"output": "ARC\n"
+}
+],
+"p03814": [
+{
+"input": "QWERTYASDFZXCV\n",
+"output": "5\n"
+},
+{
+"input": "ZABCZ\n",
+"output": "4\n"
+},
+{
+"input": "HASFJGHOGAKZZFEGA\n",
+"output": "12\n"
+}
+],
+"p03815": [
+{
+"input": "7\n",
+"output": "2\n"
+},
+{
+"input": "149696127901\n",
+"output": "27217477801\n"
+}
+],
+"p03816": [
+{
+"input": "5\n1 2 1 3 7\n",
+"output": "3\n"
+},
+{
+"input": "15\n1 3 5 2 1 3 2 8 8 6 2 6 11 1 1\n",
+"output": "7\n"
+}
+],
+"p03821": [
+{
+"input": "3\n3 5\n2 7\n9 4\n",
+"output": "7\n"
+},
+{
+"input": "7\n3 1\n4 1\n5 9\n2 6\n5 3\n5 8\n9 7\n",
+"output": "22\n"
+}
+],
+"p03826": [
+{
+"input": "3 5 2 7\n",
+"output": "15\n"
+},
+{
+"input": "100 600 200 300\n",
+"output": "60000\n"
+}
+],
+"p03827": [
+{
+"input": "5\nIIDID\n",
+"output": "2\n"
+},
+{
+"input": "7\nDDIDDII\n",
+"output": "0\n"
+}
+],
+"p03828": [
+{
+"input": "3\n",
+"output": "4\n"
+},
+{
+"input": "6\n",
+"output": "30\n"
+},
+{
+"input": "1000\n",
+"output": "972926972\n"
+}
+],
+"p03829": [
+{
+"input": "4 2 5\n1 2 5 7\n",
+"output": "11\n"
+},
+{
+"input": "7 1 100\n40 43 45 105 108 115 124\n",
+"output": "84\n"
+},
+{
+"input": "7 1 2\n24 35 40 68 72 99 103\n",
+"output": "12\n"
+}
+],
+"p03834": [
+{
+"input": "happy,newyear,enjoy\n",
+"output": "happy newyear enjoy\n"
+},
+{
+"input": "haiku,atcoder,tasks\n",
+"output": "haiku atcoder tasks\n"
+},
+{
+"input": "abcde,fghihgf,edcba\n",
+"output": "abcde fghihgf edcba\n"
+}
+],
+"p03835": [
+{
+"input": "2 2\n",
+"output": "6\n"
+},
+{
+"input": "5 15\n",
+"output": "1\n"
+}
+],
+"p03836": [
+{
+"input": "0 0 1 2\n",
+"output": "UURDDLLUUURRDRDDDLLU\n"
+},
+{
+"input": "-2 -2 1 1\n",
+"output": "UURRURRDDDLLDLLULUUURRURRDDDLLDL\n"
+}
+],
+"p03837": [
+{
+"input": "3 3\n1 2 1\n1 3 1\n2 3 3\n",
+"output": "1\n"
+},
+{
+"input": "3 2\n1 2 1\n2 3 1\n",
+"output": "0\n"
+}
+],
+"p03838": [
+{
+"input": "10 20\n",
+"output": "10\n"
+},
+{
+"input": "10 -10\n",
+"output": "1\n"
+},
+{
+"input": "-10 -20\n",
+"output": "12\n"
+}
+],
+"p03844": [
+{
+"input": "1 + 2\n",
+"output": "3\n"
+},
+{
+"input": "5 - 7\n",
+"output": "-2\n"
+}
+],
+"p03845": [
+{
+"input": "3\n2 1 4\n2\n1 1\n2 3\n",
+"output": "6\n9\n"
+},
+{
+"input": "5\n7 2 3 8 5\n3\n4 2\n1 7\n4 13\n",
+"output": "19\n25\n30\n"
+}
+],
+"p03846": [
+{
+"input": "5\n2 4 4 0 2\n",
+"output": "4\n"
+},
+{
+"input": "7\n6 4 0 2 4 0 2\n",
+"output": "0\n"
+},
+{
+"input": "8\n7 5 1 1 7 3 5 3\n",
+"output": "16\n"
+}
+],
+"p03852": [
+{
+"input": "a\n",
+"output": "vowel\n"
+},
+{
+"input": "z\n",
+"output": "consonant\n"
+},
+{
+"input": "s\n",
+"output": "consonant\n"
+}
+],
+"p03853": [
+{
+"input": "2 2\n*.\n.*\n",
+"output": "*.\n*.\n.*\n.*\n"
+},
+{
+"input": "1 4\n***.\n",
+"output": "***.\n***.\n"
+},
+{
+"input": "9 20\n.....***....***.....\n....*...*..*...*....\n...*.....**.....*...\n...*.....*......*...\n....*.....*....*....\n.....**..*...**.....\n.......*..*.*.......\n........**.*........\n.........**.........\n",
+"output": ".....***....***.....\n.....***....***.....\n....*...*..*...*....\n....*...*..*...*....\n...*.....**.....*...\n...*.....**.....*...\n...*.....*......*...\n...*.....*......*...\n....*.....*....*....\n....*.....*....*....\n.....**..*...**.....\n.....**..*...**.....\n.......*..*.*.......\n.......*..*.*.......\n........**.*........\n........**.*........\n.........**.........\n.........**.........\n"
+}
+],
+"p03854": [
+{
+"input": "erasedream\n",
+"output": "YES\n"
+},
+{
+"input": "dreameraser\n",
+"output": "YES\n"
+},
+{
+"input": "dreamerer\n",
+"output": "NO\n"
+}
+],
+"p03855": [
+{
+"input": "4 3 1\n1 2\n2 3\n3 4\n2 3\n",
+"output": "1 2 2 1\n"
+},
+{
+"input": "4 2 2\n1 2\n2 3\n1 4\n2 3\n",
+"output": "1 2 2 1\n"
+},
+{
+"input": "7 4 4\n1 2\n2 3\n2 5\n6 7\n3 5\n4 5\n3 4\n6 7\n",
+"output": "1 1 2 1 2 2 2\n"
+}
+],
+"p03860": [
+{
+"input": "AtCoder Beginner Contest\n",
+"output": "ABC\n"
+},
+{
+"input": "AtCoder Snuke Contest\n",
+"output": "ASC\n"
+},
+{
+"input": "AtCoder X Contest\n",
+"output": "AXC\n"
+}
+],
+"p03861": [
+{
+"input": "4 8 2\n",
+"output": "3\n"
+},
+{
+"input": "0 5 1\n",
+"output": "6\n"
+},
+{
+"input": "9 9 2\n",
+"output": "0\n"
+},
+{
+"input": "1 1000000000000000000 3\n",
+"output": "333333333333333333\n"
+}
+],
+"p03862": [
+{
+"input": "3 3\n2 2 2\n",
+"output": "1\n"
+},
+{
+"input": "6 1\n1 6 1 2 0 4\n",
+"output": "11\n"
+},
+{
+"input": "5 9\n3 1 4 1 5\n",
+"output": "0\n"
+},
+{
+"input": "2 0\n5 5\n",
+"output": "10\n"
+}
+],
+"p03910": [
+{
+"input": "4\n",
+"output": "1\n3\n"
+},
+{
+"input": "7\n",
+"output": "1\n2\n4\n"
+},
+{
+"input": "1\n",
+"output": "1\n"
+}
+],
+"p03937": [
+{
+"input": "4 5\n##...\n.##..\n..##.\n...##\n",
+"output": "Possible\n"
+},
+{
+"input": "5 3\n###\n..#\n###\n#..\n###\n",
+"output": "Impossible\n"
+},
+{
+"input": "4 5\n##...\n.###.\n.###.\n...##\n",
+"output": "Impossible\n"
+}
+],
+"p03943": [
+{
+"input": "10 30 20\n",
+"output": "Yes\n"
+},
+{
+"input": "30 30 100\n",
+"output": "No\n"
+},
+{
+"input": "56 25 31\n",
+"output": "Yes\n"
+}
+],
+"p03944": [
+{
+"input": "5 4 2\n2 1 1\n3 3 4\n",
+"output": "9\n"
+},
+{
+"input": "5 4 3\n2 1 1\n3 3 4\n1 4 2\n",
+"output": "0\n"
+},
+{
+"input": "10 10 5\n1 6 1\n4 1 3\n6 9 4\n9 4 2\n3 1 3\n",
+"output": "64\n"
+}
+],
+"p03945": [
+{
+"input": "BBBWW\n",
+"output": "1\n"
+},
+{
+"input": "WWWWWW\n",
+"output": "0\n"
+},
+{
+"input": "WBWBWBWBWB\n",
+"output": "9\n"
+}
+],
+"p03946": [
+{
+"input": "3 2\n100 50 200\n",
+"output": "1\n"
+},
+{
+"input": "5 8\n50 30 40 10 20\n",
+"output": "2\n"
+},
+{
+"input": "10 100\n7 10 4 5 9 3 6 8 2 1\n",
+"output": "2\n"
+}
+],
+"p03951": [
+{
+"input": "3\nabc\ncde\n",
+"output": "5\n"
+},
+{
+"input": "1\na\nz\n",
+"output": "2\n"
+},
+{
+"input": "4\nexpr\nexpr\n",
+"output": "4\n"
+}
+],
+"p03957": [
+{
+"input": "CODEFESTIVAL\n",
+"output": "Yes\n"
+},
+{
+"input": "FESTIVALCODE\n",
+"output": "No\n"
+},
+{
+"input": "CF\n",
+"output": "Yes\n"
+},
+{
+"input": "FCF\n",
+"output": "Yes\n"
+}
+],
+"p03958": [
+{
+"input": "7 3\n3 2 2\n",
+"output": "0\n"
+},
+{
+"input": "6 3\n1 4 1\n",
+"output": "1\n"
+},
+{
+"input": "100 1\n100\n",
+"output": "99\n"
+}
+],
+"p03959": [
+{
+"input": "5\n1 3 3 3 3\n3 3 2 2 2\n",
+"output": "4\n"
+},
+{
+"input": "5\n1 1 1 2 2\n3 2 1 1 1\n",
+"output": "0\n"
+},
+{
+"input": "10\n1 3776 3776 8848 8848 8848 8848 8848 8848 8848\n8848 8848 8848 8848 8848 8848 8848 8848 3776 5\n",
+"output": "884111967\n"
+},
+{
+"input": "1\n17\n17\n",
+"output": "1\n"
+}
+],
+"p03962": [
+{
+"input": "3 1 4\n",
+"output": "3\n"
+},
+{
+"input": "3 3 33\n",
+"output": "2\n"
+}
+],
+"p03963": [
+{
+"input": "2 2\n",
+"output": "2\n"
+},
+{
+"input": "1 10\n",
+"output": "10\n"
+}
+],
+"p03964": [
+{
+"input": "3\n2 3\n1 1\n3 2\n",
+"output": "10\n"
+},
+{
+"input": "4\n1 1\n1 1\n1 5\n1 100\n",
+"output": "101\n"
+},
+{
+"input": "5\n3 10\n48 17\n31 199\n231 23\n3 2\n",
+"output": "6930\n"
+}
+],
+"p03967": [
+{
+"input": "gpg\n",
+"output": "0\n"
+},
+{
+"input": "ggppgggpgg\n",
+"output": "2\n"
+}
+],
+"p03970": [
+{
+"input": "C0DEFESTIVAL2O16\n",
+"output": "2\n"
+},
+{
+"input": "FESTIVAL2016CODE\n",
+"output": "16\n"
+}
+],
+"p03971": [
+{
+"input": "10 2 3\nabccabaabb\n",
+"output": "Yes\nYes\nNo\nNo\nYes\nYes\nYes\nNo\nNo\nNo\n"
+},
+{
+"input": "12 5 2\ncabbabaacaba\n",
+"output": "No\nYes\nYes\nYes\nYes\nNo\nYes\nYes\nNo\nYes\nNo\nNo\n"
+},
+{
+"input": "5 2 2\nccccc\n",
+"output": "No\nNo\nNo\nNo\nNo\n"
+}
+],
+"p03986": [
+{
+"input": "TSTTSS\n",
+"output": "4\n"
+},
+{
+"input": "SSTTST\n",
+"output": "0\n"
+},
+{
+"input": "TSSTTTSS\n",
+"output": "4\n"
+}
+],
+"p03993": [
+{
+"input": "4\n2 1 4 3\n",
+"output": "2\n"
+},
+{
+"input": "3\n2 3 1\n",
+"output": "0\n"
+},
+{
+"input": "5\n5 5 5 5 1\n",
+"output": "1\n"
+}
+],
+"p03994": [
+{
+"input": "xyz\n4\n",
+"output": "aya\n"
+},
+{
+"input": "a\n25\n",
+"output": "z\n"
+},
+{
+"input": "codefestival\n100\n",
+"output": "aaaafeaaivap\n"
+}
+],
+"p03997": [
+{
+"input": "3\n4\n2\n",
+"output": "7\n"
+},
+{
+"input": "4\n4\n4\n",
+"output": "16\n"
+}
+],
+"p03998": [
+{
+"input": "aca\naccc\nca\n",
+"output": "A\n"
+},
+{
+"input": "abcb\naacb\nbccc\n",
+"output": "C\n"
+}
+],
+"p04000": [
+{
+"input": "4 5 8\n1 1\n1 4\n1 5\n2 3\n3 1\n3 2\n3 4\n4 4\n",
+"output": "0\n0\n0\n2\n4\n0\n0\n0\n0\n0\n"
+},
+{
+"input": "10 10 20\n1 1\n1 4\n1 9\n2 5\n3 10\n4 2\n4 7\n5 9\n6 4\n6 6\n6 7\n7 1\n7 3\n7 7\n8 1\n8 5\n8 10\n9 2\n10 4\n10 9\n",
+"output": "4\n26\n22\n10\n2\n0\n0\n0\n0\n0\n"
+},
+{
+"input": "1000000000 1000000000 0\n",
+"output": "999999996000000004\n0\n0\n0\n0\n0\n0\n0\n0\n0\n"
+}
+],
+"p04001": [
+{
+"input": "125\n",
+"output": "176\n"
+},
+{
+"input": "9999999999\n",
+"output": "12656242944\n"
+}
+],
+"p04005": [
+{
+"input": "3 3 3\n",
+"output": "9\n"
+},
+{
+"input": "2 2 4\n",
+"output": "0\n"
+},
+{
+"input": "5 3 5\n",
+"output": "15\n"
+}
+],
+"p04011": [
+{
+"input": "5\n3\n10000\n9000\n",
+"output": "48000\n"
+},
+{
+"input": "2\n3\n10000\n9000\n",
+"output": "20000\n"
+}
+],
+"p04012": [
+{
+"input": "abaccaba\n",
+"output": "Yes\n"
+},
+{
+"input": "hthth\n",
+"output": "No\n"
+}
+],
+"p04013": [
+{
+"input": "4 8\n7 9 8 9\n",
+"output": "5\n"
+},
+{
+"input": "3 8\n6 6 9\n",
+"output": "0\n"
+},
+{
+"input": "8 5\n3 6 2 8 7 6 5 9\n",
+"output": "19\n"
+},
+{
+"input": "33 3\n3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3\n",
+"output": "8589934591\n"
+}
+],
+"p04019": [
+{
+"input": "SENW\n",
+"output": "Yes\n"
+},
+{
+"input": "NSNNSNSN\n",
+"output": "Yes\n"
+},
+{
+"input": "NNEW\n",
+"output": "No\n"
+},
+{
+"input": "W\n",
+"output": "No\n"
+}
+],
+"p04020": [
+{
+"input": "4\n4\n0\n3\n2\n",
+"output": "4\n"
+},
+{
+"input": "8\n2\n0\n1\n6\n0\n8\n2\n1\n",
+"output": "9\n"
+}
+],
+"p04029": [
+{
+"input": "3\n",
+"output": "6\n"
+},
+{
+"input": "10\n",
+"output": "55\n"
+},
+{
+"input": "1\n",
+"output": "1\n"
+}
+],
+"p04030": [
+{
+"input": "01B0\n",
+"output": "00\n"
+},
+{
+"input": "0BB1\n",
+"output": "1\n"
+}
+],
+"p04031": [
+{
+"input": "2\n4 8\n",
+"output": "8\n"
+},
+{
+"input": "3\n1 1 3\n",
+"output": "3\n"
+},
+{
+"input": "3\n4 2 5\n",
+"output": "5\n"
+},
+{
+"input": "4\n-100 -100 -100 -100\n",
+"output": "0\n"
+}
+],
+"p04033": [
+{
+"input": "1 3\n",
+"output": "Positive\n"
+},
+{
+"input": "-3 -1\n",
+"output": "Negative\n"
+},
+{
+"input": "-1 1\n",
+"output": "Zero\n"
+}
+],
+"p04034": [
+{
+"input": "3 2\n1 2\n2 3\n",
+"output": "2\n"
+},
+{
+"input": "3 3\n1 2\n2 3\n2 3\n",
+"output": "1\n"
+},
+{
+"input": "4 4\n1 2\n2 3\n4 1\n3 4\n",
+"output": "3\n"
+}
+],
+"p04035": [
+{
+"input": "3 50\n30 20 10\n",
+"output": "Possible\n2\n1\n"
+},
+{
+"input": "2 21\n10 10\n",
+"output": "Impossible\n"
+},
+{
+"input": "5 50\n10 20 30 40 50\n",
+"output": "Possible\n1\n2\n3\n4\n"
+}
+],
+"p04043": [
+{
+"input": "5 5 7\n",
+"output": "YES\n"
+},
+{
+"input": "7 7 5\n",
+"output": "NO\n"
+}
+],
+"p04044": [
+{
+"input": "3 3\ndxx\naxx\ncxx\n",
+"output": "axxcxxdxx\n"
+}
+],
+"p04046": [
+{
+"input": "2 3 1 1\n",
+"output": "2\n"
+},
+{
+"input": "10 7 3 4\n",
+"output": "3570\n"
+},
+{
+"input": "100000 100000 99999 99999\n",
+"output": "1\n"
+},
+{
+"input": "100000 100000 44444 55555\n",
+"output": "738162020\n"
+}
+],
+"p04047": [
+{
+"input": "2\n1 3 1 2\n",
+"output": "3\n"
+},
+{
+"input": "5\n100 1 2 3 14 15 58 58 58 29\n",
+"output": "135\n"
+}
+]
+}

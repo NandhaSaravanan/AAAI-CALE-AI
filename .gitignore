@@ -1,0 +1,9 @@
+.venv/
+tools/dolos/node_modules/
+tools/npm-cache/
+tools/*.jar
+tools/brew.log
+work/
+model/checkpoints/
+__pycache__/
+*.pyc
