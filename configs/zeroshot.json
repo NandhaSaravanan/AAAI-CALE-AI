@@ -1,0 +1,6 @@
+{
+ "model": "microsoft/unixcoder-base",
+ "max_len": 256,
+ "bf16": true,
+ "note": "zero-shot, no training"
+}
