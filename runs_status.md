@@ -12,3 +12,5 @@ Power: on **battery** (see env.txt); the Mac slept with the lid closed ~12:30–
 | seed 2, B | not started (queued) | 0/1500 |
 
 Runs are queued in one background job under `caffeinate -dimsu` (prevents idle sleep only; cannot prevent lid-closed sleep on battery). Estimated remaining awake time: ~3–3.5 h.
+
+**Override (Wed Nov 18 16:28:54 EST 2026):** the user instructed to proceed on battery power. Seed runs continue; they stall whenever the lid is closed.
