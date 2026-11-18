@@ -1,0 +1,17 @@
+{
+ "jplag": {
+  "version": "6.3.0",
+  "language": "python3",
+  "min_tokens": null,
+  "metric": "AVG similarity",
+  "java": "/opt/homebrew/opt/openjdk/bin/java"
+ },
+ "dolos": {
+  "version": "2.10.0",
+  "language": "python",
+  "metric": "similarity",
+  "note": "default -M 0.9 fingerprint filter, applied within each 150-pair chunk"
+ },
+ "chunk_pairs": 150,
+ "moss": "skipped: no user ID"
+}

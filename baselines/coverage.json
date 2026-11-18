@@ -1,0 +1,22 @@
+{
+ "jplag_val": {
+  "pairs": 3553,
+  "scored": 2582,
+  "unscored_set_to_0": 971
+ },
+ "jplag_test": {
+  "pairs": 8397,
+  "scored": 6054,
+  "unscored_set_to_0": 2343
+ },
+ "dolos_val": {
+  "pairs": 3553,
+  "scored": 3553,
+  "unscored_set_to_0": 0
+ },
+ "dolos_test": {
+  "pairs": 8397,
+  "scored": 8397,
+  "unscored_set_to_0": 0
+ }
+}
