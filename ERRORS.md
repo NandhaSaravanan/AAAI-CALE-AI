@@ -17,3 +17,5 @@
 - AAAI-27 style requires pdfTeX (`\RequirePDFTeX`); no pdfLaTeX installed. Installing TinyTeX was denied by the permission system (not retried). Preview built with tectonic via `paper/preview_xetex.tex`, which disables that guard; the submission PDF must be compiled with pdfLaTeX (e.g. Overleaf).
 - First tectonic build failed: DNS error fetching its package bundle (transient; machine was offline/asleep). Retry succeeded.
 - lit/refs.bib had `% UNVERIFIED` comments inside entries, which BibTeX swallows into fields (years printed as ????). paper/refs.bib is a copy with those comments stripped; the notes are kept in lit/refs.bib.
+## Final pass Step 5: reproduction mismatch
+- Clean re-run of verify/run_check.py produced different verify_report.csv / work/programs.jsonl (2,443 vs 2,448 originals kept) because the 5 s wall-clock timeout fired more often under CPU load (21 vs 6 original timeouts) while seed training ran on battery. Transforms are deterministic (13,540 common programs byte-identical); build_pairs.py is hash-identical given the original verified programs. Originals not overwritten. Details: reproduction_check.md.
