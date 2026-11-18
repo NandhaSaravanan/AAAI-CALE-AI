@@ -1,0 +1,4 @@
+family,variant_attempts_per_original,originals_attempted,not_applicable,duplicate,parse_fail,pass,mismatch,error,timeout,pass_rate_of_applied
+rename,2,2448,110,0,0,4786,0,0,0,1.0000
+reorder,2,2448,2624,802,0,1470,0,0,0,1.0000
+deadcode,2,2448,0,0,0,4896,0,0,0,1.0000
