@@ -7,4 +7,3 @@ work/
 model/checkpoints/
 __pycache__/
 *.pyc
-eval/scores/*.jsonl
