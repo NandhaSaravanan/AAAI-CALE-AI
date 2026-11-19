@@ -22,7 +22,9 @@ Other deviations from the prompt:
 - **Main analysis subset.** The main analysis uses only pairs JPlag can score (both files ≥ 12 tokens; 72.1% of test pairs), applied to every detector. The all-pairs view is in `eval/view_all/`.
 - **Bootstrap.** CIs come from 1,000 resamples over `source_group` (original program; a negative pair belongs to id_a's group), with thresholds fixed.
 
-## 2. Main findings (all from `eval/results.csv` / `eval/deltas.csv`)
+## 2. Main findings — main run, training seed 42 (all from `eval/results.csv` / `eval/deltas.csv`)
+
+> **Superseded on the transfer question by §9 (3 seeds):** the held-out B−A sign differs across seeds, so the paper does not claim transfer.
 - Augmentation (B − A), TPR@1%FPR: **+35.9** points on seen families [+32.5, +39.6]; **+3.8** on held-out dead code [+1.7, +6.1]; at 5% FPR held-out −1.0 [−2.9, +0.8]; held-out AUC +0.001 [−0.001, +0.003].
 - On held-out dead code, B vs JPlag: +17.8 [+13.5, +22.3]; B vs Dolos: −16.8 [−20.0, −13.8].
 - Dolos is best in every column of Table 1 (scorable view). In the all-pairs view, B vs Dolos held-out TPR@1% is −3.1 [−6.5, +0.2], i.e. not significant.
@@ -101,3 +103,53 @@ Literature check: `lit/search_log.md` (about 37 queries), `lit/prior_work.md` (s
 7. **Equivalence** is checked only on sample I/O (1–3 cases per problem), not hidden tests.
 8. **Bibliography.** 11 fields are unverified (see lit/refs.bib), and InvPT's "unseen family left open" caveat comes from a search snippet; the paper doesn't quote it.
 9. **The PDF is a XeTeX preview.** Final pdfLaTeX output may reflow slightly; recheck the 4-page limit.
+
+## 9. Final pass for AICS-27 (2026-11-18)
+
+Target venue changed from SAFE to **AICS @ AAAI-27**. SAFE's deadline (Nov 4, 2026) had passed and its topic is media forensics. AICS: Nov 20, 2026 AoE; 5–9 pages including references; not anonymized; non-archival (http://aics.site/AICS2027/cfp.html).
+
+| Step | Result | Files |
+|---|---|---|
+| 0 Environment | Mac on battery at check time. Recorded, and the user chose to proceed. The Mac was later moved to AC power. | env.txt, runs_status.md |
+| 1 Seed runs | Seeds 1 and 2 for A and B finished, with no settings changed. seeds.py reproduces seed 42 exactly (12/12 values). | runs_status.md, eval/seeds.{csv,md}, model/train_log_*_s*.jsonl |
+| 2 Leakage | All 5 checks pass (0 violations). | leakage_check.md, data/leakage_check.py |
+| 3 Matched-FPR tables | Per-family TPR@1% FPR (scorable view = main; all-pairs = supplementary). | eval/main_table.csv, eval/supplementary_table.csv |
+| 4 Seed uncertainty | Seed-averaged means with problem-ID bootstrap CIs (59 test problems in the scorable view). | eval/seed_summary.{md,csv} |
+| 5 Clean reproduction | Partial match. Dataset audit and samples are identical. The verification step differs (2,443 vs 2,448 originals) because of the 5 s wall-clock timeout under CPU load. Transforms are deterministic, and splits/pairs are hash-identical given the original verified set. Logged in ERRORS.md. | reproduction_check.md |
+| 6 Moss | Not evaluated: no registration reply found in the inbox. The limitation sentence is verbatim. | baselines/moss_status.md |
+| 7 Paper | Seed paragraph + Table 3 (seeds), Table 4 (all pairs), AI-assistance statement in Acknowledgments, Moss sentence, title-block placeholders. Abstract and contributions rewritten to the seed evidence. | paper/main.tex |
+| 8 Checks | Number check PASS: tables regenerate byte-identically; 210 macros re-derived independently, 0 mismatches. Bibliography: all 21 cited entries VERIFIED (DOI via Crossref/DataCite, arXiv, or ACL Anthology); 2 uncited entries unverified. | paper/number_check.md, paper/bib_status.md, paper/number_sources.md |
+
+**Seed results** (TPR@1% FPR, scorable view; eval/seed_summary.md):
+
+| family | A mean | B mean | B−A mean [95% CI, problem bootstrap] | B−A per seed (42/1/2) |
+|---|---|---|---|---|
+| rename | 45.4 | 90.4 | +45.0 [+37.2, +52.7] | +47.6 / +49.4 / +38.2 |
+| reorder | 100.0 | 100.0 | +0.0 | 0 / 0 / 0 |
+| dead code (held-out) | 76.2 | 79.2 | +3.0 [+1.2, +5.0] | +3.8 / +6.5 / **−1.3** |
+| seen pooled | 58.8 | 92.8 | +34.0 [+28.1, +39.9] | +35.9 / +37.2 / +28.8 |
+
+The fixed rule (unchanged) applies: held-out signs are mixed, so the paper says "we cannot claim any transfer to the unseen family." The problem-bootstrap CI excludes 0, but it covers test sampling only, not training-seed variation; the paper states this explicitly.
+
+**Deviations from the original plan (cumulative):**
+- Dataset: Python800 instead of the nonexistent CodeNet-16K.
+- Split unit: problem ID.
+- No same-problem semantically-different negatives.
+- Condition A positives are same-problem pairs; B swaps in half rename/reorder positives at an equal pair budget.
+- Partially frozen encoder (6/12 layers), 3 epochs, attention dropout 0 (MPS).
+- JPlag-scorable main view; whitespace normalization for baseline inputs; `--cluster-skip`.
+- Moss skipped.
+- 3 training seeds over a single training-pair sample.
+- Venue: AICS, not SAFE.
+- Camera-ready (non-anonymous) template.
+
+**Page count:**
+- **paper/preview_xetex.pdf:** 5 pages. References start on page 4 and end on page 5, about 40% down.
+- **paper/main.tex:** not compiled; pdfLaTeX isn't installed here, and installing it was blocked. It uses the same fonts (newtxtext), so the layout should match closely, but confirm ≥5 pages on Overleaf.
+
+**What remains for the human:**
+1. Compile paper/main.tex with pdfLaTeX (Overleaf). Upload main.tex, numbers.tex, table_*.tex, example_*.py, roc_main.pdf, refs.bib, aaai2027.sty and aaai2027.bst, then confirm 5–9 pages.
+2. Replace AUTHOR NAME(S) / AFFILIATION / EMAIL.
+3. Decide on the camera-ready mode's AAAI copyright line (AICS has no proceedings; ask the organizers if unsure).
+4. Submit on the AICS OpenReview site by Nov 20, 2026 AoE.
+5. Optional: if a Moss ID arrives, run it later.
