@@ -153,3 +153,8 @@ The fixed rule (unchanged) applies: held-out signs are mixed, so the paper says 
 3. Decide on the camera-ready mode's AAAI copyright line (AICS has no proceedings; ask the organizers if unsure).
 4. Submit on the AICS OpenReview site by Nov 20, 2026 AoE.
 5. Optional: if a Moss ID arrives, run it later.
+
+## 10. Paper extension (post-final-pass, uses existing score files only)
+- `eval/analysis.py` → `eval/analysis.{csv,md}`: held-out TPR@1% by insertion-size and program-length terciles, realized FPR by negative type, missed-pair overlap (main run, seed 42, scorable view). No new models, detectors or families.
+- New generated tables: `paper/table_data.tex` (pairs per split), `paper/table_breakdown.tex` (Table 5). New text: two Results paragraphs, an operating-point limitation, a Conclusion.
+- `paper/check_numbers.py` re-derives the new macros independently: PASS, 0 mismatches. Preview: 6 pages.
