@@ -12,7 +12,7 @@ import numpy as np
 
 from evaluate import E, EXP, load_pairs, load_scores, scorable, thr_at
 
-DETS = ["learned_0", "learned_A", "learned_B", "jplag", "dolos"]
+DETS = ["learned_0", "learned_A", "learned_B", "jplag", "moss", "dolos"]
 SKIP = {tokenize.COMMENT, tokenize.NL, tokenize.NEWLINE, tokenize.INDENT, tokenize.DEDENT, tokenize.ENDMARKER}
 
 
@@ -61,7 +61,7 @@ def main():
         for d in DETS:
             rows.append({"analysis": "neg_fpr", "bin": typ, "lo": "", "hi": "", "n": int(m.sum()), "detector": d,
                          "value": float(negflag[d][m].mean())})
-    for a, b in (("learned_B", "dolos"), ("learned_B", "jplag")):
+    for a, b in (("learned_B", "dolos"), ("learned_B", "jplag"), ("learned_B", "moss")):
         ma, mb = ~flag[a], ~flag[b]
         for k, v in (("missed_a", ma.sum()), ("missed_b", mb.sum()), ("missed_both", (ma & mb).sum()),
                      ("missed_a_caught_b", (ma & ~mb).sum()), ("missed_b_caught_a", (mb & ~ma).sum()),

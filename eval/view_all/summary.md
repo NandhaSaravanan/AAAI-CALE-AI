@@ -2,7 +2,7 @@
 
 View 'scorable' = only pairs where JPlag accepted both files (>=12 tokens), applied to ALL detectors; view 'all' = every pair, JPlag-unscorable pairs scored 0.
 
-Detectors evaluated: learned_0, learned_A, learned_B, jplag, dolos. Moss: skipped (no user ID).
+Detectors evaluated: learned_0, learned_A, learned_B, jplag, moss, dolos. Moss: skipped (no user ID).
 
 Thresholds set on val negatives (FPR<=1% / 5%); TPR on test. 95% CI = 1000x bootstrap over source_group.
 
@@ -32,6 +32,12 @@ Thresholds set on val negatives (FPR<=1% / 5%); TPR on test. 95% CI = 1000x boot
 | jplag | reorder | 256 | 4478 | 0.942 [0.917, 0.962] | 0.883 [0.833, 0.922] | 0.010 | 0.887 [0.838, 0.925] | 0.016 |
 | jplag | deadcode | 988 | 4478 | 0.752 [0.731, 0.771] | 0.511 [0.470, 0.549] | 0.010 | 0.513 [0.473, 0.551] | 0.016 |
 | jplag | same_problem | 1723 | 4478 | 0.536 [0.526, 0.547] | 0.057 [0.041, 0.074] | 0.010 | 0.088 [0.068, 0.110] | 0.016 |
+| moss | seen | 1208 | 4478 | 0.985 [0.980, 0.990] | 0.970 [0.959, 0.980] | 0.006 | 0.970 [0.959, 0.980] | 0.006 |
+| moss | heldout | 988 | 4478 | 0.786 [0.765, 0.806] | 0.575 [0.534, 0.615] | 0.006 | 0.575 [0.534, 0.615] | 0.006 |
+| moss | rename | 952 | 4478 | 1.000 [1.000, 1.000] | 1.000 [1.000, 1.000] | 0.006 | 1.000 [1.000, 1.000] | 0.006 |
+| moss | reorder | 256 | 4478 | 0.929 [0.903, 0.950] | 0.859 [0.807, 0.902] | 0.006 | 0.859 [0.807, 0.902] | 0.006 |
+| moss | deadcode | 988 | 4478 | 0.786 [0.765, 0.806] | 0.575 [0.534, 0.615] | 0.006 | 0.575 [0.534, 0.615] | 0.006 |
+| moss | same_problem | 1723 | 4478 | 0.517 [0.511, 0.524] | 0.041 [0.030, 0.055] | 0.006 | 0.041 [0.030, 0.055] | 0.006 |
 | dolos | seen | 1208 | 4478 | 1.000 [1.000, 1.000] | 0.997 [0.993, 0.999] | 0.012 | 1.000 [1.000, 1.000] | 0.048 |
 | dolos | heldout | 988 | 4478 | 0.991 [0.988, 0.994] | 0.855 [0.828, 0.880] | 0.012 | 0.953 [0.938, 0.969] | 0.048 |
 | dolos | rename | 952 | 4478 | 1.000 [1.000, 1.000] | 1.000 [1.000, 1.000] | 0.012 | 1.000 [1.000, 1.000] | 0.048 |
@@ -55,6 +61,12 @@ Thresholds set on val negatives (FPR<=1% / 5%); TPR on test. 95% CI = 1000x boot
 | learned_A | jplag | heldout | auc | +0.235 | [+0.216, +0.255] |
 | learned_A | jplag | heldout | tpr@1 | +0.285 | [+0.247, +0.327] |
 | learned_A | jplag | heldout | tpr@5 | +0.428 | [+0.391, +0.471] |
+| learned_A | moss | seen | auc | -0.013 | [-0.019, -0.006] |
+| learned_A | moss | seen | tpr@1 | -0.329 | [-0.361, -0.298] |
+| learned_A | moss | seen | tpr@5 | -0.125 | [-0.152, -0.098] |
+| learned_A | moss | heldout | auc | +0.201 | [+0.181, +0.221] |
+| learned_A | moss | heldout | tpr@1 | +0.222 | [+0.179, +0.263] |
+| learned_A | moss | heldout | tpr@5 | +0.366 | [+0.327, +0.407] |
 | learned_A | dolos | seen | auc | -0.028 | [-0.033, -0.023] |
 | learned_A | dolos | seen | tpr@1 | -0.355 | [-0.386, -0.325] |
 | learned_A | dolos | seen | tpr@5 | -0.155 | [-0.179, -0.130] |
@@ -67,6 +79,12 @@ Thresholds set on val negatives (FPR<=1% / 5%); TPR on test. 95% CI = 1000x boot
 | learned_B | jplag | heldout | auc | +0.237 | [+0.218, +0.257] |
 | learned_B | jplag | heldout | tpr@1 | +0.313 | [+0.272, +0.359] |
 | learned_B | jplag | heldout | tpr@5 | +0.439 | [+0.402, +0.481] |
+| learned_B | moss | seen | auc | +0.013 | [+0.008, +0.018] |
+| learned_B | moss | seen | tpr@1 | -0.013 | [-0.030, +0.005] |
+| learned_B | moss | seen | tpr@5 | +0.024 | [+0.013, +0.036] |
+| learned_B | moss | heldout | auc | +0.203 | [+0.184, +0.223] |
+| learned_B | moss | heldout | tpr@1 | +0.249 | [+0.205, +0.291] |
+| learned_B | moss | heldout | tpr@5 | +0.378 | [+0.338, +0.418] |
 | learned_B | dolos | seen | auc | -0.002 | [-0.003, -0.001] |
 | learned_B | dolos | seen | tpr@1 | -0.040 | [-0.055, -0.025] |
 | learned_B | dolos | seen | tpr@5 | -0.006 | [-0.012, -0.002] |

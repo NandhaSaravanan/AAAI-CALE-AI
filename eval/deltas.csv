@@ -11,6 +11,12 @@ learned_A,jplag,seen,tpr@5,-0.1455,-0.1822,-0.1092,1.0000
 learned_A,jplag,heldout,auc,0.1715,0.1511,0.1937,0.0000
 learned_A,jplag,heldout,tpr@1,0.1405,0.0949,0.1848,0.0000
 learned_A,jplag,heldout,tpr@5,0.2924,0.2481,0.3367,0.0000
+learned_A,moss,seen,auc,-0.0151,-0.0236,-0.0067,1.0000
+learned_A,moss,seen,tpr@1,-0.3938,-0.4325,-0.3563,1.0000
+learned_A,moss,seen,tpr@5,-0.1697,-0.2035,-0.1374,1.0000
+learned_A,moss,heldout,auc,0.1364,0.1168,0.1564,0.0000
+learned_A,moss,heldout,tpr@1,0.0633,0.0190,0.1025,0.0060
+learned_A,moss,heldout,tpr@5,0.2291,0.1873,0.2709,0.0000
 learned_A,dolos,seen,auc,-0.0323,-0.0387,-0.0261,1.0000
 learned_A,dolos,seen,tpr@1,-0.4277,-0.4663,-0.3917,1.0000
 learned_A,dolos,seen,tpr@5,-0.2037,-0.2329,-0.1740,1.0000
@@ -23,6 +29,12 @@ learned_B,jplag,seen,tpr@5,0.0514,0.0318,0.0728,0.0000
 learned_B,jplag,heldout,auc,0.1724,0.1525,0.1946,0.0000
 learned_B,jplag,heldout,tpr@1,0.1785,0.1354,0.2228,0.0000
 learned_B,jplag,heldout,tpr@5,0.2823,0.2367,0.3278,0.0000
+learned_B,moss,seen,auc,0.0146,0.0088,0.0207,0.0000
+learned_B,moss,seen,tpr@1,-0.0349,-0.0567,-0.0117,0.9990
+learned_B,moss,seen,tpr@5,0.0272,0.0147,0.0409,0.0000
+learned_B,moss,heldout,auc,0.1373,0.1172,0.1567,0.0000
+learned_B,moss,heldout,tpr@1,0.1013,0.0582,0.1430,0.0000
+learned_B,moss,heldout,tpr@5,0.2190,0.1759,0.2608,0.0000
 learned_B,dolos,seen,auc,-0.0026,-0.0038,-0.0015,1.0000
 learned_B,dolos,seen,tpr@1,-0.0689,-0.0871,-0.0493,1.0000
 learned_B,dolos,seen,tpr@5,-0.0068,-0.0136,-0.0010,1.0000

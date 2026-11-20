@@ -1,4 +1,12 @@
-# Moss status (final-pass Step 6, Wed Nov 18 16:31:54 EST 2026)
+# Moss status (updated Fri Nov 20 2026)
 
-Inbox searched via the Gmail connector for a Moss registration reply (queries: `moss newer_than:30d (stanford OR aiken OR "moss" OR registration OR userid)` and `moss OR "moss.stanford.edu" OR "registerit" newer_than:60d`): **no matching message**.
-Moss is therefore not evaluated and is absent from eval/main_table.csv and eval/supplementary_table.csv. Paper limitation sentence (verbatim per instructions): "Moss was not evaluated because registration was not completed before submission."
+Earlier (Nov 18): no registration reply; Moss was not evaluated.
+Nov 20: the author received the Moss user ID. It is supplied only through the `MOSS_USERID` environment
+variable at run time and is not stored in any file in this repository (checked with grep).
+
+Run: `MOSS_USERID=... python baselines/run_moss.py` (Python client for the Moss socket protocol, same
+150-pair chunks and input normalization as JPlag/Dolos; `-m 1000000`, `-n 100000`, language python).
+Result: val 3,553/3,553 and test 8,397/8,397 pairs scored, 0 chunk failures (work/moss_run.log;
+per-chunk result URLs cached in work/baselines/moss/). Score = mean of the two percent-matched values / 100;
+pairs Moss does not list = 0. Existing results for all other detectors were verified unchanged after
+re-running eval/evaluate.py (results.csv, deltas.csv, view_all/results.csv: 0 changed rows, only Moss rows added).

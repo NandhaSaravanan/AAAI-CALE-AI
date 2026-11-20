@@ -16,9 +16,9 @@ import matplotlib.pyplot as plt
 
 EXP = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 E = os.path.join(EXP, "eval")
-DET = [("learned_0", "UniXcoder zero-shot"), ("learned_A", "UniXcoder-A (no aug.)"), ("learned_B", "UniXcoder-B (aug.)"), ("jplag", "JPlag 6.3"), ("dolos", "Dolos 2.10")]
-COL = {"learned_0": "#6250d6", "learned_A": "#2a78d6", "learned_B": "#eb6834", "jplag": "#1baf7a", "dolos": "#eda100"}  # validated slots 1-4
-LS = {"learned_0": "-.", "learned_A": "-", "learned_B": "-", "jplag": "--", "dolos": ":"}
+DET = [("learned_0", "UniXcoder zero-shot"), ("learned_A", "UniXcoder-A (no aug.)"), ("learned_B", "UniXcoder-B (aug.)"), ("jplag", "JPlag 6.3"), ("moss", "Moss"), ("dolos", "Dolos 2.10")]
+COL = {"learned_0": "#6250d6", "learned_A": "#2a78d6", "learned_B": "#eb6834", "jplag": "#1baf7a", "dolos": "#eda100", "moss": "#e87ba4"}  # validated slots 1-4
+LS = {"learned_0": "-.", "learned_A": "-", "learned_B": "-", "jplag": "--", "dolos": ":", "moss": (0, (6, 1.5, 1, 1.5, 1, 1.5))}
 SUBSETS = {"seen": {"rename", "reorder"}, "heldout": {"deadcode"}, "rename": {"rename"}, "reorder": {"reorder"},
            "deadcode": {"deadcode"}, "same_problem": {"same_problem"}}
 FPRS = [0.01, 0.05]
@@ -103,7 +103,7 @@ def main():
         for r in rows:
             w.writerow({k: (f"{v:.4f}" if isinstance(v, float) else v) for k, v in r.items()})
     # paired deltas (same bootstrap resamples)
-    comps = [("learned_B", "learned_A")] + [(l, b) for l in ("learned_A", "learned_B") for b in ("jplag", "dolos") if b in avail]
+    comps = [("learned_B", "learned_A")] + [(l, b) for l in ("learned_A", "learned_B") for b in ("jplag", "moss", "dolos") if b in avail]
     drows = []
     for a, b in comps:
         if a not in avail or b not in avail:
@@ -130,7 +130,7 @@ def main():
             if (det, sub) not in curves:
                 continue
             fp, tp, auc = curves[(det, sub)]
-            ax.plot(np.maximum(fp, 1e-4), tp, LS[det], color=COL[det], lw=2, label=name)
+            ax.plot(np.maximum(fp, 1e-4), tp, linestyle=LS[det], color=COL[det], lw=2, label=name)
         for f in FPRS:
             ax.axvline(f, color="#c3c2b7", lw=0.8, zorder=0)
         ax.set_xscale("log"); ax.set_xlim(1e-3, 1); ax.set_ylim(0, 1.01)
@@ -147,7 +147,7 @@ def main():
         for det, name in DET:
             if (det, sub) in curves:
                 fp, tp, auc = curves[(det, sub)]
-                ax.plot(np.maximum(fp, 1e-4), tp, LS[det], color=COL[det], lw=2, label=f"{name} ({auc:.3f})")
+                ax.plot(np.maximum(fp, 1e-4), tp, linestyle=LS[det], color=COL[det], lw=2, label=f"{name} ({auc:.3f})")
         ax.set_xscale("log"); ax.set_xlim(1e-3, 1); ax.set_xlabel("FPR (log)"); ax.set_ylabel("TPR")
         ax.legend(frameon=False, fontsize=6); f2.tight_layout(); f2.savefig(os.path.join(OUT, f"roc_{sub}.png"), dpi=200)
     # summary

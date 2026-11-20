@@ -158,3 +158,9 @@ The fixed rule (unchanged) applies: held-out signs are mixed, so the paper says 
 - `eval/analysis.py` → `eval/analysis.{csv,md}`: held-out TPR@1% by insertion-size and program-length terciles, realized FPR by negative type, missed-pair overlap (main run, seed 42, scorable view). No new models, detectors or families.
 - New generated tables: `paper/table_data.tex` (pairs per split), `paper/table_breakdown.tex` (Table 5). New text: two Results paragraphs, an operating-point limitation, a Conclusion.
 - `paper/check_numbers.py` re-derives the new macros independently: PASS, 0 mismatches. Preview: 6 pages.
+
+## 11. Moss added (Nov 20)
+- Moss user ID arrived; kept only in the `MOSS_USERID` environment variable. `baselines/run_moss.py` scored all val/test pairs (0 failures). See baselines/moss_status.md.
+- Scorable view, held-out TPR@1%: Moss 70.5 (AUC 0.851); B − Moss = +10.1 [+5.8, +14.3]. Seen TPR@1%: Moss 96.6. Moss gives 0 to almost all negatives, so its 5% threshold collapses to its 1% operating point (realized test FPR 1.0%).
+- Breakdown: Moss, like JPlag, drops on large insertions (38.0%) and short programs (30.6%).
+- Paper: Moss in title, abstract, setup, results, breakdown, limitations; "Moss was not evaluated" sentence replaced. Number check PASS (0 mismatches). Preview 6 pages.

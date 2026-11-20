@@ -13,5 +13,13 @@
   "note": "default -M 0.9 fingerprint filter, applied within each 150-pair chunk"
  },
  "chunk_pairs": 150,
- "moss": "skipped: no user ID"
+ "moss": {
+  "server": "moss.stanford.edu:7690",
+  "language": "python",
+  "maxmatches(-m)": 1000000,
+  "show(-n)": 100000,
+  "metric": "mean of the two percent-matched values / 100; unlisted pair = 0",
+  "user_id": "read from MOSS_USERID environment variable (not stored)",
+  "chunk_pairs": 150
+ }
 }
