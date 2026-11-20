@@ -122,9 +122,9 @@ def main():
         for r in drows:
             w.writerow({k: (f"{v:.4f}" if isinstance(v, float) else v) for k, v in r.items()})
     # ROC figures (log-x to show the low-FPR region that matters)
-    plt.rcParams.update({"font.size": 8, "axes.edgecolor": "#52514e", "axes.labelcolor": "#0b0b0b",
+    plt.rcParams.update({"font.size": 9.5, "pdf.fonttype": 42, "ps.fonttype": 42, "axes.edgecolor": "#52514e", "axes.labelcolor": "#0b0b0b",
                          "xtick.color": "#52514e", "ytick.color": "#52514e", "axes.spines.top": False, "axes.spines.right": False})
-    fig, axes = plt.subplots(1, 2, figsize=(6.6, 2.75), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(6.6, 3.2), sharey=True)
     for ax, sub, title in [(axes[0], "seen", "Seen families (rename, reorder)"), (axes[1], "heldout", "Held-out family (dead code)")]:
         for det, name in DET:
             if (det, sub) not in curves:
@@ -134,12 +134,12 @@ def main():
         for f in FPRS:
             ax.axvline(f, color="#c3c2b7", lw=0.8, zorder=0)
         ax.set_xscale("log"); ax.set_xlim(1e-3, 1); ax.set_ylim(0, 1.01)
-        ax.set_xlabel("False-positive rate (log)"); ax.set_title(title, fontsize=8.5, loc="left")
+        ax.set_xlabel("False-positive rate (log)"); ax.set_title(title, fontsize=9.5, loc="left")
         ax.grid(axis="y", color="#e6e5e0", lw=0.6)
     axes[0].set_ylabel("True-positive rate")
     h, l = axes[0].get_legend_handles_labels()
-    fig.legend(h, l, loc="lower center", ncol=5, frameon=False, fontsize=6.5, handlelength=2.6)
-    fig.tight_layout(rect=(0, 0.09, 1, 1))
+    fig.legend(h, l, loc="lower center", ncol=3, frameon=False, fontsize=9.5, handlelength=2.6)
+    fig.tight_layout(rect=(0, 0.17, 1, 1))
     fig.savefig(os.path.join(OUT, "roc_main.png"), dpi=200)
     fig.savefig(os.path.join(OUT, "roc_main.pdf"))
     for sub in ("seen", "heldout"):
