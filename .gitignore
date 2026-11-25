@@ -7,3 +7,4 @@ work/
 model/checkpoints/
 __pycache__/
 *.pyc
+paper/
